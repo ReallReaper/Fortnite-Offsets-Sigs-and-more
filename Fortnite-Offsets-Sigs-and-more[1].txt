@@ -10,21 +10,21 @@ UGameInstance::OnPawnControllerChangedDelegates   0x78
 
 
 UActorComponent
-UActorComponent 	PrimaryComponentTick 	0x30
-UActorComponent 	ComponentTags 	0x60
-UActorComponent 	AssetUserData 	0x70
-UActorComponent 	UCSSerializationIndex 	0x84
-UActorComponent 	bNetAddressable 	0x88
-UActorComponent 	bReplicateUsingRegisteredSubObjectList   0x88
-UActorComponent 	bReplicates 	0x88
-UActorComponent 	bAutoActivate 	0x8a
-UActorComponent 	bIsActive 	0x8a 	
-UActorComponent 	bEditableWhenInherited 	0x8a 	
-UActorComponent 	bCanEverAffectNavigation 	0x8a
-UActorComponent 	bIsEditorOnly	0x8a 	
-UActorComponent 	CreationMethod 	0x8c
-UActorComponent 	OnComponentActivated 	0x8d 	
-UActorComponent 	OnComponentDeactivated 	0x8e
+UActorComponent PrimaryComponentTick 	0x30
+UActorComponent ComponentTags 	0x60
+UActorComponent AssetUserData 	0x70
+UActorComponent UCSSerializationIndex 	0x84
+UActorComponent bNetAddressable 	0x88
+UActorComponent bReplicateUsingRegisteredSubObjectList   0x88
+UActorComponent bReplicates 	0x88
+UActorComponent bAutoActivate 	0x8a
+UActorComponent bIsActive 	0x8a 	
+UActorComponent bEditableWhenInherited 	0x8a 	
+UActorComponent bCanEverAffectNavigation 	0x8a
+UActorComponent bIsEditorOnly	0x8a 	
+UActorComponent CreationMethod 	0x8c
+UActorComponent OnComponentActivated 	0x8d 	
+UActorComponent OnComponentDeactivated 	0x8e
 
 Actor
 AActor 	PrimaryActorTick 	0x28 	
