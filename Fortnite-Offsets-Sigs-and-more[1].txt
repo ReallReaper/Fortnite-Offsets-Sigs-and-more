@@ -1,5 +1,5 @@
 GWorld 	0xc6b3d48
-GObjects 	0xc4ff7f8
+GObjects 0xc4ff7f8
 GNames 	0xc6f1c40 
 
 UGameInstance
