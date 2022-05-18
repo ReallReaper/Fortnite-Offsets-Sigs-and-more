@@ -8,1966 +8,1821 @@ UGameInstance::OnlineSession 	  0x48
 UGameInstance::ReferencedObjects 	 0x50
 UGameInstance::OnPawnControllerChangedDelegates   0x78
 
-
 UActorComponent
-UActorComponent PrimaryComponentTick 	0x30
-UActorComponent ComponentTags 	0x60
-UActorComponent AssetUserData 	0x70
-UActorComponent UCSSerializationIndex 	0x84
-UActorComponent bNetAddressable 	0x88
-UActorComponent bReplicateUsingRegisteredSubObjectList   0x88
-UActorComponent bReplicates 	0x88
-UActorComponent bAutoActivate 	0x8a
-UActorComponent bIsActive 	0x8a 	
-UActorComponent bEditableWhenInherited 	0x8a 	
-UActorComponent bCanEverAffectNavigation 	0x8a
-UActorComponent bIsEditorOnly	0x8a 	
-UActorComponent CreationMethod 	0x8c
-UActorComponent OnComponentActivated 	0x8d 	
-UActorComponent OnComponentDeactivated 	0x8e
+UActorComponent::PrimaryComponentTick 	0x30
+UActorComponent::ComponentTags 	0x60
+UActorComponent::AssetUserData 	0x70
+UActorComponent::UCSSerializationIndex 	0x84
+UActorComponent::bNetAddressable 	0x88
+UActorComponent::bReplicateUsingRegisteredSubObjectList   0x88
+UActorComponent::bReplicates 	0x88
+UActorComponent::bAutoActivate 	0x8a
+UActorComponent::bIsActive 	0x8a 	
+UActorComponent::bEditableWhenInherited 	0x8a 	
+UActorComponent::bCanEverAffectNavigation 	0x8a
+UActorComponent::bIsEditorOnly	0x8a 	
+UActorComponent::CreationMethod 	0x8c
+UActorComponent::OnComponentActivated 	0x8d 	
+UActorComponent::OnComponentDeactivated 	0x8e
 
 Actor
-AActor 	PrimaryActorTick 	0x28 	
-AActor 	bNetTemporary 	0x58 	
-AActor 	bNetStartup 	0x58 	
-AActor 	bOnlyRelevantToOwner 	0x58 	
-AActor 	bAlwaysRelevant 	0x58 	
-AActor 	bReplicateMovement 	0x58 	
-AActor 	bCallPreReplication 	0x58 	
-AActor 	bCallPreReplicationForReplay 	0x58 	
-AActor 	bHidden 	0x58 	
-AActor 	bTearOff 	0x59 	
-AActor 	bForceNetAddressable 	0x59 	
-AActor 	bExchangedRoles 	0x59 	
-AActor 	bNetLoadOnClient 	0x59 	
-AActor 	bNetUseOwnerRelevancy 	0x59 	
-AActor 	bRelevantForNetworkReplays 	0x59 	
-AActor 	bRelevantForLevelBounds 	0x59 	
-AActor 	bReplayRewindable 	0x59 	
-AActor 	bAllowTickBeforeBeginPlay 	0x5a 	
-AActor 	bAutoDestroyWhenFinished 	0x5a 	
-AActor 	bCanBeDamaged 	0x5a 	
-AActor 	bBlockInput 	0x5a 	
-AActor 	bCollideWhenPlacing 	0x5a 	
-AActor 	bFindCameraComponentWhenViewTarget 	0x5a 	
-AActor 	bGenerateOverlapEventsDuringLevelStreaming 	0x5a 	
-AActor 	bIgnoresOriginShifting 	0x5a 	
-AActor 	bEnableAutoLODGeneration 	0x5b 	
-AActor 	bIsEditorOnlyActor 	0x5b 	
-AActor 	bActorSeamlessTraveled 	0x5b 	
-AActor 	bReplicates 	0x5b 	
-AActor 	bCanBeInCluster 	0x5b 	
-AActor 	bAllowReceiveTickEventOnDedicatedServer 	0x5b 	
-AActor 	bReplicateUsingRegisteredSubObjectList 	0x5b 	
-AActor 	bActorEnableCollision 	0x5c 	
-AActor 	bActorIsBeingDestroyed 	0x5c 	
-AActor 	UpdateOverlapsMethodDuringLevelStreaming 	0x5e 	
-AActor 	DefaultUpdateOverlapsMethodDuringLevelStreaming 	0x5f 	
-AActor 	InitialLifeSpan 	0x60 	
-AActor 	CustomTimeDilation 	0x64 	
-AActor 	RemoteRole 	0x68 	
-AActor 	RayTracingGroupId 	0x6c 	
-AActor 	AttachmentReplication 	0x70 	
-AActor 	ReplicatedMovement 	0xd0 	
-AActor 	Owner 	0x138 	
-AActor 	NetDriverName 	0x140 	
-AActor 	Role 	0x144 	
-AActor 	NetDormancy 	0x145 	
-AActor 	SpawnCollisionHandlingMethod 	0x146 	
-AActor 	AutoReceiveInput 	0x147 	
-AActor 	InputPriority 	0x148 	
-AActor 	InputComponent 	0x150 	
-AActor 	NetCullDistanceSquared 	0x158 	
-AActor 	NetTag 	0x15c 	
-AActor 	NetUpdateFrequency 	0x160 	
-AActor 	MinNetUpdateFrequency 	0x164 	
-AActor 	NetPriority 	0x168 	
-AActor 	Instigator 	0x170 	
-AActor 	Children 	0x178 	
-AActor 	RootComponent 	0x188 	
-AActor 	Layers 	0x198 	
-AActor 	ParentComponent 	0x1a8 	
-AActor 	Tags 	0x1b0 	
-AActor 	OnTakeAnyDamage 	0x1c0 	
-AActor 	OnTakePointDamage 	0x1c1 	
-AActor 	OnTakeRadialDamage 	0x1c2 	
-AActor 	OnActorBeginOverlap 	0x1c3 	
-AActor 	OnActorEndOverlap 	0x1c4 	
-AActor 	OnBeginCursorOver 	0x1c5 	
-AActor 	OnEndCursorOver 	0x1c6 	
-AActor 	OnClicked 	0x1c7 	
-AActor 	OnReleased 	0x1c8 	
-AActor 	OnInputTouchBegin 	0x1c9 	
-AActor 	OnInputTouchEnd 	0x1ca 	
-AActor 	OnInputTouchEnter 	0x1cb 	
-AActor 	OnInputTouchLeave 	0x1cc 	
-AActor 	OnActorHit 	0x1cd 	
-AActor 	OnDestroyed 	0x1ce 	
-AActor 	OnEndPlay 	0x1cf 	
-AActor 	InstanceComponents 	0x250 	
-AActor 	BlueprintCreatedComponents 	0x260 	
+AActor::PrimaryActorTick 	0x28 	
+AActor::bNetTemporary 	0x58 	
+AActor::bNetStartup 	0x58 	
+AActor::bOnlyRelevantToOwner 	0x58 	
+AActor::bAlwaysRelevant 	0x58 	
+AActor::bReplicateMovement 	0x58 	
+AActor::bCallPreReplication 	0x58 	
+AActor::bCallPreReplicationForReplay 	0x58 	
+AActor::bHidden 	0x58 	
+AActor::bTearOff 	0x59 	
+AActor::bForceNetAddressable 	0x59 	
+AActor::bExchangedRoles 	0x59 	
+AActor::bNetLoadOnClient 	0x59 	
+AActor::bNetUseOwnerRelevancy 	0x59 	
+AActor::bRelevantForNetworkReplays 	0x59 	
+AActor::bRelevantForLevelBounds 	0x59 	
+AActor::bReplayRewindable 	0x59 	
+AActor::bAllowTickBeforeBeginPlay 	0x5a 	
+AActor::bAutoDestroyWhenFinished 	0x5a 	
+AActor::bCanBeDamaged 	0x5a 	
+AActor::bBlockInput 	0x5a 	
+AActor::bCollideWhenPlacing 	0x5a 	
+AActor::bFindCameraComponentWhenViewTarget 	0x5a 	
+AActor::bGenerateOverlapEventsDuringLevelStreaming 	0x5a 	
+AActor::bIgnoresOriginShifting 	0x5a 	
+AActor::bEnableAutoLODGeneration 	0x5b 	
+AActor::bIsEditorOnlyActor 	0x5b 	
+AActor::bActorSeamlessTraveled 	0x5b 	
+AActor::bReplicates 	0x5b 	
+AActor::bCanBeInCluster 	0x5b 	
+AActor::bAllowReceiveTickEventOnDedicatedServer 	0x5b 	
+AActor::bReplicateUsingRegisteredSubObjectList 	0x5b 	
+AActor::bActorEnableCollision 	0x5c 	
+AActor::bActorIsBeingDestroyed 	0x5c 	
+AActor::UpdateOverlapsMethodDuringLevelStreaming 	0x5e 	
+AActor::DefaultUpdateOverlapsMethodDuringLevelStreaming 	0x5f 	
+AActor::InitialLifeSpan 	0x60 	
+AActor::CustomTimeDilation 	0x64 	
+AActor::RemoteRole 	0x68 	
+AActor::RayTracingGroupId 	0x6c 	
+AActor::AttachmentReplication 	0x70 	
+AActor::ReplicatedMovement 	0xd0 	
+AActor::Owner 	0x138 	
+AActor::NetDriverName 	0x140 	
+AActor::Role 	0x144 	
+AActor::NetDormancy 	0x145 	
+AActor::SpawnCollisionHandlingMethod 	0x146 	
+AActor::AutoReceiveInput 	0x147 	
+AActor::InputPriority 	0x148 	
+AActor::InputComponent 	0x150 	
+AActor::NetCullDistanceSquared 	0x158 	
+AActor::NetTag 	0x15c 	
+AActor::NetUpdateFrequency 	0x160 	
+AActor::MinNetUpdateFrequency 	0x164 	
+AActor::NetPriority 	0x168 	
+AActor::Instigator 	0x170 	
+AActor::Children 	0x178 	
+AActor::RootComponent 	0x188 	
+AActor::Layers 	0x198 	
+AActor::ParentComponent 	0x1a8 	
+AActor::Tags 	0x1b0 	
+AActor::OnTakeAnyDamage 	0x1c0 	
+AActor::OnTakePointDamage 	0x1c1 	
+AActor::OnTakeRadialDamage 	0x1c2 	
+AActor::OnActorBeginOverlap 	0x1c3 	
+AActor::OnActorEndOverlap 	0x1c4 	
+AActor::OnBeginCursorOver 	0x1c5 	
+AActor::OnEndCursorOver 	0x1c6 	
+AActor::OnClicked 	0x1c7 	
+AActor::OnReleased 	0x1c8 	
+AActor::OnInputTouchBegin 	0x1c9 	
+AActor::OnInputTouchEnd 	0x1ca 	
+AActor::OnInputTouchEnter 	0x1cb 	
+AActor::OnInputTouchLeave 	0x1cc 	
+AActor::OnActorHit 	0x1cd 	
+AActor::OnDestroyed 	0x1ce 	
+AActor::OnEndPlay 	0x1cf 	
+AActor::InstanceComponents 	0x250 	
+AActor::BlueprintCreatedComponents 	0x260 	
 
 SceneComponent
-
-USceneComponent 	PhysicsVolume 	0xa8 	
-USceneComponent 	AttachParent 	0xb0 	
-USceneComponent 	AttachSocketName 	0xb8 	
-USceneComponent 	AttachChildren 	0xc0 	
-USceneComponent 	ClientAttachedChildren 	0xd0 	
-USceneComponent 	RelativeLocation 	0x128 	
-USceneComponent 	RelativeRotation 	0x140 	
-USceneComponent 	RelativeScale3D 	0x158 	
-USceneComponent 	ComponentVelocity 	0x170 	
-USceneComponent 	bComponentToWorldUpdated 	0x188 	
-USceneComponent 	bAbsoluteLocation 	0x188 	
-USceneComponent 	bAbsoluteRotation 	0x188 	
-USceneComponent 	bAbsoluteScale 	0x188 	
-USceneComponent 	bVisible 	0x188 	
-USceneComponent 	bShouldBeAttached 	0x188 	
-USceneComponent 	bShouldSnapLocationWhenAttached 	0x188 	
-USceneComponent 	bShouldSnapRotationWhenAttached 	0x189 	
-USceneComponent 	bShouldUpdatePhysicsVolume 	0x189 	
-USceneComponent 	bHiddenInGame 	0x189 	
-USceneComponent 	bBoundsChangeTriggersStreamingDataRebuild 	0x189 	
-USceneComponent 	bUseAttachParentBound 	0x189 	
-USceneComponent 	bComputeFastLocalBounds 	0x189 	
-USceneComponent 	bComputeBoundsOnceForGame 	0x189 	
-USceneComponent 	bComputedBoundsOnceForGame 	0x189 	
-USceneComponent 	Mobility 	0x18b 	
-USceneComponent 	DetailMode 	0x18c 	
-USceneComponent 	PhysicsVolumeChangedDelegate 	0x18d 	
+UUSceneComponent::PhysicsVolume 	0xa8 	
+USceneComponent::AttachParent 	0xb0 	
+USceneComponent::AttachSocketName 	0xb8 	
+USceneComponent::AttachChildren 	0xc0 	
+USceneComponent::ClientAttachedChildren 	0xd0 	
+USceneComponent::RelativeLocation 	0x128 	
+USceneComponent::RelativeRotation 	0x140 	
+USceneComponent::RelativeScale3D 	0x158 	
+USceneComponent::ComponentVelocity 	0x170 	
+USceneComponent::bComponentToWorldUpdated 	0x188 	
+USceneComponent::bAbsoluteLocation 	0x188 	
+USceneComponent::bAbsoluteRotation 	0x188 	
+USceneComponent::bAbsoluteScale 	0x188 	
+USceneComponent::bVisible 	0x188 	
+USceneComponent::bShouldBeAttached 	0x188 	
+USceneComponent::bShouldSnapLocationWhenAttached 	0x188 	
+USceneComponent::bShouldSnapRotationWhenAttached 	0x189 	
+USceneComponent::bShouldUpdatePhysicsVolume 	0x189 	
+USceneComponent::bHiddenInGame 	0x189 	
+USceneComponent::bBoundsChangeTriggersStreamingDataRebuild 	0x189 	
+USceneComponent::bUseAttachParentBound 	0x189 	
+USceneComponent::bComputeFastLocalBounds 	0x189 	
+USceneComponent::bComputeBoundsOnceForGame 	0x189 	
+USceneComponent::bComputedBoundsOnceForGame 	0x189 	
+USceneComponent::Mobility 	0x18b 	
+USceneComponent::DetailMode 	0x18c 	
+USceneComponent::PhysicsVolumeChangedDelegate 	0x18d 
 
 Pawn
-APawn 	bUseControllerRotationPitch 	0x278 	
-APawn 	bUseControllerRotationYaw 	0x278 	
-APawn 	bUseControllerRotationRoll 	0x278 	
-APawn 	bCanAffectNavigationGeneration 	0x278 	
-APawn 	bIsLocalViewTarget 	0x278 	
-APawn 	BaseEyeHeight 	0x27c 	
-APawn 	AutoPossessPlayer 	0x280 	
-APawn 	AutoPossessAI 	0x281 	
-APawn 	RemoteViewPitch 	0x282 	
-APawn 	AIControllerClass 	0x288 	
-APawn 	PlayerState 	0x290 	
-APawn 	LastHitBy 	0x2a0 	
-APawn 	Controller 	0x2a8 	
-APawn 	PreviousController 	0x2b0 	
-APawn 	ReceiveControllerChangedDelegate 	0x2bc 	
-APawn 	ReceiveRestartedDelegate 	0x2bd 	
-APawn 	ControlInputVector 	0x2c0 	
-APawn 	LastControlInputVector 	0x2d8 	
+APawn::bUseControllerRotationPitch 	0x278 	
+APawn::bUseControllerRotationYaw 	0x278 	
+APawn::bUseControllerRotationRoll 	0x278 	
+APawn::bCanAffectNavigationGeneration 	0x278 	
+APawn::bIsLocalViewTarget 	0x278 	
+APawn::BaseEyeHeight 	0x27c 	
+APawn::AutoPossessPlayer 	0x280 	
+APawn::AutoPossessAI 	0x281 	
+APawn::RemoteViewPitch 	0x282 	
+APawn::AIControllerClass 	0x288 	
+APawn::PlayerState 	0x290 	
+APawn::LastHitBy 	0x2a0 	
+APawn::Controller 	0x2a8 	
+APawn::PreviousController 	0x2b0 	
+APawn::ReceiveControllerChangedDelegate 	0x2bc 	
+APawn::ReceiveRestartedDelegate 	0x2bd 	
+APawn::ControlInputVector 	0x2c0 	
+APawn::LastControlInputVector 	0x2d8 	
 
 DefaultPawn
-ADefaultPawn 	BaseTurnRate 	0x2f0
-ADefaultPawn 	BaseLookUpRate 	0x2f4 
-ADefaultPawn 	MovementComponent 	0x2f8
-ADefaultPawn 	CollisionComponent 	0x300 
-ADefaultPawn 	MeshComponent 	0x308
-ADefaultPawn 	bAddDefaultMovementBindings 	0x310 	
+ADefaultPawn::BaseTurnRate 	0x2f0
+ADefaultPawn::BaseLookUpRate 	0x2f4 
+ADefaultPawn::MovementComponent 	0x2f8
+ADefaultPawn::CollisionComponent 	0x300 
+ADefaultPawn::MeshComponent 	0x308
+ADefaultPawn::bAddDefaultMovementBindings 	0x310 	
 
 SkinnedMeshComponent
-USkinnedMeshComponent 	SkeletalMesh 	0x570 	
-USkinnedMeshComponent 	MasterPoseComponent 	0x578 	
-USkinnedMeshComponent 	SkinCacheUsage 	0x580 	
-USkinnedMeshComponent 	PhysicsAssetOverride 	0x698
-USkinnedMeshComponent 	ForcedLodModel 	0x6a0
-USkinnedMeshComponent 	MinLodModel 	0x6a4
-USkinnedMeshComponent 	StreamingDistanceMultiplier 	0x6b0 	
-USkinnedMeshComponent 	LODInfo 	0x6c0
-USkinnedMeshComponent 	VisibilityBasedAnimTickOption 	0x6f4 	
-USkinnedMeshComponent 	bOverrideMinLOD 	0x6f6 	
-USkinnedMeshComponent 	bUseBoundsFromMasterPoseComponent 	0x6f6 	
-USkinnedMeshComponent 	bForceWireframe 	0x6f6 	
-USkinnedMeshComponent 	bDisplayBones 	0x6f6 	
-USkinnedMeshComponent 	bDisableMorphTarget 	0x6f6 	
-USkinnedMeshComponent 	bHideSkin 	0x6f7 	
-USkinnedMeshComponent 	bPerBoneMotionBlur 	0x6f7 	
-USkinnedMeshComponent 	bComponentUseFixedSkelBounds 	0x6f7 	
-USkinnedMeshComponent 	bConsiderAllBodiesForBounds 	0x6f7 	
-USkinnedMeshComponent 	bSyncAttachParentLOD 	0x6f7 	
-USkinnedMeshComponent 	bCanHighlightSelectedSections 	0x6f7 	
-USkinnedMeshComponent 	bRecentlyRendered 	0x6f7 	
-USkinnedMeshComponent 	bCastCapsuleDirectShadow 	0x6f7 	
-USkinnedMeshComponent 	bCastCapsuleIndirectShadow 	0x6f8 	
-USkinnedMeshComponent 	bCPUSkinning 	0x6f8 	
-USkinnedMeshComponent 	bEnableUpdateRateOptimizations 	0x6f8 	
-USkinnedMeshComponent 	bDisplayDebugUpdateRateOptimizations 	0x6f8 	
-USkinnedMeshComponent 	bRenderStatic 	0x6f8 	
-USkinnedMeshComponent 	bIgnoreMasterPoseComponentLOD 	0x6f8 	
-USkinnedMeshComponent 	bCachedLocalBoundsUpToDate 	0x6f9 	
-USkinnedMeshComponent 	bForceMeshObjectUpdate 	0x6f9 	
-USkinnedMeshComponent 	CapsuleIndirectShadowMinVisibility 	0x6fc 	
-USkinnedMeshComponent 	CachedWorldSpaceBounds 	0x738 	
-USkinnedMeshComponent 	CachedWorldToLocalTransform 	0x770 	
+USkinnedMeshComponent::SkeletalMesh 	0x570 	
+USkinnedMeshComponent::MasterPoseComponent 	0x578 	
+USkinnedMeshComponent::SkinCacheUsage 	0x580 	
+USkinnedMeshComponent::PhysicsAssetOverride 	0x698
+USkinnedMeshComponent::ForcedLodModel 	0x6a0
+USkinnedMeshComponent::MinLodModel 	0x6a4
+USkinnedMeshComponent::StreamingDistanceMultiplier 	0x6b0 	
+USkinnedMeshComponent::LODInfo 	0x6c0
+USkinnedMeshComponent::VisibilityBasedAnimTickOption 	0x6f4 	
+USkinnedMeshComponent::bOverrideMinLOD 	0x6f6 	
+USkinnedMeshComponent::bUseBoundsFromMasterPoseComponent 	0x6f6 	
+USkinnedMeshComponent::bForceWireframe 	0x6f6 	
+USkinnedMeshComponent::bDisplayBones 	0x6f6 	
+USkinnedMeshComponent::bDisableMorphTarget 	0x6f6 	
+USkinnedMeshComponent::bHideSkin 	0x6f7 	
+USkinnedMeshComponent::bPerBoneMotionBlur 	0x6f7 	
+USkinnedMeshComponent::bComponentUseFixedSkelBounds 	0x6f7 	
+USkinnedMeshComponent::bConsiderAllBodiesForBounds 	0x6f7 	
+USkinnedMeshComponent::bSyncAttachParentLOD 	0x6f7 	
+USkinnedMeshComponent::bCanHighlightSelectedSections 	0x6f7 	
+USkinnedMeshComponent::bRecentlyRendered 	0x6f7 	
+USkinnedMeshComponent::bCastCapsuleDirectShadow 	0x6f7 	
+USkinnedMeshComponent::bCastCapsuleIndirectShadow 	0x6f8 	
+USkinnedMeshComponent::bCPUSkinning 	0x6f8 	
+USkinnedMeshComponent::bEnableUpdateRateOptimizations 	0x6f8 	
+USkinnedMeshComponent::bDisplayDebugUpdateRateOptimizations 	0x6f8 	
+USkinnedMeshComponent::bRenderStatic 	0x6f8 	
+USkinnedMeshComponent::bIgnoreMasterPoseComponentLOD 	0x6f8 	
+USkinnedMeshComponent::bCachedLocalBoundsUpToDate 	0x6f9 	
+USkinnedMeshComponent::bForceMeshObjectUpdate 	0x6f9 	
+USkinnedMeshComponent::CapsuleIndirectShadowMinVisibility 	0x6fc 	
+USkinnedMeshComponent::CachedWorldSpaceBounds 	0x738 	
+USkinnedMeshComponent::CachedWorldToLocalTransform 	0x770 	
 
 SkeletalMeshComponent
-USkeletalMeshComponent 	AnimBlueprintGeneratedClass 	0x810 	
-USkeletalMeshComponent 	AnimClass 	0x818 	
-USkeletalMeshComponent 	AnimScriptInstance 	0x820 	
-USkeletalMeshComponent 	PostProcessAnimInstance 	0x828 	
-USkeletalMeshComponent 	AnimationData 	0x830 	
-USkeletalMeshComponent 	RootBoneTranslation 	0x858 	
-USkeletalMeshComponent 	LineCheckBoundsScale 	0x870 	
-USkeletalMeshComponent 	LinkedInstances 	0x8b8
-USkeletalMeshComponent 	CachedBoneSpaceTransforms 	0x8c8 
-USkeletalMeshComponent 	CachedComponentSpaceTransforms 	0x8d8 
-USkeletalMeshComponent 	GlobalAnimRateScale 	0x998 	
-USkeletalMeshComponent 	KinematicBonesUpdateType 	0x99c 
-USkeletalMeshComponent 	PhysicsTransformUpdateMode 	0x99d
-USkeletalMeshComponent 	AnimationMode 	0x99f 	
-USkeletalMeshComponent 	bDisablePostProcessBlueprint 	0x9a1 	
-USkeletalMeshComponent 	bUpdateOverlapsOnAnimationFinalize 	0x9a1 	
-USkeletalMeshComponent 	bHasValidBodies 	0x9a1 	
-USkeletalMeshComponent 	bBlendPhysics 	0x9a1 	
-USkeletalMeshComponent 	bEnablePhysicsOnDedicatedServer 	0x9a1 	
-USkeletalMeshComponent 	bUpdateJointsFromAnimation 	0x9a1 	
-USkeletalMeshComponent 	bAllowClothActors 	0x9a2 	
-USkeletalMeshComponent 	bDisableClothSimulation 	0x9a2 	
-USkeletalMeshComponent 	bDisableRigidBodyAnimNode 	0x9a8 	
-USkeletalMeshComponent 	bAllowAnimCurveEvaluation 	0x9a8 	
-USkeletalMeshComponent 	bDisableAnimCurves 	0x9a8 	
-USkeletalMeshComponent 	bCollideWithEnvironment 	0x9a8 	
-USkeletalMeshComponent 	bCollideWithAttachedChildren 	0x9a8 	
-USkeletalMeshComponent 	bLocalSpaceSimulation 	0x9a9 	
-USkeletalMeshComponent 	bResetAfterTeleport 	0x9a9 	
-USkeletalMeshComponent 	bDeferKinematicBoneUpdate 	0x9a9 	
-USkeletalMeshComponent 	bNoSkeletonUpdate 	0x9a9 	
-USkeletalMeshComponent 	bPauseAnims 	0x9a9 	
-USkeletalMeshComponent 	bUseRefPoseOnInitAnim 	0x9a9 	
-USkeletalMeshComponent 	bEnablePerPolyCollision 	0x9a9 	
-USkeletalMeshComponent 	bForceRefpose 	0x9aa 	
-USkeletalMeshComponent 	bOnlyAllowAutonomousTickPose 	0x9aa 	
-USkeletalMeshComponent 	bIsAutonomousTickPose 	0x9aa 	
-USkeletalMeshComponent 	bOldForceRefPose 	0x9aa 	
-USkeletalMeshComponent 	bShowPrePhysBones 	0x9aa 	
-USkeletalMeshComponent 	bRequiredBonesUpToDate 	0x9aa 	
-USkeletalMeshComponent 	bAnimTreeInitialised 	0x9aa 	
-USkeletalMeshComponent 	bIncludeComponentLocationIntoBounds 	0x9aa 	
-USkeletalMeshComponent 	bEnableLineCheckWithBounds 	0x9ab 	
-USkeletalMeshComponent 	bPropagateCurvesToSlaves 	0x9ab 	
-USkeletalMeshComponent 	bSkipKinematicUpdateWhenInterpolating 	0x9ab 	
-USkeletalMeshComponent 	bSkipBoundsUpdateWhenInterpolating 	0x9ab 	
-USkeletalMeshComponent 	bNeedsQueuedAnimEventsDispatched 	0x9ab 	
-USkeletalMeshComponent 	CachedAnimCurveUidVersion 	0x9ac 	
-USkeletalMeshComponent 	ClothBlendWeight 	0x9b0 	
-USkeletalMeshComponent 	bWaitForParallelClothTask 	0x9b4 	
-USkeletalMeshComponent 	DisallowedAnimCurves 	0x9b8 	
-USkeletalMeshComponent 	BodySetup 	0x9c8 	
-USkeletalMeshComponent 	ClothMaxDistanceScale 	0x9d4 	
-USkeletalMeshComponent 	OnConstraintBroken 	0x9d8 	
-USkeletalMeshComponent 	OnPlasticDeformation 	0x9e8 	
-USkeletalMeshComponent 	ClothingSimulationFactory 	0x9f8 	
-USkeletalMeshComponent 	TeleportDistanceThreshold 	0xaf8 	
-USkeletalMeshComponent 	TeleportRotationThreshold 	0xafc 	
-USkeletalMeshComponent 	LastPoseTickFrame 	0xb08 	
-USkeletalMeshComponent 	ClothingInteractor 	0xba0 	
-USkeletalMeshComponent 	OnAnimInitialized 	0xc70 	
+USkinnedMeshComponent::AnimBlueprintGeneratedClass 	0x810 	
+USkinnedMeshComponent::AnimClass 	0x818 	
+USkinnedMeshComponent::AnimScriptInstance 	0x820 	
+USkinnedMeshComponent::PostProcessAnimInstance 	0x828 	
+USkinnedMeshComponent::AnimationData 	0x830 	
+USkinnedMeshComponent::RootBoneTranslation 	0x858 	
+USkinnedMeshComponent::LineCheckBoundsScale 	0x870 	
+USkinnedMeshComponent::LinkedInstances 	0x8b8
+USkinnedMeshComponent::CachedBoneSpaceTransforms 	0x8c8 
+USkinnedMeshComponent::CachedComponentSpaceTransforms 	0x8d8 
+USkinnedMeshComponent::GlobalAnimRateScale 	0x998 	
+USkinnedMeshComponent::KinematicBonesUpdateType 	0x99c 
+USkinnedMeshComponent::PhysicsTransformUpdateMode 	0x99d
+USkinnedMeshComponent::AnimationMode 	0x99f 	
+USkinnedMeshComponent::bDisablePostProcessBlueprint 	0x9a1 	
+USkinnedMeshComponent::bUpdateOverlapsOnAnimationFinalize 	0x9a1 	
+USkinnedMeshComponent::bHasValidBodies 	0x9a1 	
+USkinnedMeshComponent::bBlendPhysics 	0x9a1 	
+USkinnedMeshComponent::bEnablePhysicsOnDedicatedServer 	0x9a1 	
+USkinnedMeshComponent::bUpdateJointsFromAnimation 	0x9a1 	
+USkinnedMeshComponent::bAllowClothActors 	0x9a2 	
+USkinnedMeshComponent::bDisableClothSimulation 	0x9a2 	
+USkinnedMeshComponent::bDisableRigidBodyAnimNode 	0x9a8 	
+USkinnedMeshComponent::bAllowAnimCurveEvaluation 	0x9a8 	
+USkinnedMeshComponent::bDisableAnimCurves 	0x9a8 	
+USkinnedMeshComponent::bCollideWithEnvironment 	0x9a8 	
+USkinnedMeshComponent::bCollideWithAttachedChildren 	0x9a8 	
+USkinnedMeshComponent::bLocalSpaceSimulation 	0x9a9 	
+USkinnedMeshComponent::bResetAfterTeleport 	0x9a9 	
+USkinnedMeshComponent::bDeferKinematicBoneUpdate 	0x9a9 	
+USkinnedMeshComponent::bNoSkeletonUpdate 	0x9a9 	
+USkinnedMeshComponent::bPauseAnims 	0x9a9 	
+USkinnedMeshComponent::bUseRefPoseOnInitAnim 	0x9a9 	
+USkinnedMeshComponent::bEnablePerPolyCollision 	0x9a9 	
+USkinnedMeshComponent::bForceRefpose 	0x9aa 	
+USkinnedMeshComponent::bOnlyAllowAutonomousTickPose 	0x9aa 	
+USkinnedMeshComponent::bIsAutonomousTickPose 	0x9aa 	
+USkinnedMeshComponent::bOldForceRefPose 	0x9aa 	
+USkinnedMeshComponent::bShowPrePhysBones 	0x9aa 	
+USkinnedMeshComponent::bRequiredBonesUpToDate 	0x9aa 	
+USkinnedMeshComponent::bAnimTreeInitialised 	0x9aa 	
+USkinnedMeshComponent::bIncludeComponentLocationIntoBounds 	0x9aa 	
+USkinnedMeshComponent::bEnableLineCheckWithBounds 	0x9ab 	
+USkinnedMeshComponent::bPropagateCurvesToSlaves 	0x9ab 	
+USkinnedMeshComponent::bSkipKinematicUpdateWhenInterpolating 	0x9ab 	
+USkinnedMeshComponent::bSkipBoundsUpdateWhenInterpolating 	0x9ab 	
+USkinnedMeshComponent::bNeedsQueuedAnimEventsDispatched 	0x9ab 	
+USkinnedMeshComponent::CachedAnimCurveUidVersion 	0x9ac 	
+USkinnedMeshComponent::ClothBlendWeight 	0x9b0 	
+USkinnedMeshComponent::bWaitForParallelClothTask 	0x9b4 	
+USkinnedMeshComponent::DisallowedAnimCurves 	0x9b8 	
+USkinnedMeshComponent::BodySetup 	0x9c8 	
+USkinnedMeshComponent::ClothMaxDistanceScale 	0x9d4 	
+USkinnedMeshComponent::OnConstraintBroken 	0x9d8 	
+USkinnedMeshComponent::OnPlasticDeformation 	0x9e8 	
+USkinnedMeshComponent::ClothingSimulationFactory 	0x9f8 	
+USkinnedMeshComponent::TeleportDistanceThreshold 	0xaf8 	
+USkinnedMeshComponent::TeleportRotationThreshold 	0xafc 	
+USkinnedMeshComponent::LastPoseTickFrame 	0xb08 	
+USkinnedMeshComponent::ClothingInteractor 	0xba0 	
+USkinnedMeshComponent::OnAnimInitialized 	0xc70 	
 
 AnimInstance
-UAnimInstance 	CurrentSkeleton 	0x28 
-UAnimInstance 	RootMotionMode 	0x30 
-UAnimInstance 	bUseMultiThreadedAnimationUpdate  	0x31 	
-UAnimInstance 	bUsingCopyPoseFromMesh  	0x31 	
-UAnimInstance 	bReceiveNotifiesFromLinkedInstances  	0x31 	
-UAnimInstance 	bPropagateNotifiesToLinkedInstances  	0x31 	
-UAnimInstance 	bUseMainInstanceMontageEvaluationData  	0x31 	
-UAnimInstance 	bQueueMontageEvents  	0x31 	
-UAnimInstance 	OnMontageBlendingOut 	0x38 	
-UAnimInstance 	OnMontageStarted 	0x48 	
-UAnimInstance 	OnMontageEnded 	0x58 	
-UAnimInstance 	OnAllMontageInstancesEnded 	0x68 	
-UAnimInstance 	NotifyQueue 	0x150
-UAnimInstance 	ActiveAnimNotifyState 	0x1c0
+UAnimInstance::CurrentSkeleton 	0x28 
+UAnimInstance::RootMotionMode 	0x30 
+UAnimInstance::bUseMultiThreadedAnimationUpdate  	0x31 	
+UAnimInstance::bUsingCopyPoseFromMesh  	0x31 	
+UAnimInstance::bReceiveNotifiesFromLinkedInstances  	0x31 	
+UAnimInstance::bPropagateNotifiesToLinkedInstances  	0x31 	
+UAnimInstance::bUseMainInstanceMontageEvaluationData  	0x31 	
+UAnimInstance::bQueueMontageEvents  	0x31 	
+UAnimInstance::OnMontageBlendingOut 	0x38 	
+UAnimInstance::OnMontageStarted 	0x48 	
+UAnimInstance::OnMontageEnded 	0x58 	
+UAnimInstance::OnAllMontageInstancesEnded 	0x68 	
+UAnimInstance::NotifyQueue 	0x150
+UAnimInstance::ActiveAnimNotifyState 	0x1c0
 
 Controller
-AController 	PlayerState 	0x278 	
-AController 	OnInstigatedAnyDamage 	0x288 	
-AController 	OnPossessedPawnChanged 	0x298 	
-AController 	StateName 	0x2a8 	
-AController 	Pawn 	0x2b0 	
-AController 	Character 	0x2c0 	
-AController 	TransformComponent 	0x2c8 	
-AController 	ControlRotation 	0x2e8 	
-AController 	bAttachToPawn : 1 	0x300 	
+AController::PlayerState 	0x278 	
+AController::OnInstigatedAnyDamage 	0x288 	
+AController::OnPossessedPawnChanged 	0x298 	
+AController::StateName 	0x2a8 	
+AController::Pawn 	0x2b0 	
+AController::Character 	0x2c0 	
+AController::TransformComponent 	0x2c8 	
+AController::ControlRotation 	0x2e8 	
+AController::bAttachToPawn 	0x300 	
 
 PlayerController
-APlayerController 	Player 	0x308 
-APlayerController 	AcknowledgedPawn 	0x310 	
-APlayerController 	ControllingDirTrackInst 	0x318 
-APlayerController 	MyHUD 	0x320 	AHUD*
-APlayerController 	PlayerCameraManager 	0x328 	
-APlayerController 	PlayerCameraManagerClass 	0x330 	
-APlayerController 	bAutoManageActiveCameraTarget 	0x338 	
-APlayerController 	TargetViewRotation 	0x340 	
-APlayerController 	SmoothTargetViewRotationSpeed 	0x370 	
-APlayerController 	HiddenActors 	0x378 
-APlayerController 	HiddenPrimitiveComponents 	0x388 	
-APlayerController 	LastSpectatorStateSynchTime 	0x39c 	
-APlayerController 	LastSpectatorSyncLocation 	0x3a0 	
-APlayerController 	LastSpectatorSyncRotation 	0x3b8 	
-APlayerController 	ClientCap 	0x3d0 	
-APlayerController 	CheatManager 	0x3d8 	
-APlayerController 	CheatClass 	0x3e0 	
-APlayerController 	PlayerInput 	0x3e8 	
-APlayerController 	ActiveForceFeedbackEffects 	0x3f0 	
-APlayerController 	bPlayerIsWaiting 	0x480 	
-APlayerController 	NetPlayerIndex 	0x484 	
-APlayerController 	PendingSwapConnection 	0x4e0 	
-APlayerController 	NetConnection 	0x4e8 	
-APlayerController 	InputYawScale 	0x508 	
-APlayerController 	InputPitchScale 	0x50c 	
-APlayerController 	InputRollScale 	0x510 	
-APlayerController 	bShowMouseCursor 	0x514 	
-APlayerController 	bEnableClickEvents 	0x514 	
-APlayerController 	bEnableTouchEvents 	0x514 	
-APlayerController 	bEnableMouseOverEvents 	0x514 	
-APlayerController 	bEnableTouchOverEvents 	0x514 	
-APlayerController 	bForceFeedbackEnabled 	0x514 	
-APlayerController 	bEnableStreamingSource 	0x514 	
-APlayerController 	bStreamingSourceShouldActivate 	0x514 	
-APlayerController 	ForceFeedbackScale 	0x518 	
-APlayerController 	ClickEventKeys 	0x520 
-APlayerController 	DefaultMouseCursor 	0x530 	
-APlayerController 	CurrentMouseCursor 	0x531 	
-APlayerController 	DefaultClickTraceChannel 	0x532 	
-APlayerController 	CurrentClickTraceChannel 	0x533 	
-APlayerController 	HitResultTraceDistance 	0x534 	
-APlayerController 	SeamlessTravelCount 	0x538 	uint16_t
-APlayerController 	LastCompletedSeamlessTravelCount 	0x53a 
-APlayerController 	InactiveStateInputComponent 	0x5b0
-APlayerController 	bShouldPerformFullTickWhenPaused 	0x5b8 	
-APlayerController 	CurrentTouchInterface 	0x5d0
-APlayerController 	SpectatorPawn 	0x650 	
-APlayerController 	bIsLocalPlayerController 	0x65c 	
-APlayerController 	SpawnLocation 	0x660 
+APlayerController::Player 	0x308 
+APlayerController::AcknowledgedPawn 	0x310 	
+APlayerController::ControllingDirTrackInst 	0x318 
+APlayerController::MyHUD 	0x320 	AHUD*
+APlayerController::PlayerCameraManager 	0x328 	
+APlayerController::PlayerCameraManagerClass 	0x330 	
+APlayerController::bAutoManageActiveCameraTarget 	0x338 	
+APlayerController::TargetViewRotation 	0x340 	
+APlayerController::SmoothTargetViewRotationSpeed 	0x370 	
+APlayerController::HiddenActors 	0x378 
+APlayerController::HiddenPrimitiveComponents 	0x388 	
+APlayerController::LastSpectatorStateSynchTime 	0x39c 	
+APlayerController::LastSpectatorSyncLocation 	0x3a0 	
+APlayerController::LastSpectatorSyncRotation 	0x3b8 	
+APlayerController::ClientCap 	0x3d0 	
+APlayerController::CheatManager 	0x3d8 	
+APlayerController::CheatClass 	0x3e0 	
+APlayerController::PlayerInput 	0x3e8 	
+APlayerController::ActiveForceFeedbackEffects 	0x3f0 	
+APlayerController::bPlayerIsWaiting 	0x480 	
+APlayerController::NetPlayerIndex 	0x484 	
+APlayerController::PendingSwapConnection 	0x4e0 	
+APlayerController::NetConnection 	0x4e8 	
+APlayerController::InputYawScale 	0x508 	
+APlayerController::InputPitchScale 	0x50c 	
+APlayerController::InputRollScale 	0x510 	
+APlayerController::bShowMouseCursor 	0x514 	
+APlayerController::bEnableClickEvents 	0x514 	
+APlayerController::bEnableTouchEvents 	0x514 	
+APlayerController::bEnableMouseOverEvents 	0x514 	
+APlayerController::bEnableTouchOverEvents 	0x514 	
+APlayerController::bForceFeedbackEnabled 	0x514 	
+APlayerController::bEnableStreamingSource 	0x514 	
+APlayerController::bStreamingSourceShouldActivate 	0x514 	
+APlayerController::ForceFeedbackScale 	0x518 	
+APlayerController::ClickEventKeys 	0x520 
+APlayerController::DefaultMouseCursor 	0x530 	
+APlayerController::CurrentMouseCursor 	0x531 	
+APlayerController::DefaultClickTraceChannel 	0x532 	
+APlayerController::CurrentClickTraceChannel 	0x533 	
+APlayerController::HitResultTraceDistance 	0x534 	
+APlayerController::SeamlessTravelCount 	0x538 	uint16_t
+APlayerController::LastCompletedSeamlessTravelCount 	0x53a 
+APlayerController::InactiveStateInputComponent 	0x5b0
+APlayerController::bShouldPerformFullTickWhenPaused 	0x5b8 	
+APlayerController::CurrentTouchInterface 	0x5d0
+APlayerController::SpectatorPawn 	0x650 	
+APlayerController::bIsLocalPlayerController 	0x65c 	
+APlayerController::SpawnLocation 	0x660 
 
 FortPlayerController
-AFortPlayerController 	OnPlayerPawnPossessed 	0x818 	
-AFortPlayerController 	OnEnteredEditMode 	0x828 	
-AFortPlayerController 	OnPickupCreated 	0x838 	
-AFortPlayerController 	OnViewTargetChanged 	0x878 	
-AFortPlayerController 	OnInputFiltered 	0x888 	
-AFortPlayerController 	bAllowPcbBenefits 	0x8b0 	
-AFortPlayerController 	OnFortPawnChangedEvent 	0x8b8 	
-AFortPlayerController 	OnControllerComponentAttachedEvent 	0x8c8 	
-AFortPlayerController 	bInPossession 	0x971 	
-AFortPlayerController 	AircraftInputComponent 	0x9c8 	
-AFortPlayerController 	MiniMapInputComponent 	0x9d0 	
-AFortPlayerController 	SprintOverrideComponent 	0x9d8 	
-AFortPlayerController 	SkydiveMusicAudioComp 	0x9e0 	
-AFortPlayerController 	bFailedToRespawn 	0x9e8 	
-AFortPlayerController 	bIsDisconnecting 	0x9e8 	
-AFortPlayerController 	bIsBeingKicked 	0x9e8 	
-AFortPlayerController 	bHasInitiallySpawned 	0x9e8 	
-AFortPlayerController 	bAssignedStartSpawn 	0x9e8 	
-AFortPlayerController 	bReadyToStartMatch 	0x9e8 	
-AFortPlayerController 	bClientPawnIsLoaded 	0x9e8 	
-AFortPlayerController 	SpawnLoc 	0x9f0 	
-AFortPlayerController 	NumPreviousSpawns 	0xa08 	
-AFortPlayerController 	bCanSpectateBot 	0xa0c 	
-AFortPlayerController 	OnBlueprintReadyCheckCompleted 	0xa10 	
-AFortPlayerController 	OnDelayForPreServerTransitionAnimationEvent 	0xa30 	
-AFortPlayerController 	SimpleLoadingScreenSoundMix 	0xa58 	
-AFortPlayerController 	RegisteredPartnerId 	0xa70 	
-AFortPlayerController 	RegisteredPartnerTag 	0xa80 	
-AFortPlayerController 	SprintOverrideAbilityGameplayTag 	0xa84 
-AFortPlayerController 	ManagedAIs 	0xa88 
-AFortPlayerController 	MyFortPawn 	0xa98 
-AFortPlayerController 	MyFortPawnBeforeTakeoverOfScriptedPawn 	0xaa0 
-AFortPlayerController 	ScriptedPawnControllerBeforeTakeover 	0xaa8 
-AFortPlayerController 	bHasClientFinishedLoading 	0xab0 	
-AFortPlayerController 	bHasServerFinishedLoading 	0xab1 	
-AFortPlayerController 	TimeStartedWaiting 	0xab4 	
-AFortPlayerController 	TimeFinishedNavigationBuild 	0xab8 	
-AFortPlayerController 	MaterialParameterCollection 	0xac0 
-AFortPlayerController 	bLoadingScreenDropped 	0xad1 	
-AFortPlayerController 	PendingSpectatorLocation 	0xad8 	
-AFortPlayerController 	ActorUnderReticle 	0xaf0 	
-AFortPlayerController 	AutoFireReticleTarget 	0xaf8 	
-AFortPlayerController 	AutofireTimerHandle 	0xb00 
-AFortPlayerController 	WeakspotUnderReticle 	0xb10 
-AFortPlayerController 	ActiveWeakSpots 	0xb18 	
-AFortPlayerController 	IdleKickLastTimeActive 	0xb28 	
-AFortPlayerController 	LastTimeActive 	0xb2c 	
-AFortPlayerController 	bRevertPlayerListenerChange 	0xb50 	
-AFortPlayerController 	VehicleInputComponent 	0xb70 	
-AFortPlayerController 	bHoldingPrimaryFireFromTouch 	0xb78 	
-AFortPlayerController 	bSupportNextPieceAssist 	0xb79 	
-AFortPlayerController 	bAutoBuildForTrapPlacement 	0xb7a 	
-AFortPlayerController 	bAutoBuildForFloorTrapPlacement 	0xb7b 	
-AFortPlayerController 	bAutoBuildForWallTrapPlacement 	0xb7c 	
-AFortPlayerController 	bAutoBuildForCeilingTrapPlacement 	0xb7d 	
-AFortPlayerController 	bNoControllerLighting 	0xb7e 	
-AFortPlayerController 	ReturnToMainMenuTimeoutDelay 	0xb80 	
-AFortPlayerController 	OnQuestObjectiveStateChanged 	0xb88 	
-AFortPlayerController 	LastDamager 	0xbb0 	
-AFortPlayerController 	LastFallInstigator 	0xbc0 	
-AFortPlayerController 	LastDamagerCreditThresholdDropElim 	0xbcc 	
-AFortPlayerController 	LastDamagerCreditThresholdSelfElim 	0xbd0 	
-AFortPlayerController 	LastDamagerCreditThresholdStormElim 	0xbd4 	
-AFortPlayerController 	bGiveLastDamagerElimCreditOnDrop 	0xbd8 	
-AFortPlayerController 	bGiveLastDamagerElimCreditOnSelfDamage 	0xbd9 	
-AFortPlayerController 	bGiveLastDamagerElimCreditOnStormDamage 	0xbda 	
-AFortPlayerController 	OnMcpProfilesInitializedEvent 	0xc28 	
-AFortPlayerController 	OnEnterVehicleDriver 	0xdc8 	
-AFortPlayerController 	OnEnterVehiclePassenger 	0xdd8 	
-AFortPlayerController 	OnExitVehicle 	0xde8 	
-AFortPlayerController 	OnFullyExitVehicle 	0xdf8 	
-AFortPlayerController 	OnVehicleSeatChanged 	0xe08 	
-AFortPlayerController 	OnVehicleAbilitiesRemoved 	0xe18 	
-AFortPlayerController 	OnTetherChanged 	0xe28 	
-AFortPlayerController 	bHoldingObject 	0xe70 	
-AFortPlayerController 	DBNOCarryInputComponent 	0xe78 	
-AFortPlayerController 	HeldObjectsInputComponent 	0xe80 	
-AFortPlayerController 	bWantsToSprint 	0xed0 	
-AFortPlayerController 	bHoldingSprint 	0xed0 	
-AFortPlayerController 	bSprintToggleable 	0xed0 	
-AFortPlayerController 	bForcingJogFromToggle 	0xed0 	
-AFortPlayerController 	bForceJogHeld 	0xed0 	
-AFortPlayerController 	bForceBinaryForward 	0xed0 	
-AFortPlayerController 	bSprintWasCanceledByReload 	0xed0 	
-AFortPlayerController 	bShouldAttemptReloadOnEquip 	0xed0 	
-AFortPlayerController 	bSprintBehaviorIsOverridden 	0xed1 	
-AFortPlayerController 	bSprintByDefaultWhenSprintIsOverridden 	0xed1 	
-AFortPlayerController 	bSprintByDefault 	0xed1 	
-AFortPlayerController 	bAutoRunOn 	0xed1 	
-AFortPlayerController 	bUseHoldToSwapPickup 	0xed1 	
-AFortPlayerController 	bTargetingToggleable 	0xed1 	
-AFortPlayerController 	bTargetingToggleableWithTouch 	0xed1 	
-AFortPlayerController 	bMovementDisabledDueToCancellableAction 	0xed1 	
-AFortPlayerController 	bIsPlayerActivelyMoving 	0xed2 	
-AFortPlayerController 	bPlaceHeldObjectPressed 	0xed2 	
-AFortPlayerController 	InMovementCancellableAction 	0xed4 	
-AFortPlayerController 	bAllowHoldForAmmoCrafting 	0xed8 	
-AFortPlayerController 	bIsClientTimingOut 	0xed9 	
-AFortPlayerController 	ClientTimeoutBlockInputTime 	0xedc 	
-AFortPlayerController 	LastMoveInputFrame 	0xee8 	
-AFortPlayerController 	LastPressGamepadSprintTime 	0xef0 	
-AFortPlayerController 	bAutoRunWasHoldingForward 	0xef4 	
-AFortPlayerController 	bAtNameBaseScreen 	0xef5 	
-AFortPlayerController 	OnSetFirstPersonCamera 	0xef8 	
-AFortPlayerController 	CinematicCameraClassOverride 	0xf78 	
-AFortPlayerController 	bOnPressExecuteJetpack 	0xf80 	
-AFortPlayerController 	bShowHitMarkersForFriendlyFire 	0xfa0 	
-AFortPlayerController 	bServerSideHitMarkers 	0xfa1 	
-AFortPlayerController 	OnUiChoiceCompleted 	0xfb8 	
-AFortPlayerController 	OnRegainedFocus 	0xfc8 	
-AFortPlayerController 	OnReloadCancelingSprint 	0xfd8 	
-AFortPlayerController 	OnOpenVoteDialog 	0x1000 	
-AFortPlayerController 	bGamepadAbilityPending 	0x12b4 	
-AFortPlayerController 	bForceAllowCursorMode 	0x12b5 	
-AFortPlayerController 	bForceAllowCameraMode 	0x12b6 	
-AFortPlayerController 	bSuppressEventNotifications 	0x12b8 	
-AFortPlayerController 	LastSpotTime 	0x1328 	
-AFortPlayerController 	CurrentMarks 	0x1340 	
-AFortPlayerController 	LoopingUIFeedbackComponents 	0x1350 	
-AFortPlayerController 	PreviewAbility 	0x13a0 	
-AFortPlayerController 	IntensityGraphInfo 	0x13c0 	
-AFortPlayerController 	PIDValuesGraphInfo 	0x13e8 	
-AFortPlayerController 	PIDContributionsGraphInfo 	0x1410 
-AFortPlayerController 	AIDirectorDataManager 	0x1438 	
-AFortPlayerController 	MusicManager 	0x1440 	
-AFortPlayerController 	OnBuildPreviewMarkerVisibilityChanged 	0x1448 	
-AFortPlayerController 	OnWeakSpotReset 	0x1458 	
-AFortPlayerController 	bUsePredictedBuildingActors 	0x1478 	
-AFortPlayerController 	bRegisterPredictedBuildingActorsWithGrid 	0x1479 	
-AFortPlayerController 	bPredictedBuildingWallsHaveNoCollision 	0x147a 	
-AFortPlayerController 	PredictedActorLifespan 	0x147c 	
-AFortPlayerController 	PredictedBuildingSMActors 	0x1480 	
-AFortPlayerController 	BuildPreviewModeInputComponent 	0x1610 	
-AFortPlayerController 	BuildPreviewMarker 	0x1618 	
-AFortPlayerController 	BuildPreviewMarkerExtraPiece 	0x1620 
-AFortPlayerController 	bAllowBuildingPreviewAutoRotation 	0x1690 	
-AFortPlayerController 	bRequireTraceToExistingBuildingToSetContext 	0x1691 	
-AFortPlayerController 	bAllowTraceToExistingBuildingToSetContextToRedirectToBlockingBuilding 	0x1692 	
-AFortPlayerController 	bRequireTraceToExistingBuildingToSetContextExcludeCurrentContext 	0x1693 	
-AFortPlayerController 	TargetedBuilding 	0x1760 
-AFortPlayerController 	TargetedVehicle 	0x1768 
-AFortPlayerController 	ContextualConversionClass 	0x1770 
-AFortPlayerController 	StartUpgradeSound 	0x1778 
-AFortPlayerController 	HighlightedPrimaryBuildings 	0x17a0 	
-AFortPlayerController 	HighlightedInteractionBuildings 	0x17b0 	
-AFortPlayerController 	HighlightedPrimaryBuilding 	0x17c0 
-AFortPlayerController 	BuildPreviewMarkerParentMaterial 	0x17c8 	
-AFortPlayerController 	BuildPreviewMarkerMIDs 	0x17f0 
-AFortPlayerController 	BuildPreviewRotationIterations 	0x1800 	
-AFortPlayerController 	bBuildPreviewMirrored 	0x1804 	
-AFortPlayerController 	BuildPreviewMarkerOptionalAdjustment 	0x1808 	
-AFortPlayerController 	bBuildFree 	0x180c 	
-AFortPlayerController 	bCraftFree 	0x1844 	
-AFortPlayerController 	CurrentCostInfoType 	0x1848 	
-AFortPlayerController 	CurrentBuildableClass 	0x1850 	
-AFortPlayerController 	PreviousBuildableClass 	0x1858 	
-AFortPlayerController 	CurrentResourceLevel 	0x1860 	
-AFortPlayerController 	CurrentResourceType 	0x1861 	
-AFortPlayerController 	LastBuildableStateData[0xc] 	0x1868 	
-AFortPlayerController 	QueuedDamageNumbers 	0x1938 
-AFortPlayerController 	DamageNumbersActor 	0x1948 
-AFortPlayerController 	EditModeInputComponent 	0x1950 	
-AFortPlayerController 	EditBuildingActor 	0x1958 
-AFortPlayerController 	EditModeDistance 	0x1960 	
-AFortPlayerController 	LastBuildPreviewGridSnapLoc 	0x1968 	
-AFortPlayerController 	LastBuildPreviewGridSnapRot 	0x1980 	
-AFortPlayerController 	LastBuildPreviewGridSnapCentroid 	0x1998 	
-AFortPlayerController 	PickerInputComponent 	0x19b0 	
-AFortPlayerController 	TrapPickerDecoHelper 	0x19b8 
-AFortPlayerController 	TouchEditResults 	0x19c0 
-AFortPlayerController 	bBuildingPlacementTraceSkipInitialPenetrationOfBuildingSMActor 	0x19d1 	
-AFortPlayerController 	bBuildingPlacementTraceSkipInitialPenetrationOfStaticMesh 	0x19d2 	
-AFortPlayerController 	ClientQuickBars 	0x1a18 
-AFortPlayerController 	RecentlyRemovedQuickbarInfo 	0x1a28 	
-AFortPlayerController 	DelayedQuickBarActions 	0x1a88 	
-AFortPlayerController 	ClientProcessedQuickBarActions 	0x1ba8 
-AFortPlayerController 	bShouldForceDeleteDroppedItems 	0x1bf8 	
-AFortPlayerController 	QueuedItemsToDrop 	0x1c20 	
-AFortPlayerController 	bAutoEquipBetterItems 	0x1cc8 	
-AFortPlayerController 	WorldInventory 	0x1cd0 	
-AFortPlayerController 	OutpostInventory 	0x1cd8 	
-AFortPlayerController 	ViewTargetInventory 	0x1ce0 	
-AFortPlayerController 	bHasInitializedWorldInventory 	0x1d34 	
-AFortPlayerController 	bHasInitializedHeroInventory 	0x1d34 	
-AFortPlayerController 	bAccountInventoryWasUpdated 	0x1d34 	
-AFortPlayerController 	bForceWorldInventoryUpdate 	0x1d34 	
-AFortPlayerController 	bIsSavingGadgetLoadout 	0x1d34 	
-AFortPlayerController 	BotPilot 	0x1dd0 
-AFortPlayerController 	BotManager 	0x1df0 	
-AFortPlayerController 	ClientBotManagerClass 	0x1e00 	
-AFortPlayerController 	CosmeticLoadoutPC 	0x1e20 	
-AFortPlayerController 	LocalPawnCustomizationAssetLoader 	0x1f80 	
-AFortPlayerController 	bDropWeaponsDuringAllMissionStates 	0x1fa0 	
-AFortPlayerController 	LatestRewardReport 	0x1fc0 	
-AFortPlayerController 	MyPlayerInfo 	0x2030 
-AFortPlayerController 	UpdatedObjectiveStats 	0x2038 	
-AFortPlayerController 	bHasUnsavedPrimaryMissionProgress 	0x2048 	
-AFortPlayerController 	StatManager 	0x2088 	
-AFortPlayerController 	HeartbeatManager 	0x2090 	
-AFortPlayerController 	StatEventManager 	0x2098 	
-AFortPlayerController 	CachedPersistentGameplayStats 	0x20a0 	
-AFortPlayerController 	LastEmotePlayed 	0x20c0 	
-AFortPlayerController 	EmoteUsageCounts 	0x20c8 	
-AFortPlayerController 	AnalyticsBuildingWallTooLowLocations 	0x2118 	
-AFortPlayerController 	NearbyEmotingPawns 	0x2128 
-AFortPlayerController 	NearbyEmotingPawnCount 	0x2178 	
-AFortPlayerController 	McpProfileGroup 	0x21c8 	
-AFortPlayerController 	CommonPublicMcpProfile 	0x21d0 	
-AFortPlayerController 	CommonCoreMcpProfile 	0x21d8 	
-AFortPlayerController 	MainMcpProfile 	0x21e0 	
-AFortPlayerController 	AthenaProfile 	0x21e8 	
-AFortPlayerController 	MetadataProfile 	0x21f0 	
-AFortPlayerController 	CreativeModeProfile 	0x21f8 	
-AFortPlayerController 	TutorialCompletedState 	0x2200 	
-AFortPlayerController 	bShouldReceiveCriticalMatchBonus 	0x2238 	
-AFortPlayerController 	OnPlayerChangedBuildMode 	0x2240 	
-AFortPlayerController 	OnAutoRunEnabled 	0x2250 	
-AFortPlayerController 	VoiceInputSourceEffectPresetChain 	0x23c0 	
-AFortPlayerController 	LocationUnderReticle 	0x2468 	
-AFortPlayerController 	bEnableVoiceChatPTT 	0x2480 	
-AFortPlayerController 	bVoiceChatPTTTransmit 	0x2480 	
-AFortPlayerController 	bInfiniteAmmo 	0x2480 	
-AFortPlayerController 	bInfiniteConsumables 	0x2480 	
-AFortPlayerController 	bInfiniteMagazine 	0x2480 	
-AFortPlayerController 	bNoCoolDown 	0x2480 	
-AFortPlayerController 	bInfiniteDurability 	0x2480 	
-AFortPlayerController 	bUsePickers 	0x2480 	
-AFortPlayerController 	bPickerOpen 	0x2481 	
-AFortPlayerController 	bPickerEnabled 	0x2481 	
-AFortPlayerController 	bCheatGhost 	0x2481 	
-AFortPlayerController 	bCheatFly 	0x2481 	
-AFortPlayerController 	bEnableShotLogging 	0x2481 	
-AFortPlayerController 	bIsNearActiveEncounters 	0x2481 	
-AFortPlayerController 	OverriddenBackpackSize 	0x2484 	
-AFortPlayerController 	CurrentReplaySpotLight 	0x2488 	
-AFortPlayerController 	AimHelpMode 	0x2490 	u
-AFortPlayerController 	JumpStaminaCost 	0x2494 	
-AFortPlayerController 	CameraPrototypeName 	0x2498 	
-AFortPlayerController 	bHideHudEnglishText 	0x24d8 	
-AFortPlayerController 	bAutoChangeMaterial 	0x24d9 	
-AFortPlayerController 	bServerAutoChangeMaterial 	0x24da 	
-AFortPlayerController 	bPeripheralLightingEnabled 	0x24db 	
-AFortPlayerController 	bRudderControlEnabled 	0x24dc 	
-AFortPlayerController 	RudderDeadZone 	0x24e0 	
-AFortPlayerController 	RudderMaxThrottle 	0x24e4 	
-AFortPlayerController 	ActiveSprayInstances 	0x24e8 	
-AFortPlayerController 	ActiveToyInstances 	0x24f8 	
-AFortPlayerController 	ToySummonCounts 	0x2508 	
-AFortPlayerController 	bSyncPeripheralLightingWithEmoteMusic 	0x2558 	
-AFortPlayerController 	bPushEmoteAudioDataToCosmeticMaterials 	0x2559 	
-AFortPlayerController 	LastEmoteMusicFFT100hz 	0x255c 	
-AFortPlayerController 	LastEmoteMusicFFT2000hz 	0x2560 	
-AFortPlayerController 	EmoteMusicBeatThreshold 	0x2564 	
-AFortPlayerController 	EmoteMusicEnvelopeBeatCount 	0x2568 	
-AFortPlayerController 	bZeroingCameraRoll 	0x26d0 	
-AFortPlayerController 	bTryPickupSwap 	0x26d1 	
-AFortPlayerController 	bClientSideEditPrediction 	0x26d2 	
-AFortPlayerController 	ClientSideEditPredictionTimeout 	0x26d4 	
-AFortPlayerController 	PendingEnterEditModeActor 	0x26e0 	
-AFortPlayerController 	RandomacterIndex 	0x26e8 	
-AFortPlayerController 	AntiAddictionPlayTimeMultiplier 	0x26ec 	
-AFortPlayerController 	bUsesWidgetForFPSDisplay 	0x26f0 	
-AFortPlayerController 	bShowFPS 	0x26f1 	
-AFortPlayerController 	OnShowFPSChange 	0x26f8 	
-AFortPlayerController 	bShowTemperature 	0x2708 	
-AFortPlayerController 	OnShowTemperatureChange 	0x2710 	
-AFortPlayerController 	LockOnInfo 	0x2778 	
-AFortPlayerController 	bLockPrimaryInputMethodToMouse 	0x27c8 	
-AFortPlayerController 	IndicatorManager 	0x27e0 	
-AFortPlayerController 	bFinalXPUpdateFailed 	0x27f8 	
-AFortPlayerController 	TestUserWidget 	0x2800 
-AFortPlayerController 	PreviousStasisMode 	0x2808 
-AFortPlayerController 	BattleMapSpectatorClass 	0x2810 	
-AFortPlayerController 	bReleaseBuildingContextOnPlace 	0x2835 	
-AFortPlayerController 	TurboPlaceFirstInterval 	0x2838 	
-AFortPlayerController 	TurboPlaceInterval 	0x283c 	
-AFortPlayerController 	bCreativeTurboDelete 	0x2840 	
-AFortPlayerController 	TurboDeleteFirstInterval 	0x2844 	
-AFortPlayerController 	TurboDeleteInterval 	0x2848 	
-AFortPlayerController 	bTurboBuild 	0x284d 	
-AFortPlayerController 	TurboBuildFirstInterval 	0x2850 	
-AFortPlayerController 	TurboBuildRequestFailedInterval 	0x2854 	
-AFortPlayerController 	TurboBuildInterval 	0x2858 	
-AFortPlayerController 	FortControllerComponent_Telemetry 	0x2868 	
-AFortPlayerController 	InventoryNetworkManagementComponent 	0x2870 
-AFortPlayerController 	InteractionComponent 	0x2878 	
-AFortPlayerController 	QuickEditComponent 	0x2880 
-AFortPlayerController 	SmartBuildComponent 	0x2888 	
-AFortPlayerController 	CollectionsComponent 	0x2890 	
-AFortPlayerController 	PendingExecuteInventoryItemHandle 	0x2898 	
-AFortPlayerController 	QuickHealItemPickerClass 	0x28c8 
-AFortPlayerController 	OnPlayerSpawnedBuildingActor 	0x28d0 	
-AFortPlayerController 	MeshParentIds 	0x28e0 	
-AFortPlayerController 	OnToggleFullscreenMap 	0x28f0 	
-AFortPlayerController 	ForcedInputRotationSpeed 	0x29f8 	
-AFortPlayerController 	PendingClientRestartPawn 	0x2a00 		
+AFortPlayerController::OnPlayerPawnPossessed 	0x818 	
+AFortPlayerController::OnEnteredEditMode 	0x828 	
+AFortPlayerController::OnPickupCreated 	0x838 	
+AFortPlayerController::OnViewTargetChanged 	0x878 	
+AFortPlayerController::OnInputFiltered 	0x888 	
+AFortPlayerController::bAllowPcbBenefits 	0x8b0 	
+AFortPlayerController::OnFortPawnChangedEvent 	0x8b8 	
+AFortPlayerController::OnControllerComponentAttachedEvent 	0x8c8 	
+AFortPlayerController::bInPossession 	0x971 	
+AFortPlayerController::AircraftInputComponent 	0x9c8 	
+AFortPlayerController::MiniMapInputComponent 	0x9d0 	
+AFortPlayerController::SprintOverrideComponent 	0x9d8 	
+AFortPlayerController::SkydiveMusicAudioComp 	0x9e0 	
+AFortPlayerController::bFailedToRespawn 	0x9e8 	
+AFortPlayerController::bIsDisconnecting 	0x9e8 	
+AFortPlayerController::bIsBeingKicked 	0x9e8 	
+AFortPlayerController::bHasInitiallySpawned 	0x9e8 	
+AFortPlayerController::bAssignedStartSpawn 	0x9e8 	
+AFortPlayerController::bReadyToStartMatch 	0x9e8 	
+AFortPlayerController::bClientPawnIsLoaded 	0x9e8 	
+AFortPlayerController::SpawnLoc 	0x9f0 	
+AFortPlayerController::NumPreviousSpawns 	0xa08 	
+AFortPlayerController::bCanSpectateBot 	0xa0c 	
+AFortPlayerController::OnBlueprintReadyCheckCompleted 	0xa10 	
+AFortPlayerController::OnDelayForPreServerTransitionAnimationEvent 	0xa30 	
+AFortPlayerController::SimpleLoadingScreenSoundMix 	0xa58 	
+AFortPlayerController::RegisteredPartnerId 	0xa70 	
+AFortPlayerController::RegisteredPartnerTag 	0xa80 	
+AFortPlayerController::SprintOverrideAbilityGameplayTag 	0xa84 
+AFortPlayerController::ManagedAIs 	0xa88 
+AFortPlayerController::MyFortPawn 	0xa98 
+AFortPlayerController::MyFortPawnBeforeTakeoverOfScriptedPawn 	0xaa0 
+AFortPlayerController::ScriptedPawnControllerBeforeTakeover 	0xaa8 
+AFortPlayerController::bHasClientFinishedLoading 	0xab0 	
+AFortPlayerController::bHasServerFinishedLoading 	0xab1 	
+AFortPlayerController::TimeStartedWaiting 	0xab4 	
+AFortPlayerController::TimeFinishedNavigationBuild 	0xab8 	
+AFortPlayerController::MaterialParameterCollection 	0xac0 
+AFortPlayerController::bLoadingScreenDropped 	0xad1 	
+AFortPlayerController::PendingSpectatorLocation 	0xad8 	
+AFortPlayerController::ActorUnderReticle 	0xaf0 	
+AFortPlayerController::AutoFireReticleTarget 	0xaf8 	
+AFortPlayerController::AutofireTimerHandle 	0xb00 
+AFortPlayerController::WeakspotUnderReticle 	0xb10 
+AFortPlayerController::ActiveWeakSpots 	0xb18 	
+AFortPlayerController::IdleKickLastTimeActive 	0xb28 	
+AFortPlayerController::LastTimeActive 	0xb2c 	
+AFortPlayerController::bRevertPlayerListenerChange 	0xb50 	
+AFortPlayerController::VehicleInputComponent 	0xb70 	
+AFortPlayerController::bHoldingPrimaryFireFromTouch 	0xb78 	
+AFortPlayerController::bSupportNextPieceAssist 	0xb79 	
+AFortPlayerController::bAutoBuildForTrapPlacement 	0xb7a 	
+AFortPlayerController::bAutoBuildForFloorTrapPlacement 	0xb7b 	
+AFortPlayerController::bAutoBuildForWallTrapPlacement 	0xb7c 	
+AFortPlayerController::bAutoBuildForCeilingTrapPlacement 	0xb7d 	
+AFortPlayerController::bNoControllerLighting 	0xb7e 	
+AFortPlayerController::ReturnToMainMenuTimeoutDelay 	0xb80 	
+AFortPlayerController::OnQuestObjectiveStateChanged 	0xb88 	
+AFortPlayerController::LastDamager 	0xbb0 	
+AFortPlayerController::LastFallInstigator 	0xbc0 	
+AFortPlayerController::LastDamagerCreditThresholdDropElim 	0xbcc 	
+AFortPlayerController::LastDamagerCreditThresholdSelfElim 	0xbd0 	
+AFortPlayerController::LastDamagerCreditThresholdStormElim 	0xbd4 	
+AFortPlayerController::bGiveLastDamagerElimCreditOnDrop 	0xbd8 	
+AFortPlayerController::bGiveLastDamagerElimCreditOnSelfDamage 	0xbd9 	
+AFortPlayerController::bGiveLastDamagerElimCreditOnStormDamage 	0xbda 	
+AFortPlayerController::OnMcpProfilesInitializedEvent 	0xc28 	
+AFortPlayerController::OnEnterVehicleDriver 	0xdc8 	
+AFortPlayerController::OnEnterVehiclePassenger 	0xdd8 	
+AFortPlayerController::OnExitVehicle 	0xde8 	
+AFortPlayerController::OnFullyExitVehicle 	0xdf8 	
+AFortPlayerController::OnVehicleSeatChanged 	0xe08 	
+AFortPlayerController::OnVehicleAbilitiesRemoved 	0xe18 	
+AFortPlayerController::OnTetherChanged 	0xe28 	
+AFortPlayerController::bHoldingObject 	0xe70 	
+AFortPlayerController::DBNOCarryInputComponent 	0xe78 	
+AFortPlayerController::HeldObjectsInputComponent 	0xe80 	
+AFortPlayerController::bWantsToSprint 	0xed0 	
+AFortPlayerController::bHoldingSprint 	0xed0 	
+AFortPlayerController::bSprintToggleable 	0xed0 	
+AFortPlayerController::bForcingJogFromToggle 	0xed0 	
+AFortPlayerController::bForceJogHeld 	0xed0 	
+AFortPlayerController::bForceBinaryForward 	0xed0 	
+AFortPlayerController::bSprintWasCanceledByReload 	0xed0 	
+AFortPlayerController::bShouldAttemptReloadOnEquip 	0xed0 	
+AFortPlayerController::bSprintBehaviorIsOverridden 	0xed1 	
+AFortPlayerController::bSprintByDefaultWhenSprintIsOverridden 	0xed1 	
+AFortPlayerController::bSprintByDefault 	0xed1 	
+AFortPlayerController::bAutoRunOn 	0xed1 	
+AFortPlayerController::bUseHoldToSwapPickup 	0xed1 	
+AFortPlayerController::bTargetingToggleable 	0xed1 	
+AFortPlayerController::bTargetingToggleableWithTouch 	0xed1 	
+AFortPlayerController::bMovementDisabledDueToCancellableAction 	0xed1 	
+AFortPlayerController::bIsPlayerActivelyMoving 	0xed2 	
+AFortPlayerController::bPlaceHeldObjectPressed 	0xed2 	
+AFortPlayerController::InMovementCancellableAction 	0xed4 	
+AFortPlayerController::bAllowHoldForAmmoCrafting 	0xed8 	
+AFortPlayerController::bIsClientTimingOut 	0xed9 	
+AFortPlayerController::ClientTimeoutBlockInputTime 	0xedc 	
+AFortPlayerController::LastMoveInputFrame 	0xee8 	
+AFortPlayerController::LastPressGamepadSprintTime 	0xef0 	
+AFortPlayerController::bAutoRunWasHoldingForward 	0xef4 	
+AFortPlayerController::bAtNameBaseScreen 	0xef5 	
+AFortPlayerController::OnSetFirstPersonCamera 	0xef8 	
+AFortPlayerController::CinematicCameraClassOverride 	0xf78 	
+AFortPlayerController::bOnPressExecuteJetpack 	0xf80 	
+AFortPlayerController::bShowHitMarkersForFriendlyFire 	0xfa0 	
+AFortPlayerController::bServerSideHitMarkers 	0xfa1 	
+AFortPlayerController::OnUiChoiceCompleted 	0xfb8 	
+AFortPlayerController::OnRegainedFocus 	0xfc8 	
+AFortPlayerController::OnReloadCancelingSprint 	0xfd8 	
+AFortPlayerController::OnOpenVoteDialog 	0x1000 	
+AFortPlayerController::bGamepadAbilityPending 	0x12b4 	
+AFortPlayerController::bForceAllowCursorMode 	0x12b5 	
+AFortPlayerController::bForceAllowCameraMode 	0x12b6 	
+AFortPlayerController::bSuppressEventNotifications 	0x12b8 	
+AFortPlayerController::LastSpotTime 	0x1328 	
+AFortPlayerController::CurrentMarks 	0x1340 	
+AFortPlayerController::LoopingUIFeedbackComponents 	0x1350 	
+AFortPlayerController::PreviewAbility 	0x13a0 	
+AFortPlayerController::IntensityGraphInfo 	0x13c0 	
+AFortPlayerController::PIDValuesGraphInfo 	0x13e8 	
+AFortPlayerController::PIDContributionsGraphInfo 	0x1410 
+AFortPlayerController::AIDirectorDataManager 	0x1438 	
+AFortPlayerController::MusicManager 	0x1440 	
+AFortPlayerController::OnBuildPreviewMarkerVisibilityChanged 	0x1448 	
+AFortPlayerController::OnWeakSpotReset 	0x1458 	
+AFortPlayerController::bUsePredictedBuildingActors 	0x1478 	
+AFortPlayerController::bRegisterPredictedBuildingActorsWithGrid 	0x1479 	
+AFortPlayerController::bPredictedBuildingWallsHaveNoCollision 	0x147a 	
+AFortPlayerController::PredictedActorLifespan 	0x147c 	
+AFortPlayerController::PredictedBuildingSMActors 	0x1480 	
+AFortPlayerController::BuildPreviewModeInputComponent 	0x1610 	
+AFortPlayerController::BuildPreviewMarker 	0x1618 	
+AFortPlayerController::BuildPreviewMarkerExtraPiece 	0x1620 
+AFortPlayerController::bAllowBuildingPreviewAutoRotation 	0x1690 	
+AFortPlayerController::bRequireTraceToExistingBuildingToSetContext 	0x1691 	
+AFortPlayerController::bAllowTraceToExistingBuildingToSetContextToRedirectToBlockingBuilding 	0x1692 	
+AFortPlayerController::bRequireTraceToExistingBuildingToSetContextExcludeCurrentContext 	0x1693 	
+AFortPlayerController::TargetedBuilding 	0x1760 
+AFortPlayerController::TargetedVehicle 	0x1768 
+AFortPlayerController::ContextualConversionClass 	0x1770 
+AFortPlayerController::StartUpgradeSound 	0x1778 
+AFortPlayerController::HighlightedPrimaryBuildings 	0x17a0 	
+AFortPlayerController::HighlightedInteractionBuildings 	0x17b0 	
+AFortPlayerController::HighlightedPrimaryBuilding 	0x17c0 
+AFortPlayerController::BuildPreviewMarkerParentMaterial 	0x17c8 	
+AFortPlayerController::BuildPreviewMarkerMIDs 	0x17f0 
+AFortPlayerController::BuildPreviewRotationIterations 	0x1800 	
+AFortPlayerController::bBuildPreviewMirrored 	0x1804 	
+AFortPlayerController::BuildPreviewMarkerOptionalAdjustment 	0x1808 	
+AFortPlayerController::bBuildFree 	0x180c 	
+AFortPlayerController::bCraftFree 	0x1844 	
+AFortPlayerController::CurrentCostInfoType 	0x1848 	
+AFortPlayerController::CurrentBuildableClass 	0x1850 	
+AFortPlayerController::PreviousBuildableClass 	0x1858 	
+AFortPlayerController::CurrentResourceLevel 	0x1860 	
+AFortPlayerController::CurrentResourceType 	0x1861 	
+AFortPlayerController::LastBuildableStateData[0xc] 	0x1868 	
+AFortPlayerController::QueuedDamageNumbers 	0x1938 
+AFortPlayerController::DamageNumbersActor 	0x1948 
+AFortPlayerController::EditModeInputComponent 	0x1950 	
+AFortPlayerController::EditBuildingActor 	0x1958 
+AFortPlayerController::EditModeDistance 	0x1960 	
+AFortPlayerController::LastBuildPreviewGridSnapLoc 	0x1968 	
+AFortPlayerController::LastBuildPreviewGridSnapRot 	0x1980 	
+AFortPlayerController::LastBuildPreviewGridSnapCentroid 	0x1998 	
+AFortPlayerController::PickerInputComponent 	0x19b0 	
+AFortPlayerController::TrapPickerDecoHelper 	0x19b8 
+AFortPlayerController::TouchEditResults 	0x19c0 
+AFortPlayerController::bBuildingPlacementTraceSkipInitialPenetrationOfBuildingSMActor 	0x19d1 	
+AFortPlayerController::bBuildingPlacementTraceSkipInitialPenetrationOfStaticMesh 	0x19d2 	
+AFortPlayerController::ClientQuickBars 	0x1a18 
+AFortPlayerController::RecentlyRemovedQuickbarInfo 	0x1a28 	
+AFortPlayerController::DelayedQuickBarActions 	0x1a88 	
+AFortPlayerController::ClientProcessedQuickBarActions 	0x1ba8 
+AFortPlayerController::bShouldForceDeleteDroppedItems 	0x1bf8 	
+AFortPlayerController::QueuedItemsToDrop 	0x1c20 	
+AFortPlayerController::bAutoEquipBetterItems 	0x1cc8 	
+AFortPlayerController::WorldInventory 	0x1cd0 	
+AFortPlayerController::OutpostInventory 	0x1cd8 	
+AFortPlayerController::ViewTargetInventory 	0x1ce0 	
+AFortPlayerController::bHasInitializedWorldInventory 	0x1d34 	
+AFortPlayerController::bHasInitializedHeroInventory 	0x1d34 	
+AFortPlayerController::bAccountInventoryWasUpdated 	0x1d34 	
+AFortPlayerController::bForceWorldInventoryUpdate 	0x1d34 	
+AFortPlayerController::bIsSavingGadgetLoadout 	0x1d34 	
+AFortPlayerController::BotPilot 	0x1dd0 
+AFortPlayerController::BotManager 	0x1df0 	
+AFortPlayerController::ClientBotManagerClass 	0x1e00 	
+AFortPlayerController::CosmeticLoadoutPC 	0x1e20 	
+AFortPlayerController::LocalPawnCustomizationAssetLoader 	0x1f80 	
+AFortPlayerController::bDropWeaponsDuringAllMissionStates 	0x1fa0 	
+AFortPlayerController::LatestRewardReport 	0x1fc0 	
+AFortPlayerController::MyPlayerInfo 	0x2030 
+AFortPlayerController::UpdatedObjectiveStats 	0x2038 	
+AFortPlayerController::bHasUnsavedPrimaryMissionProgress 	0x2048 	
+AFortPlayerController::StatManager 	0x2088 	
+AFortPlayerController::HeartbeatManager 	0x2090 	
+AFortPlayerController::StatEventManager 	0x2098 	
+AFortPlayerController::CachedPersistentGameplayStats 	0x20a0 	
+AFortPlayerController::LastEmotePlayed 	0x20c0 	
+AFortPlayerController::EmoteUsageCounts 	0x20c8 	
+AFortPlayerController::AnalyticsBuildingWallTooLowLocations 	0x2118 	
+AFortPlayerController::NearbyEmotingPawns 	0x2128 
+AFortPlayerController::NearbyEmotingPawnCount 	0x2178 	
+AFortPlayerController::McpProfileGroup 	0x21c8 	
+AFortPlayerController::CommonPublicMcpProfile 	0x21d0 	
+AFortPlayerController::CommonCoreMcpProfile 	0x21d8 	
+AFortPlayerController::MainMcpProfile 	0x21e0 	
+AFortPlayerController::AthenaProfile 	0x21e8 	
+AFortPlayerController::MetadataProfile 	0x21f0 	
+AFortPlayerController::CreativeModeProfile 	0x21f8 	
+AFortPlayerController::TutorialCompletedState 	0x2200 	
+AFortPlayerController::bShouldReceiveCriticalMatchBonus 	0x2238 	
+AFortPlayerController::OnPlayerChangedBuildMode 	0x2240 	
+AFortPlayerController::OnAutoRunEnabled 	0x2250 	
+AFortPlayerController::VoiceInputSourceEffectPresetChain 	0x23c0 	
+AFortPlayerController::LocationUnderReticle 	0x2468 	
+AFortPlayerController::bEnableVoiceChatPTT 	0x2480 	
+AFortPlayerController::bVoiceChatPTTTransmit 	0x2480 	
+AFortPlayerController::bInfiniteAmmo 	0x2480 	
+AFortPlayerController::bInfiniteConsumables 	0x2480 	
+AFortPlayerController::bInfiniteMagazine 	0x2480 	
+AFortPlayerController::bNoCoolDown 	0x2480 	
+AFortPlayerController::bInfiniteDurability 	0x2480 	
+AFortPlayerController::bUsePickers 	0x2480 	
+AFortPlayerController::bPickerOpen 	0x2481 	
+AFortPlayerController::bPickerEnabled 	0x2481 	
+AFortPlayerController::bCheatGhost 	0x2481 	
+AFortPlayerController::bCheatFly 	0x2481 	
+AFortPlayerController::bEnableShotLogging 	0x2481 	
+AFortPlayerController::bIsNearActiveEncounters 	0x2481 	
+AFortPlayerController::OverriddenBackpackSize 	0x2484 	
+AFortPlayerController::CurrentReplaySpotLight 	0x2488 	
+AFortPlayerController::AimHelpMode 	0x2490 	u
+AFortPlayerController::JumpStaminaCost 	0x2494 	
+AFortPlayerController::CameraPrototypeName 	0x2498 	
+AFortPlayerController::bHideHudEnglishText 	0x24d8 	
+AFortPlayerController::bAutoChangeMaterial 	0x24d9 	
+AFortPlayerController::bServerAutoChangeMaterial 	0x24da 	
+AFortPlayerController::bPeripheralLightingEnabled 	0x24db 	
+AFortPlayerController::bRudderControlEnabled 	0x24dc 	
+AFortPlayerController::RudderDeadZone 	0x24e0 	
+AFortPlayerController::RudderMaxThrottle 	0x24e4 	
+AFortPlayerController::ActiveSprayInstances 	0x24e8 	
+AFortPlayerController::ActiveToyInstances 	0x24f8 	
+AFortPlayerController::ToySummonCounts 	0x2508 	
+AFortPlayerController::bSyncPeripheralLightingWithEmoteMusic 	0x2558 	
+AFortPlayerController::bPushEmoteAudioDataToCosmeticMaterials 	0x2559 	
+AFortPlayerController::LastEmoteMusicFFT100hz 	0x255c 	
+AFortPlayerController::LastEmoteMusicFFT2000hz 	0x2560 	
+AFortPlayerController::EmoteMusicBeatThreshold 	0x2564 	
+AFortPlayerController::EmoteMusicEnvelopeBeatCount 	0x2568 	
+AFortPlayerController::bZeroingCameraRoll 	0x26d0 	
+AFortPlayerController::bTryPickupSwap 	0x26d1 	
+AFortPlayerController::bClientSideEditPrediction 	0x26d2 	
+AFortPlayerController::ClientSideEditPredictionTimeout 	0x26d4 	
+AFortPlayerController::PendingEnterEditModeActor 	0x26e0 	
+AFortPlayerController::RandomacterIndex 	0x26e8 	
+AFortPlayerController::AntiAddictionPlayTimeMultiplier 	0x26ec 	
+AFortPlayerController::bUsesWidgetForFPSDisplay 	0x26f0 	
+AFortPlayerController::bShowFPS 	0x26f1 	
+AFortPlayerController::OnShowFPSChange 	0x26f8 	
+AFortPlayerController::bShowTemperature 	0x2708 	
+AFortPlayerController::OnShowTemperatureChange 	0x2710 	
+AFortPlayerController::LockOnInfo 	0x2778 	
+AFortPlayerController::bLockPrimaryInputMethodToMouse 	0x27c8 	
+AFortPlayerController::IndicatorManager 	0x27e0 	
+AFortPlayerController::bFinalXPUpdateFailed 	0x27f8 	
+AFortPlayerController::TestUserWidget 	0x2800 
+AFortPlayerController::PreviousStasisMode 	0x2808 
+AFortPlayerController::BattleMapSpectatorClass 	0x2810 	
+AFortPlayerController::bReleaseBuildingContextOnPlace 	0x2835 	
+AFortPlayerController::TurboPlaceFirstInterval 	0x2838 	
+AFortPlayerController::TurboPlaceInterval 	0x283c 	
+AFortPlayerController::bCreativeTurboDelete 	0x2840 	
+AFortPlayerController::TurboDeleteFirstInterval 	0x2844 	
+AFortPlayerController::TurboDeleteInterval 	0x2848 	
+AFortPlayerController::bTurboBuild 	0x284d 	
+AFortPlayerController::TurboBuildFirstInterval 	0x2850 	
+AFortPlayerController::TurboBuildRequestFailedInterval 	0x2854 	
+AFortPlayerController::TurboBuildInterval 	0x2858 	
+AFortPlayerController::FortControllerComponent_Telemetry 	0x2868 	
+AFortPlayerController::InventoryNetworkManagementComponent 	0x2870 
+AFortPlayerController::InteractionComponent 	0x2878 	
+AFortPlayerController::QuickEditComponent 	0x2880 
+AFortPlayerController::SmartBuildComponent 	0x2888 	
+AFortPlayerController::CollectionsComponent 	0x2890 	
+AFortPlayerController::PendingExecuteInventoryItemHandle 	0x2898 	
+AFortPlayerController::QuickHealItemPickerClass 	0x28c8 
+AFortPlayerController::OnPlayerSpawnedBuildingActor 	0x28d0 	
+AFortPlayerController::MeshParentIds 	0x28e0 	
+AFortPlayerController::OnToggleFullscreenMap 	0x28f0 	
+AFortPlayerController::ForcedInputRotationSpeed 	0x29f8 	
+AFortPlayerController::PendingClientRestartPawn 	0x2a00 		
 
 FortAthenaVehicle
-AFortAthenaVehicle 	NetPredictionProxy_AP 	0x4b8 	
-AFortAthenaVehicle 	NetPredictionProxy_SP 	0x4d0 	
-AFortAthenaVehicle 	SoftOverrideItemWrap 	0x4e8 	
-AFortAthenaVehicle 	OverrideItemWrap 	0x510 	
-AFortAthenaVehicle 	PlayersBasedOnVehicle 	0x518 	
-AFortAthenaVehicle 	OnSleepStateChangedDelegate 	0x588 	
-AFortAthenaVehicle 	WaterSurfaceDataCache 	0x598 	
-AFortAthenaVehicle 	LastDamageInstigator 	0x608 	
-AFortAthenaVehicle 	LastOutOfHealthInstigator 	0x610 	
-AFortAthenaVehicle 	LastOutOfHealthDamageCauser 	0x618 	
-AFortAthenaVehicle 	BoundsXYSplineComponent 	0x620 	
-AFortAthenaVehicle 	SkeletalMesh 	0x628 	
-AFortAthenaVehicle 	CustomDepthStencilValue 	0x658 	
-AFortAthenaVehicle 	CustomDepthStencilValueForHighlightedVehicle 	0x65c 	
-AFortAthenaVehicle 	SquadId 	0x660 	
-AFortAthenaVehicle 	TeamId 	0x661 	
-AFortAthenaVehicle 	InitialOverlapBehavior 	0x662 	
-AFortAthenaVehicle 	bDisableUpdateForcedDebugInput 	0x663 	
-AFortAthenaVehicle 	bDisableUpdateAutoRun 	0x663 	
-AFortAthenaVehicle 	bDisableUpdateHonk 	0x663 	
-AFortAthenaVehicle 	bDisableUpdateIgnoredBuildingActors 	0x663 	
-AFortAthenaVehicle 	bDisableUpdateIngoredPawnsForDamage 	0x663 	
-AFortAthenaVehicle 	bDisableUpdateSafeTeleport 	0x663 	
-AFortAthenaVehicle 	bUseForceHeading 	0x663 	
-AFortAthenaVehicle 	bDestroyOnLastExit 	0x664 	
-AFortAthenaVehicle 	bShowDamageNumbers 	0x664 	
-AFortAthenaVehicle 	bShowDamageNumbersAtImpactLocation 	0x664 	
-AFortAthenaVehicle 	bPlayDamageAudio 	0x664 	
-AFortAthenaVehicle 	bShowVehicleHealthBarOnPlayerHUD 	0x664 	
-AFortAthenaVehicle 	bDestroyBuildingSMActorOnForceExit 	0x664 	
-AFortAthenaVehicle 	bIgnoreAllFallingDamage 	0x664 	
-AFortAthenaVehicle 	bIgnoreNextFallingDamage 	0x664 	
-AFortAthenaVehicle 	bShouldClearFallDamageImmunityForPawnsOnExit 	0x665 	
-AFortAthenaVehicle 	bIsBraking 	0x665 	
-AFortAthenaVehicle 	bPlayedDying 	0x665 	
-AFortAthenaVehicle 	bForceDeath 	0x665 	
-AFortAthenaVehicle 	bPlayInstantDeathEffects 	0x665 	
-AFortAthenaVehicle 	bHasDriver 	0x665 	
-AFortAthenaVehicle 	bHasPassengers 	0x665 	
-AFortAthenaVehicle 	bCanSleepWhileNotTouchingAnything 	0x665 	
-AFortAthenaVehicle 	bIsTouchingAnything 	0x666 	
-AFortAthenaVehicle 	bIsInWater 	0x666 	
-AFortAthenaVehicle 	bIsInWaterBody 	0x666 	
-AFortAthenaVehicle 	bIsOverlappingWaterBody 	0x666 	
-AFortAthenaVehicle 	bIsFullyInWaterBody 	0x666 	
-AFortAthenaVehicle 	bCanDriveOnIncline 	0x666 	
-AFortAthenaVehicle 	bCanCoastOnIncline 	0x666 	
-AFortAthenaVehicle 	bWheelsOnGround 	0x666 	
-AFortAthenaVehicle 	bAnyWheelsOnGround 	0x667 	
-AFortAthenaVehicle 	bIsTouchingDrivableGround 	0x667 	
-AFortAthenaVehicle 	bIsTouchingGroundWithoutWheels 	0x667 	
-AFortAthenaVehicle 	bUseGravity 	0x66a 	
-AFortAthenaVehicle 	bAllowInteractBetweenFortVolumes 	0x66b 	
-AFortAthenaVehicle 	bCanPassengerPawnsTakeDamage 	0x66b 	
-AFortAthenaVehicle 	bServerIsInUndergroundVolume 	0x66b 	
-AFortAthenaVehicle 	bEnableCurieMaterial 	0x66b 	
-AFortAthenaVehicle 	bEnforceTeamRestrictionForMiniGame 	0x66b 	
-AFortAthenaVehicle 	bEnforceMinigameClassRestriction 	0x66b 	
-AFortAthenaVehicle 	bUseCustomDepthStencilValue 	0x66b 	
-AFortAthenaVehicle 	bStencilEnabled 	0x66c 	
-AFortAthenaVehicle 	bCachedSquadRestrictionEnabled 	0x66c 	
-AFortAthenaVehicle 	bEnforceTeamRestriction 	0x66c 	
-AFortAthenaVehicle 	MinigameClassID 	0x670 	
-AFortAthenaVehicle 	OnPawnEnteredVehicleAtSeat 	0x678 	
-AFortAthenaVehicle 	OnPawnEnteredVehicleSeat 	0x688 	
-AFortAthenaVehicle 	OnPawnExitedVehicleSeat 	0x698 	
-AFortAthenaVehicle 	OnPawnExitedVehicleFromSeat 	0x6a8 	
-AFortAthenaVehicle 	OnPawnFinishEnteringVehicle 	0x6b8 	
-AFortAthenaVehicle 	OnVehicleHornEvent 	0x6c8 	
-AFortAthenaVehicle 	OnVehicleOwnerChanged 	0x6d8 	
-AFortAthenaVehicle 	bWaitingForSleep 	0x6e8 	
-AFortAthenaVehicle 	bAttemptAsyncOrientationCorrection 	0x6e8 	
-AFortAthenaVehicle 	bIsAsyncCorrectingOrientation 	0x6e8 	
-AFortAthenaVehicle 	bAlwaysCreateNavComponent 	0x6e9 	
-AFortAthenaVehicle 	bAllowInteractBetweenFortVolumes_Runtime 	0x6e9 	
-AFortAthenaVehicle 	bTricksEnabled 	0x6e9 	
-AFortAthenaVehicle 	FireDamageTickTimer 	0x6f0 	
-AFortAthenaVehicle 	CurrentFOV 	0x6f4 	
-AFortAthenaVehicle 	FireEnvDamageTags 	0x6f8 	
-AFortAthenaVehicle 	PawnIgnoreBumpTags 	0x718 	
-AFortAthenaVehicle 	DriverReticleBrush 	0x738 	
-AFortAthenaVehicle 	AppliedVehicleModTags 	0x740 	
-AFortAthenaVehicle 	CollectedVehicleModData 	0x760 	
-AFortAthenaVehicle 	WaterEffectsVehicleMaxSpeedKmh 	0x770 	
-AFortAthenaVehicle 	WaterEffectsAsset 	0x778 	
-AFortAthenaVehicle 	WaterEffectsComponent 	0x780 	
-AFortAthenaVehicle 	GameplayTags 	0x790 	
-AFortAthenaVehicle 	PawnsToIgnoreForDamge 	0x7b0 	
-AFortAthenaVehicle 	PawnsToIgnoreForCollision 	0x800 	
-AFortAthenaVehicle 	IgnoredPawnsPendingTeleport 	0x810 	
-AFortAthenaVehicle 	LastPropImpactImpulseTime 	0x820 	
-AFortAthenaVehicle 	PredictedDestroyedBuildings 	0x828 	
-AFortAthenaVehicle 	WallsVehicleCanDestroy 	0x838 	
-AFortAthenaVehicle 	WallsVehicleCannotDestroyWhenBoosting 	0x848 	
-AFortAthenaVehicle 	BuildingPropClassesVehicleCanDestroy 	0x858 	
-AFortAthenaVehicle 	BuildingPropClassesVehicleCannotDestroyWhenBoosting 	0x868 	
-AFortAthenaVehicle 	SeatInputProviders 	0x878 	
-AFortAthenaVehicle 	EmptyDriverInputState 	0x888 	
-AFortAthenaVehicle 	AverageSpringNormal 	0x8c8 	
-AFortAthenaVehicle 	TopSpeedCurrentMultiplier 	0x8e0 	
-AFortAthenaVehicle 	PushForceCurrentMultiplier 	0x8e4 	
-AFortAthenaVehicle 	SteeringAngle 	0x8f8 	
-AFortAthenaVehicle 	FrontLateralFrictionRuntimeMultiplier 	0x920 	
-AFortAthenaVehicle 	RearLateralFrictionRuntimeMultiplier 	0x924 	
-AFortAthenaVehicle 	LocalRearFrictionPt 	0x928 	
-AFortAthenaVehicle 	LocalFrontFrictionPt 	0x940 	
-AFortAthenaVehicle 	FrontMassRatio 	0x958 	
-AFortAthenaVehicle 	RearMassRatio 	0x95c 	
-AFortAthenaVehicle 	TotalBrakingDelta 	0x980 	
-AFortAthenaVehicle 	PrimarySurfaceType 	0x9ed 	
-AFortAthenaVehicle 	WeaponResponseType 	0x9ee 	
-AFortAthenaVehicle 	VTDMode 	0x9ef 	
-AFortAthenaVehicle 	SurfaceTypeVehicleOn 	0x9f3 	
-AFortAthenaVehicle 	ForcedMaterialVariantIndex 	0xa08 	
-AFortAthenaVehicle 	Fuelge 	0xa10 	
-AFortAthenaVehicle 	OnRegeableFuelAboveThreshold 	0xae8 	
-AFortAthenaVehicle 	OnRegeableFuelBelowThreshold 	0xaf8 	
-AFortAthenaVehicle 	OnOutOfRegeableFuel 	0xb08 	
-AFortAthenaVehicle 	OnNotOutOfRegeableFuel 	0xb18 	
-AFortAthenaVehicle 	OnMountedWeaponFiredEvent 	0xb28 	
-AFortAthenaVehicle 	SeatSwitchCooldown 	0xb3c 	
-AFortAthenaVehicle 	VehicleTags 	0xb40 	
-AFortAthenaVehicle 	Springs 	0xb60 	
-AFortAthenaVehicle 	GroundTriangle 	0xb70 	
-AFortAthenaVehicle 	Gears 	0xb80 	
-AFortAthenaVehicle 	SprintGears 	0xb90 	
-AFortAthenaVehicle 	ReverseGears 	0xba0 	
-AFortAthenaVehicle 	ForwardDrivingAntiGravityScaler 	0xbb0 	
-AFortAthenaVehicle 	CameraSpaceForwardDistanceOffset 	0xbb4 	
-AFortAthenaVehicle 	CameraAssistStrength 	0xbbc 	
-AFortAthenaVehicle 	CameraAssistRampUp 	0xbc0 	
-AFortAthenaVehicle 	bAllowAutoCamera 	0xbc4 	
-AFortAthenaVehicle 	TimeToAutoCamera 	0xbc8 	
-AFortAthenaVehicle 	MinSpeedForAutoCamera 	0xbcc 	
-AFortAthenaVehicle 	CameraAssistBaseHeight 	0xbd0 	
-AFortAthenaVehicle 	CameraAssistUpHillScaler 	0xbd4 	
-AFortAthenaVehicle 	CameraAssistSteerScaler 	0xbd8 	
-AFortAthenaVehicle 	CameraAssistForwardScale 	0xbdc 	
-AFortAthenaVehicle 	AngleDegreesThresholdFromCurrentCameraToTarget 	0xbe0 	
-AFortAthenaVehicle 	CameraFOVOffset 	0xbe4 	
-AFortAthenaVehicle 	TetheredCamera 	0xbe8 	
-AFortAthenaVehicle 	PlayerCollisionGameplayEffect 	0xc20 	
-AFortAthenaVehicle 	OverlapComponent 	0xc28 	
-AFortAthenaVehicle 	WaterOverlapComponent 	0xc30 	
-AFortAthenaVehicle 	WaterLevel 	0xc3c 	
-AFortAthenaVehicle 	WaterOverlapCount 	0xc40 	
-AFortAthenaVehicle 	VehicleMinHorSpeedToDamage 	0xc44 	
-AFortAthenaVehicle 	VehicleMaxHorSpeedToDamage 	0xc48 	
-AFortAthenaVehicle 	VehicleMinHorSpeedDamage 	0xc4c 	
-AFortAthenaVehicle 	VehicleMaxHorSpeedDamage 	0xc50 	
-AFortAthenaVehicle 	TargetingZOffset 	0xc54 	
-AFortAthenaVehicle 	BrakeAboveTopSpeedDelta 	0xc58 	
-AFortAthenaVehicle 	TimeToIdleBrake 	0xc5c 	
-AFortAthenaVehicle 	DragCoefficient 	0xc60 	
-AFortAthenaVehicle 	PrimaryCameraPitchConstraint 	0xc64 	
-AFortAthenaVehicle 	PrimaryCameraYawConstraint 	0xc68 	
-AFortAthenaVehicle 	CachedSpeed 	0xc6c 	
-AFortAthenaVehicle 	MainBodyCollision 	0xc70 	FName
-AFortAthenaVehicle 	TestInitialLinearVelocity 	0xc78 	
-AFortAthenaVehicle 	TestInitialAngularVelocity 	0xc90 	
-AFortAthenaVehicle 	LookAheadHit 	0xca8 	F
-AFortAthenaVehicle 	TrickSet 	0xd88 	
-AFortAthenaVehicle 	PushForceSocket 	0xd90 	FName
-AFortAthenaVehicle 	FrontWheelsSocket 	0xd94 	FName
-AFortAthenaVehicle 	RearWheelSockets 	0xd98 	FName
-AFortAthenaVehicle 	DefaultHitNotifyAudioBank 	0xda0 	
-AFortAthenaVehicle 	OnHandleOutOfHealthDelegate 	0xda8 	
-AFortAthenaVehicle 	OnHealthChanged 	0xdb8 	
-AFortAthenaVehicle 	OnDamageablePartHealthChanged 	0xde0 	
-AFortAthenaVehicle 	BulletCollisionComponentTag 	0xdf0 	
-AFortAthenaVehicle 	GEDamagePassengersOnDeath 	0xdf8 	
-AFortAthenaVehicle 	OnVehicleSquadChanged 	0xe00 	
-AFortAthenaVehicle 	LifespanAfterDeath 	0xe10 	
-AFortAthenaVehicle 	LastDamagedTime 	0xe14 	
-AFortAthenaVehicle 	SeatTransitions 	0xe18 	
-AFortAthenaVehicle 	RuntimeModifiedProperties 	0xe88 	
-AFortAthenaVehicle 	LocallyIgnoredBuildingActors 	0xe90 	
-AFortAthenaVehicle 	PreviousBuildingQueryPosition 	0xea0 	
-AFortAthenaVehicle 	ImpulseResponseMultiplier 	0xeb8 	
-AFortAthenaVehicle 	ImpulseResponseZBias 	0xebc 	
-AFortAthenaVehicle 	WaterSubmergedTimerHandle 	0xee8 	
-AFortAthenaVehicle 	EmoteAudioSourcePresetChain 	0xf10 	
-AFortAthenaVehicle 	EmoteAudioAttenuation 	0xf18 	
-AFortAthenaVehicle 	MarkerDisplay 	0xf20 	
-AFortAthenaVehicle 	OnSurfaceTypeVehicleIsOnChangedDelegate 	0xfb8 	
-AFortAthenaVehicle 	StartupAbilitySet 	0xfc8 	
-AFortAthenaVehicle 	VehicleSeatComponent 	0xfd0 	
-AFortAthenaVehicle 	VehicleInteractionOverrideComponent 	0xfd8 	
-AFortAthenaVehicle 	SkyTubePhysicsComponent 	0xfe0 	
-AFortAthenaVehicle 	PontoonsComponent 	0xfe8 	
-AFortAthenaVehicle 	TrackableAIObjectComponent 	0xff0 	
-AFortAthenaVehicle 	PlayerSlots 	0xff8 	
-AFortAthenaVehicle 	PlayerSlotsBackup 	0x1008 	
-AFortAthenaVehicle 	PlayerSlotsUnreplicated 	0x1018 	
-AFortAthenaVehicle 	VehicleMovementSet 	0x1028 	
-AFortAthenaVehicle 	VehicleAttributes 	0x1030 
-AFortAthenaVehicle 	CachedVehiclePhysicsCollisionDamageComponent 	0x1050 	
-AFortAthenaVehicle 	CachedFuelComponent 	0x1058 	
-AFortAthenaVehicle 	ReasonsWhyCantContainPlayers 	0x1060 	
-AFortAthenaVehicle 	IgnoredBuildingActors 	0x1070 	
-AFortAthenaVehicle 	DamageableParts 	0x1080 	
-AFortAthenaVehicle 	ToggledParts 	0x1090 	
-AFortAthenaVehicle 	CorrectTargetOrientation 	0x1308 
-AFortAthenaVehicle 	CameraModeClass 	0x1350 	
-AFortAthenaVehicle 	DrivingAnimClass 	0x1358 	
-AFortAthenaVehicle 	DriverAnimLayerOverlayClass 	0x1360 	
-AFortAthenaVehicle 	PassengerAnimLayerOverlayClass 	0x1368 	
-AFortAthenaVehicle 	AnimSet 	0x1370 	
-AFortAthenaVehicle 	AttributeInitKey 	0x14b0 	
-AFortAthenaVehicle 	AbilitySystemComponent 	0x14b8 	
-AFortAthenaVehicle 	HealthSet 	0x14c0 	*
-AFortAthenaVehicle 	ImpulseResponseSet 	0x14c8 	
-AFortAthenaVehicle 	DamageSet 	0x14d0 	
-AFortAthenaVehicle 	HealthBarIndicator 	0x14d8 	
-AFortAthenaVehicle 	VehicleCosmeticInfo 	0x14e0 	
-AFortAthenaVehicle 	NavModifierComponent 	0x1530 	
-AFortAthenaVehicle 	bShouldSleepAtSpawn 	0x1538 	
-AFortAthenaVehicle 	ForceKinematicOnClientCount 	0x153c 	
-AFortAthenaVehicle 	ImpactInstigator 	0x1540 	
-AFortAthenaVehicle 	NormalizedRPM 	0x15a0 	
-AFortAthenaVehicle 	CustomUI 	0x15a8 	
-AFortAthenaVehicle 	ActiveCustomUI 	0x15b8 	
-AFortAthenaVehicle 	MobileCustomUI 	0x15c8 	
-AFortAthenaVehicle 	AlwaysDamageVehiclesWithTag 	0x15dc 
-AFortAthenaVehicle 	BaseTireInfo 	0x15e0 	
-AFortAthenaVehicle 	CurrentOverlapComponent 	0x1780 	
-AFortAthenaVehicle 	VehicleConfigsClass 	0x1788 	
-AFortAthenaVehicle 	FortPhysicsVehicleConfigs 	0x1790 	
-AFortAthenaVehicle 	bBoosting 	0x179c 	
-AFortAthenaVehicle 	BoostEndTime 	0x17a0 	
-AFortAthenaVehicle 	SoundIndicatorComponent 	0x17d8 	
-AFortAthenaVehicle 	bShouldDealDamage 	0x17e0 	
-AFortAthenaVehicle 	NativeComp_LowFuelSputter 	0x17e8 	
-AFortAthenaVehicle 	NativeSys_LowFuelSputter 	0x17f0 	
-AFortAthenaVehicle 	OnOutOfFuelDelegate 	0x17f8 	
-AFortAthenaVehicle 	OnGainedFuelDelegate 	0x1808 	
-AFortAthenaVehicle 	OnLowFuelDelegate 	0x1818 	
-AFortAthenaVehicle 	DebugDestroyLogCount 	0x1828 	
-AFortAthenaVehicle 	ServerCriticalHealth 	0x182c 	
-AFortAthenaVehicle 	HealthZeroTime 	0x1830 	
-AFortAthenaVehicle 	bExploded 	0x1834 	
-AFortAthenaVehicle 	bPendingDeath 	0x1834 	
-AFortAthenaVehicle 	bOnFire 	0x1834 	
-AFortAthenaVehicle 	OnStartCriticalHealth 	0x1838 	
-AFortAthenaVehicle 	OnExplode 	0x1848
+AFortAthenaVehicle::NetPredictionProxy_AP 	0x4b8 	
+AFortAthenaVehicle::NetPredictionProxy_SP 	0x4d0 	
+AFortAthenaVehicle::SoftOverrideItemWrap 	0x4e8 	
+AFortAthenaVehicle::OverrideItemWrap 	0x510 	
+AFortAthenaVehicle::PlayersBasedOnVehicle 	0x518 	
+AFortAthenaVehicle::OnSleepStateChangedDelegate 	0x588 	
+AFortAthenaVehicle::WaterSurfaceDataCache 	0x598 	
+AFortAthenaVehicle::LastDamageInstigator 	0x608 	
+AFortAthenaVehicle::LastOutOfHealthInstigator 	0x610 	
+AFortAthenaVehicle::LastOutOfHealthDamageCauser 	0x618 	
+AFortAthenaVehicle::BoundsXYSplineComponent 	0x620 	
+AFortAthenaVehicle::SkeletalMesh 	0x628 	
+AFortAthenaVehicle::CustomDepthStencilValue 	0x658 	
+AFortAthenaVehicle::CustomDepthStencilValueForHighlightedVehicle 	0x65c 	
+AFortAthenaVehicle::SquadId 	0x660 	
+AFortAthenaVehicle::TeamId 	0x661 	
+AFortAthenaVehicle::InitialOverlapBehavior 	0x662 	
+AFortAthenaVehicle::bDisableUpdateForcedDebugInput 	0x663 	
+AFortAthenaVehicle::bDisableUpdateAutoRun 	0x663 	
+AFortAthenaVehicle::bDisableUpdateHonk 	0x663 	
+AFortAthenaVehicle::bDisableUpdateIgnoredBuildingActors 	0x663 	
+AFortAthenaVehicle::bDisableUpdateIngoredPawnsForDamage 	0x663 	
+AFortAthenaVehicle::bDisableUpdateSafeTeleport 	0x663 	
+AFortAthenaVehicle::bUseForceHeading 	0x663 	
+AFortAthenaVehicle::bDestroyOnLastExit 	0x664 	
+AFortAthenaVehicle::bShowDamageNumbers 	0x664 	
+AFortAthenaVehicle::bShowDamageNumbersAtImpactLocation 	0x664 	
+AFortAthenaVehicle::bPlayDamageAudio 	0x664 	
+AFortAthenaVehicle::bShowVehicleHealthBarOnPlayerHUD 	0x664 	
+AFortAthenaVehicle::bDestroyBuildingSMActorOnForceExit 	0x664 	
+AFortAthenaVehicle::bIgnoreAllFallingDamage 	0x664 	
+AFortAthenaVehicle::bIgnoreNextFallingDamage 	0x664 	
+AFortAthenaVehicle::bShouldClearFallDamageImmunityForPawnsOnExit 	0x665 	
+AFortAthenaVehicle::bIsBraking 	0x665 	
+AFortAthenaVehicle::bPlayedDying 	0x665 	
+AFortAthenaVehicle::bForceDeath 	0x665 	
+AFortAthenaVehicle::bPlayInstantDeathEffects 	0x665 	
+AFortAthenaVehicle::bHasDriver 	0x665 	
+AFortAthenaVehicle::bHasPassengers 	0x665 	
+AFortAthenaVehicle::bCanSleepWhileNotTouchingAnything 	0x665 	
+AFortAthenaVehicle::bIsTouchingAnything 	0x666 	
+AFortAthenaVehicle::bIsInWater 	0x666 	
+AFortAthenaVehicle::bIsInWaterBody 	0x666 	
+AFortAthenaVehicle::bIsOverlappingWaterBody 	0x666 	
+AFortAthenaVehicle::bIsFullyInWaterBody 	0x666 	
+AFortAthenaVehicle::bCanDriveOnIncline 	0x666 	
+AFortAthenaVehicle::bCanCoastOnIncline 	0x666 	
+AFortAthenaVehicle::bWheelsOnGround 	0x666 	
+AFortAthenaVehicle::bAnyWheelsOnGround 	0x667 	
+AFortAthenaVehicle::bIsTouchingDrivableGround 	0x667 	
+AFortAthenaVehicle::bIsTouchingGroundWithoutWheels 	0x667 	
+AFortAthenaVehicle::bUseGravity 	0x66a 	
+AFortAthenaVehicle::bAllowInteractBetweenFortVolumes 	0x66b 	
+AFortAthenaVehicle::bCanPassengerPawnsTakeDamage 	0x66b 	
+AFortAthenaVehicle::bServerIsInUndergroundVolume 	0x66b 	
+AFortAthenaVehicle::bEnableCurieMaterial 	0x66b 	
+AFortAthenaVehicle::bEnforceTeamRestrictionForMiniGame 	0x66b 	
+AFortAthenaVehicle::bEnforceMinigameClassRestriction 	0x66b 	
+AFortAthenaVehicle::bUseCustomDepthStencilValue 	0x66b 	
+AFortAthenaVehicle::bStencilEnabled 	0x66c 	
+AFortAthenaVehicle::bCachedSquadRestrictionEnabled 	0x66c 	
+AFortAthenaVehicle::bEnforceTeamRestriction 	0x66c 	
+AFortAthenaVehicle::MinigameClassID 	0x670 	
+AFortAthenaVehicle::OnPawnEnteredVehicleAtSeat 	0x678 	
+AFortAthenaVehicle::OnPawnEnteredVehicleSeat 	0x688 	
+AFortAthenaVehicle::OnPawnExitedVehicleSeat 	0x698 	
+AFortAthenaVehicle::OnPawnExitedVehicleFromSeat 	0x6a8 	
+AFortAthenaVehicle::OnPawnFinishEnteringVehicle 	0x6b8 	
+AFortAthenaVehicle::OnVehicleHornEvent 	0x6c8 	
+AFortAthenaVehicle::OnVehicleOwnerChanged 	0x6d8 	
+AFortAthenaVehicle::bWaitingForSleep 	0x6e8 	
+AFortAthenaVehicle::bAttemptAsyncOrientationCorrection 	0x6e8 	
+AFortAthenaVehicle::bIsAsyncCorrectingOrientation 	0x6e8 	
+AFortAthenaVehicle::bAlwaysCreateNavComponent 	0x6e9 	
+AFortAthenaVehicle::bAllowInteractBetweenFortVolumes_Runtime 	0x6e9 	
+AFortAthenaVehicle::bTricksEnabled 	0x6e9 	
+AFortAthenaVehicle::FireDamageTickTimer 	0x6f0 	
+AFortAthenaVehicle::CurrentFOV 	0x6f4 	
+AFortAthenaVehicle::FireEnvDamageTags 	0x6f8 	
+AFortAthenaVehicle::PawnIgnoreBumpTags 	0x718 	
+AFortAthenaVehicle::DriverReticleBrush 	0x738 	
+AFortAthenaVehicle::AppliedVehicleModTags 	0x740 	
+AFortAthenaVehicle::CollectedVehicleModData 	0x760 	
+AFortAthenaVehicle::WaterEffectsVehicleMaxSpeedKmh 	0x770 	
+AFortAthenaVehicle::WaterEffectsAsset 	0x778 	
+AFortAthenaVehicle::WaterEffectsComponent 	0x780 	
+AFortAthenaVehicle::GameplayTags 	0x790 	
+AFortAthenaVehicle::PawnsToIgnoreForDamge 	0x7b0 	
+AFortAthenaVehicle::PawnsToIgnoreForCollision 	0x800 	
+AFortAthenaVehicle::IgnoredPawnsPendingTeleport 	0x810 	
+AFortAthenaVehicle::LastPropImpactImpulseTime 	0x820 	
+AFortAthenaVehicle::PredictedDestroyedBuildings 	0x828 	
+AFortAthenaVehicle::WallsVehicleCanDestroy 	0x838 	
+AFortAthenaVehicle::WallsVehicleCannotDestroyWhenBoosting 	0x848 	
+AFortAthenaVehicle::BuildingPropClassesVehicleCanDestroy 	0x858 	
+AFortAthenaVehicle::BuildingPropClassesVehicleCannotDestroyWhenBoosting 	0x868 	
+AFortAthenaVehicle::SeatInputProviders 	0x878 	
+AFortAthenaVehicle::EmptyDriverInputState 	0x888 	
+AFortAthenaVehicle::AverageSpringNormal 	0x8c8 	
+AFortAthenaVehicle::TopSpeedCurrentMultiplier 	0x8e0 	
+AFortAthenaVehicle::PushForceCurrentMultiplier 	0x8e4 	
+AFortAthenaVehicle::SteeringAngle 	0x8f8 	
+AFortAthenaVehicle::FrontLateralFrictionRuntimeMultiplier 	0x920 	
+AFortAthenaVehicle::RearLateralFrictionRuntimeMultiplier 	0x924 	
+AFortAthenaVehicle::LocalRearFrictionPt 	0x928 	
+AFortAthenaVehicle::LocalFrontFrictionPt 	0x940 	
+AFortAthenaVehicle::FrontMassRatio 	0x958 	
+AFortAthenaVehicle::RearMassRatio 	0x95c 	
+AFortAthenaVehicle::TotalBrakingDelta 	0x980 	
+AFortAthenaVehicle::PrimarySurfaceType 	0x9ed 	
+AFortAthenaVehicle::WeaponResponseType 	0x9ee 	
+AFortAthenaVehicle::VTDMode 	0x9ef 	
+AFortAthenaVehicle::SurfaceTypeVehicleOn 	0x9f3 	
+AFortAthenaVehicle::ForcedMaterialVariantIndex 	0xa08 	
+AFortAthenaVehicle::Fuelge 	0xa10 	
+AFortAthenaVehicle::OnRegeableFuelAboveThreshold 	0xae8 	
+AFortAthenaVehicle::OnRegeableFuelBelowThreshold 	0xaf8 	
+AFortAthenaVehicle::OnOutOfRegeableFuel 	0xb08 	
+AFortAthenaVehicle::OnNotOutOfRegeableFuel 	0xb18 	
+AFortAthenaVehicle::OnMountedWeaponFiredEvent 	0xb28 	
+AFortAthenaVehicle::SeatSwitchCooldown 	0xb3c 	
+AFortAthenaVehicle::VehicleTags 	0xb40 	
+AFortAthenaVehicle::Springs 	0xb60 	
+AFortAthenaVehicle::GroundTriangle 	0xb70 	
+AFortAthenaVehicle::Gears 	0xb80 	
+AFortAthenaVehicle::SprintGears 	0xb90 	
+AFortAthenaVehicle::ReverseGears 	0xba0 	
+AFortAthenaVehicle::ForwardDrivingAntiGravityScaler 	0xbb0 	
+AFortAthenaVehicle::CameraSpaceForwardDistanceOffset 	0xbb4 	
+AFortAthenaVehicle::CameraAssistStrength 	0xbbc 	
+AFortAthenaVehicle::CameraAssistRampUp 	0xbc0 	
+AFortAthenaVehicle::bAllowAutoCamera 	0xbc4 	
+AFortAthenaVehicle::TimeToAutoCamera 	0xbc8 	
+AFortAthenaVehicle::MinSpeedForAutoCamera 	0xbcc 	
+AFortAthenaVehicle::CameraAssistBaseHeight 	0xbd0 	
+AFortAthenaVehicle::CameraAssistUpHillScaler 	0xbd4 	
+AFortAthenaVehicle::CameraAssistSteerScaler 	0xbd8 	
+AFortAthenaVehicle::CameraAssistForwardScale 	0xbdc 	
+AFortAthenaVehicle::AngleDegreesThresholdFromCurrentCameraToTarget 	0xbe0 	
+AFortAthenaVehicle::CameraFOVOffset 	0xbe4 	
+AFortAthenaVehicle::TetheredCamera 	0xbe8 	
+AFortAthenaVehicle::PlayerCollisionGameplayEffect 	0xc20 	
+AFortAthenaVehicle::OverlapComponent 	0xc28 	
+AFortAthenaVehicle::WaterOverlapComponent 	0xc30 	
+AFortAthenaVehicle::WaterLevel 	0xc3c 	
+AFortAthenaVehicle::WaterOverlapCount 	0xc40 	
+AFortAthenaVehicle::VehicleMinHorSpeedToDamage 	0xc44 	
+AFortAthenaVehicle::VehicleMaxHorSpeedToDamage 	0xc48 	
+AFortAthenaVehicle::VehicleMinHorSpeedDamage 	0xc4c 	
+AFortAthenaVehicle::VehicleMaxHorSpeedDamage 	0xc50 	
+AFortAthenaVehicle::TargetingZOffset 	0xc54 	
+AFortAthenaVehicle::BrakeAboveTopSpeedDelta 	0xc58 	
+AFortAthenaVehicle::TimeToIdleBrake 	0xc5c 	
+AFortAthenaVehicle::DragCoefficient 	0xc60 	
+AFortAthenaVehicle::PrimaryCameraPitchConstraint 	0xc64 	
+AFortAthenaVehicle::PrimaryCameraYawConstraint 	0xc68 	
+AFortAthenaVehicle::CachedSpeed 	0xc6c 	
+AFortAthenaVehicle::MainBodyCollision 	0xc70 	
+AFortAthenaVehicle::TestInitialLinearVelocity 	0xc78 	
+AFortAthenaVehicle::TestInitialAngularVelocity 	0xc90 	
+AFortAthenaVehicle::LookAheadHit 	0xca8 	
+AFortAthenaVehicle::TrickSet 	0xd88 	
+AFortAthenaVehicle::PushForceSocket 	0xd90 	FName
+AFortAthenaVehicle::FrontWheelsSocket 	0xd94 	FName
+AFortAthenaVehicle::RearWheelSockets 	0xd98 	FName
+AFortAthenaVehicle::DefaultHitNotifyAudioBank 	0xda0 	
+AFortAthenaVehicle::OnHandleOutOfHealthDelegate 	0xda8 	
+AFortAthenaVehicle::OnHealthChanged 	0xdb8 	
+AFortAthenaVehicle::OnDamageablePartHealthChanged 	0xde0 	
+AFortAthenaVehicle::BulletCollisionComponentTag 	0xdf0 	
+AFortAthenaVehicle::GEDamagePassengersOnDeath 	0xdf8 	
+AFortAthenaVehicle::OnVehicleSquadChanged 	0xe00 	
+AFortAthenaVehicle::LifespanAfterDeath 	0xe10 	
+AFortAthenaVehicle::LastDamagedTime 	0xe14 	
+AFortAthenaVehicle::SeatTransitions 	0xe18 	
+AFortAthenaVehicle::RuntimeModifiedProperties 	0xe88 	
+AFortAthenaVehicle::LocallyIgnoredBuildingActors 	0xe90 	
+AFortAthenaVehicle::PreviousBuildingQueryPosition 	0xea0 	
+AFortAthenaVehicle::ImpulseResponseMultiplier 	0xeb8 	
+AFortAthenaVehicle::ImpulseResponseZBias 	0xebc 	
+AFortAthenaVehicle::WaterSubmergedTimerHandle 	0xee8 	
+AFortAthenaVehicle::EmoteAudioSourcePresetChain 	0xf10 	
+AFortAthenaVehicle::EmoteAudioAttenuation 	0xf18 	
+AFortAthenaVehicle::MarkerDisplay 	0xf20 	
+AFortAthenaVehicle::OnSurfaceTypeVehicleIsOnChangedDelegate 	0xfb8 	
+AFortAthenaVehicle::StartupAbilitySet 	0xfc8 	
+AFortAthenaVehicle::VehicleSeatComponent 	0xfd0 	
+AFortAthenaVehicle::VehicleInteractionOverrideComponent 	0xfd8 	
+AFortAthenaVehicle::SkyTubePhysicsComponent 	0xfe0 	
+AFortAthenaVehicle::PontoonsComponent 	0xfe8 	
+AFortAthenaVehicle::TrackableAIObjectComponent 	0xff0 	
+AFortAthenaVehicle::PlayerSlots 	0xff8 	
+AFortAthenaVehicle::PlayerSlotsBackup 	0x1008 	
+AFortAthenaVehicle::PlayerSlotsUnreplicated 	0x1018 	
+AFortAthenaVehicle::VehicleMovementSet 	0x1028 	
+AFortAthenaVehicle::VehicleAttributes 	0x1030 
+AFortAthenaVehicle::CachedVehiclePhysicsCollisionDamageComponent 	0x1050 	
+AFortAthenaVehicle::CachedFuelComponent 	0x1058 	
+AFortAthenaVehicle::ReasonsWhyCantContainPlayers 	0x1060 	
+AFortAthenaVehicle::IgnoredBuildingActors 	0x1070 	
+AFortAthenaVehicle::DamageableParts 	0x1080 	
+AFortAthenaVehicle::ToggledParts 	0x1090 	
+AFortAthenaVehicle::CorrectTargetOrientation 	0x1308 
+AFortAthenaVehicle::CameraModeClass 	0x1350 	
+AFortAthenaVehicle::DrivingAnimClass 	0x1358 	
+AFortAthenaVehicle::DriverAnimLayerOverlayClass 	0x1360 	
+AFortAthenaVehicle::PassengerAnimLayerOverlayClass 	0x1368 	
+AFortAthenaVehicle::AnimSet 	0x1370 	
+AFortAthenaVehicle::AttributeInitKey 	0x14b0 	
+AFortAthenaVehicle::AbilitySystemComponent 	0x14b8 	
+AFortAthenaVehicle::HealthSet 	0x14c0 	
+AFortAthenaVehicle::ImpulseResponseSet 	0x14c8 	
+AFortAthenaVehicle::DamageSet 	0x14d0 	
+AFortAthenaVehicle::HealthBarIndicator 	0x14d8 	
+AFortAthenaVehicle::VehicleCosmeticInfo 	0x14e0 	
+AFortAthenaVehicle::NavModifierComponent 	0x1530 	
+AFortAthenaVehicle::bShouldSleepAtSpawn 	0x1538 	
+AFortAthenaVehicle::ForceKinematicOnClientCount 	0x153c 	
+AFortAthenaVehicle::ImpactInstigator 	0x1540 	
+AFortAthenaVehicle::NormalizedRPM 	0x15a0 	
+AFortAthenaVehicle::CustomUI 	0x15a8 	
+AFortAthenaVehicle::ActiveCustomUI 	0x15b8 	
+AFortAthenaVehicle::MobileCustomUI 	0x15c8 	
+AFortAthenaVehicle::AlwaysDamageVehiclesWithTag 	0x15dc 
+AFortAthenaVehicle::BaseTireInfo 	0x15e0 	
+AFortAthenaVehicle::CurrentOverlapComponent 	0x1780 	
+AFortAthenaVehicle::VehicleConfigsClass 	0x1788 	
+AFortAthenaVehicle::FortPhysicsVehicleConfigs 	0x1790 	
+AFortAthenaVehicle::bBoosting 	0x179c 	
+AFortAthenaVehicle::BoostEndTime 	0x17a0 	
+AFortAthenaVehicle::SoundIndicatorComponent 	0x17d8 	
+AFortAthenaVehicle::bShouldDealDamage 	0x17e0 	
+AFortAthenaVehicle::NativeComp_LowFuelSputter 	0x17e8 	
+AFortAthenaVehicle::NativeSys_LowFuelSputter 	0x17f0 	
+AFortAthenaVehicle::OnOutOfFuelDelegate 	0x17f8 	
+AFortAthenaVehicle::OnGainedFuelDelegate 	0x1808 	
+AFortAthenaVehicle::OnLowFuelDelegate 	0x1818 	
+AFortAthenaVehicle::DebugDestroyLogCount 	0x1828 	
+AFortAthenaVehicle::ServerCriticalHealth 	0x182c 	
+AFortAthenaVehicle::HealthZeroTime 	0x1830 	
+AFortAthenaVehicle::bExploded 	0x1834 	
+AFortAthenaVehicle::bPendingDeath 	0x1834 	
+AFortAthenaVehicle::bOnFire 	0x1834 	
+AFortAthenaVehicle::OnStartCriticalHealth 	0x1838 	
+AFortAthenaVehicle::OnExplode 	0x1848
 
 BuildingGameplayActorSpawnMachine
-ABuildingGameplayActorSpawnMachine 	ResurrectLocation 	0x940 	
-ABuildingGameplayActorSpawnMachine 	PlayerIdsForResurrection 	0x948 	
-ABuildingGameplayActorSpawnMachine 	InstigatorPC 	0x958 	
-ABuildingGameplayActorSpawnMachine 	bIsLocallyBeingInteractedWith 	0x960 	
-ABuildingGameplayActorSpawnMachine 	SquadId 	0x961 	char
-ABuildingGameplayActorSpawnMachine 	ActiveTeam 	0x962 	char
-ABuildingGameplayActorSpawnMachine 	SpawnMachineState 	0x963 	
-ABuildingGameplayActorSpawnMachine 	ResurrectionHeightOffset 	0x968 	
-ABuildingGameplayActorSpawnMachine 	ResurrectionStartDelay 	0x990 	
-ABuildingGameplayActorSpawnMachine 	ResurrectionNextPlayerDelay 	0x9b8 	
-ABuildingGameplayActorSpawnMachine 	InteractSoundCueLoop 	0x9e0 	
-ABuildingGameplayActorSpawnMachine 	CooldownLengthRow 	0x9e8 	
-ABuildingGameplayActorSpawnMachine 	InteractNoCardsSubText 	0xa10 	
-ABuildingGameplayActorSpawnMachine 	InteractVanInUseSubText 	0xa28 	
-ABuildingGameplayActorSpawnMachine 	InteractTeamStartedRebootSubText 	0xa40 	
-ABuildingGameplayActorSpawnMachine 	RebootResourceStatusFormatSubText 	0xa58 	
-ABuildingGameplayActorSpawnMachine 	InteractSubTextFailedColor 	0xa70 	
-ABuildingGameplayActorSpawnMachine 	InteractSubTextSuccessColor 	0xa80 	
-ABuildingGameplayActorSpawnMachine 	SpawnMachineSubTextState 	0xa90 	
-ABuildingGameplayActorSpawnMachine 	HandleIntoGameState 	0xa94 	
-ABuildingGameplayActorSpawnMachine 	RebootResourceCost 	0xa98 	
-ABuildingGameplayActorSpawnMachine 	InitiatingPlayer 	0xac0
+ABuildingGameplayActorSpawnMachine::ResurrectLocation 	0x940 	
+ABuildingGameplayActorSpawnMachine::PlayerIdsForResurrection 	0x948 	
+ABuildingGameplayActorSpawnMachine::InstigatorPC 	0x958 	
+ABuildingGameplayActorSpawnMachine::bIsLocallyBeingInteractedWith 	0x960 	
+ABuildingGameplayActorSpawnMachine::SquadId 	0x961 	
+ABuildingGameplayActorSpawnMachine::ActiveTeam 	0x962 	
+ABuildingGameplayActorSpawnMachine::SpawnMachineState 	0x963 	
+ABuildingGameplayActorSpawnMachine::ResurrectionHeightOffset 	0x968 	
+ABuildingGameplayActorSpawnMachine::ResurrectionStartDelay 	0x990 	
+ABuildingGameplayActorSpawnMachine::ResurrectionNextPlayerDelay 	0x9b8 	
+ABuildingGameplayActorSpawnMachine::InteractSoundCueLoop 	0x9e0 	
+ABuildingGameplayActorSpawnMachine::CooldownLengthRow 	0x9e8 	
+ABuildingGameplayActorSpawnMachine::InteractNoCardsSubText 	0xa10 	
+ABuildingGameplayActorSpawnMachine::InteractVanInUseSubText 	0xa28 	
+ABuildingGameplayActorSpawnMachine::InteractTeamStartedRebootSubText 	0xa40 	
+ABuildingGameplayActorSpawnMachine::RebootResourceStatusFormatSubText 	0xa58 	
+ABuildingGameplayActorSpawnMachine::InteractSubTextFailedColor 	0xa70 	
+ABuildingGameplayActorSpawnMachine::InteractSubTextSuccessColor 	0xa80 	
+ABuildingGameplayActorSpawnMachine::SpawnMachineSubTextState 	0xa90 	
+ABuildingGameplayActorSpawnMachine::HandleIntoGameState 	0xa94 	
+ABuildingGameplayActorSpawnMachine::RebootResourceCost 	0xa98 	
+ABuildingGameplayActorSpawnMachine::InitiatingPlayer 	0xac0
 
 BuildingContainer
-ABuildingContainer 	SearchingSoundCueLoop 	0xd68 	
-ABuildingContainer 	LootRepeatSoundCue 	0xd70 	
-ABuildingContainer 	OnDamageSoundCue 	0xd78 	
-ABuildingContainer 	OnDeathSoundCue 	0xd80 	
-ABuildingContainer 	SearchedMesh 	0xd88 	
-ABuildingContainer 	SearchedMaterialOverrides 	0xd90 
-ABuildingContainer 	LootTierGroupTagOverrideData 	0xda0 	
-ABuildingContainer 	SearchLootTierGroup 	0xdb0 	
-ABuildingContainer 	PotentialRandomUpgrades 	0xdb8 	
-ABuildingContainer 	SearchLootTierChosenQuotaInfo 	0xdc8 	
-ABuildingContainer 	ContainerLootTierKey 	0xdd0 	
-ABuildingContainer 	ReplicatedLootTier 	0xdd4 	
-ABuildingContainer 	ChosenRandomUpgrade 	0xdd8 	
-ABuildingContainer 	bSpawnedActor 	0xddc 	
-ABuildingContainer 	bBlockMarking 	0xddc 	
-ABuildingContainer 	bCanBeMarked 	0xddc 	
-ABuildingContainer 	MarkerDisplay 	0xde0 	
-ABuildingContainer 	MarkerPositionOffset 	0xe78 	
-ABuildingContainer 	NumItemsToDropRange 	0xe90 	
-ABuildingContainer 	SearchBounceRadiusOverride 	0xea0 	
-ABuildingContainer 	LootTestingData 	0xea8 	
-ABuildingContainer 	LootNoiseRange 	0xeb0 	
-ABuildingContainer 	LootSpawnLocation 	0xeb8 	
-ABuildingContainer 	LootFinalLocation 	0xed0 	
-ABuildingContainer 	InstancedLoot_TossDirection 	0xee8 	
-ABuildingContainer 	InstancedLoot_TossSpeed 	0xf00 	
-ABuildingContainer 	InstancedLoot_TossConeHalfAngle 	0xf04 	
-ABuildingContainer 	LootSpawnLocation_Athena 	0xf08 	
-ABuildingContainer 	LootTossDirection_Athena 	0xf20 	
-ABuildingContainer 	LootTossSpeed_Athena 	0xf38 	
-ABuildingContainer 	LootTossConeHalfAngle_Athena 	0xf3c 	
-ABuildingContainer 	HighestRarity 	0xf40 	
-ABuildingContainer 	bUseLootProperties_Athena 	0xf41 	
-ABuildingContainer 	bAlwaysShowContainer 	0xf41 	
-ABuildingContainer 	bAlwaysMaintainLoot 	0xf41 	
-ABuildingContainer 	bDestroyContainerOnSearch 	0xf41 	
-ABuildingContainer 	bForceHidePickupMinimapIndicator 	0xf41 	
-ABuildingContainer 	bForceSpawnLootOnDestruction 	0xf41 	
-ABuildingContainer 	bForceTossLootOnSpawn 	0xf41 	
-ABuildingContainer 	bAlreadySearched 	0xf41 	
-ABuildingContainer 	bDoNotDropLootOnDestruction 	0xf42 	
-ABuildingContainer 	bBuriedTreasure 	0xf42 	
-ABuildingContainer 	bHasRaisedTreasure 	0xf42 	
-ABuildingContainer 	bStartAlreadySearched_Athena 	0xf42 	
-ABuildingContainer 	bRegenerateLoot 	0xf42 	
-ABuildingContainer 	bUseLocationForDrop 	0xf42 	
-ABuildingContainer 	LootedWeaponsDurabilityModifier 	0xf44 	
-ABuildingContainer 	SearchBounceData 	0xf48 	
-ABuildingContainer 	SearchSpeed 	0xf70 	
-ABuildingContainer 	SearchText 	0xf80 	
-ABuildingContainer 	CurrentInteractBounceCurve 	0xfb8 	
-ABuildingContainer 	CurrentInteractBounceNormalCurve 	0xfc0 	
-ABuildingContainer 	SavedReservedRandomValueResult 	0xfc8 	
-ABuildingContainer 	TimeUntilLootRegenerates 	0xfcc 	
-ABuildingContainer 	SoundIndicatorComponent 	0xfe8
+ABuildingContainer::SearchingSoundCueLoop 	0xd68 	
+ABuildingContainer::LootRepeatSoundCue 	0xd70 	
+ABuildingContainer::OnDamageSoundCue 	0xd78 	
+ABuildingContainer::OnDeathSoundCue 	0xd80 	
+ABuildingContainer::SearchedMesh 	0xd88 	
+ABuildingContainer::SearchedMaterialOverrides 	0xd90 
+ABuildingContainer::LootTierGroupTagOverrideData 	0xda0 	
+ABuildingContainer::SearchLootTierGroup 	0xdb0 	
+ABuildingContainer::PotentialRandomUpgrades 	0xdb8 	
+ABuildingContainer::SearchLootTierChosenQuotaInfo 	0xdc8 	
+ABuildingContainer::ContainerLootTierKey 	0xdd0 	
+ABuildingContainer::ReplicatedLootTier 	0xdd4 	
+ABuildingContainer::ChosenRandomUpgrade 	0xdd8 	
+ABuildingContainer::bSpawnedActor 	0xddc 	
+ABuildingContainer::bBlockMarking 	0xddc 	
+ABuildingContainer::bCanBeMarked 	0xddc 	
+ABuildingContainer::MarkerDisplay 	0xde0 	
+ABuildingContainer::MarkerPositionOffset 	0xe78 	
+ABuildingContainer::NumItemsToDropRange 	0xe90 	
+ABuildingContainer::SearchBounceRadiusOverride 	0xea0 	
+ABuildingContainer::LootTestingData 	0xea8 	
+ABuildingContainer::LootNoiseRange 	0xeb0 	
+ABuildingContainer::LootSpawnLocation 	0xeb8 	
+ABuildingContainer::LootFinalLocation 	0xed0 	
+ABuildingContainer::InstancedLoot_TossDirection 	0xee8 	
+ABuildingContainer::InstancedLoot_TossSpeed 	0xf00 	
+ABuildingContainer::InstancedLoot_TossConeHalfAngle 	0xf04 	
+ABuildingContainer::LootSpawnLocation_Athena 	0xf08 	
+ABuildingContainer::LootTossDirection_Athena 	0xf20 	
+ABuildingContainer::LootTossSpeed_Athena 	0xf38 	
+ABuildingContainer::LootTossConeHalfAngle_Athena 	0xf3c 	
+ABuildingContainer::HighestRarity 	0xf40 	
+ABuildingContainer::bUseLootProperties_Athena 	0xf41 	
+ABuildingContainer::bAlwaysShowContainer 	0xf41 	
+ABuildingContainer::bAlwaysMaintainLoot 	0xf41 	
+ABuildingContainer::bDestroyContainerOnSearch 	0xf41 	
+ABuildingContainer::bForceHidePickupMinimapIndicator 	0xf41 	
+ABuildingContainer::bForceSpawnLootOnDestruction 	0xf41 	
+ABuildingContainer::bForceTossLootOnSpawn 	0xf41 	
+ABuildingContainer::bAlreadySearched 	0xf41 	
+ABuildingContainer::bDoNotDropLootOnDestruction 	0xf42 	
+ABuildingContainer::bBuriedTreasure 	0xf42 	
+ABuildingContainer::bHasRaisedTreasure 	0xf42 	
+ABuildingContainer::bStartAlreadySearched_Athena 	0xf42 	
+ABuildingContainer::bRegenerateLoot 	0xf42 	
+ABuildingContainer::bUseLocationForDrop 	0xf42 	
+ABuildingContainer::LootedWeaponsDurabilityModifier 	0xf44 	
+ABuildingContainer::SearchBounceData 	0xf48 	
+ABuildingContainer::SearchSpeed 	0xf70 	
+ABuildingContainer::SearchText 	0xf80 	
+ABuildingContainer::CurrentInteractBounceCurve 	0xfb8 	
+ABuildingContainer::CurrentInteractBounceNormalCurve 	0xfc0 	
+ABuildingContainer::SavedReservedRandomValueResult 	0xfc8 	
+ABuildingContainer::TimeUntilLootRegenerates 	0xfcc 	
+ABuildingContainer::SoundIndicatorComponent 	0xfe8
 
 FortCameraMode
-UFortCameraMode 	PlayerCamera 	0x28 	
-UFortCameraMode 	TransitionTime 	0x30 	
-UFortCameraMode 	TransitionOutTime 	0x34 	
-UFortCameraMode 	bOverrideTransitionOutTime 	0x38 	
-UFortCameraMode 	TransitionParams 	0x3c 	
-UFortCameraMode 	bResetInterpolation 	0x4c 	
-UFortCameraMode 	bIsUsingConstantFOV 	0x4c 	
-UFortCameraMode 	bShouldAllowBlendingWhenActive 	0x4c 	
-UFortCameraMode 	bShouldAllowBlendingWhenInactive 	0x4c 	
-UFortCameraMode 	bShouldPassViewTargetCheckOnTransition 	0x4c
+UFortCameraMode::PlayerCamera 	0x28 	
+UFortCameraMode::TransitionTime 	0x30 	
+UFortCameraMode::TransitionOutTime 	0x34 	
+UFortCameraMode::bOverrideTransitionOutTime 	0x38 	
+UFortCameraMode::TransitionParams 	0x3c 	
+UFortCameraMode::bResetInterpolation 	0x4c 	
+UFortCameraMode::bIsUsingConstantFOV 	0x4c 	
+UFortCameraMode::bShouldAllowBlendingWhenActive 	0x4c 	
+UFortCameraMode::bShouldAllowBlendingWhenInactive 	0x4c 	
+UFortCameraMode::bShouldPassViewTargetCheckOnTransition 	0x4c
 
 FortCameraMode_ThirdPerson
-UFortCameraMode_ThirdPerson 	FOV 	0x50 	
-UFortCameraMode_ThirdPerson 	CameraSpaceForwardDistance 	0x54 	
-UFortCameraMode_ThirdPerson 	bClampCameraPitch 	0x58 	
-UFortCameraMode_ThirdPerson 	bClampCameraYaw 	0x59 	
-UFortCameraMode_ThirdPerson 	CameraPitchMin 	0x5c 	
-UFortCameraMode_ThirdPerson 	CameraPitchMax 	0x60 	
-UFortCameraMode_ThirdPerson 	CameraYawMin 	0x64 	
-UFortCameraMode_ThirdPerson 	CameraYawMax 	0x68 	
-UFortCameraMode_ThirdPerson 	CameraOrigin 	0x6c 	
-UFortCameraMode_ThirdPerson 	CameraOriginSocketName 	0x70 	
-UFortCameraMode_ThirdPerson 	CameraOriginInterpSpeed 	0x78 	
-UFortCameraMode_ThirdPerson 	CameraLocationErrorConstraintBox 	0x90 	
-UFortCameraMode_ThirdPerson 	ViewTargetSpaceViewOffset 	0xc8 	
-UFortCameraMode_ThirdPerson 	ViewTargetSpaceViewOffset_Crouch 	0xd8 	
-UFortCameraMode_ThirdPerson 	ViewTargetSpaceViewOffseInterpSpeed 	0xe8 	
-UFortCameraMode_ThirdPerson 	CameraSpaceViewOffset 	0x100 	
-UFortCameraMode_ThirdPerson 	ViewTargetAlignmentFlipInterpDuration 	0x110 	
-UFortCameraMode_ThirdPerson 	bScaleViewOffsetByViewTargetScale 	0x114 	
-UFortCameraMode_ThirdPerson 	bSupportsShoulderSwap 	0x115 	
-UFortCameraMode_ThirdPerson 	LastCameraOrigin 	0x178 	
-UFortCameraMode_ThirdPerson 	CameraOriginLocalOffset 	0x190 	
-UFortCameraMode_ThirdPerson 	PenetrationBlendInTime 	0x1a8 	
-UFortCameraMode_ThirdPerson 	PenetrationBlendOutTime 	0x1ac 	
-UFortCameraMode_ThirdPerson 	bPreventPenetration 	0x1b0 	
-UFortCameraMode_ThirdPerson 	bDoPredictiveAvoidance 	0x1b1 	
-UFortCameraMode_ThirdPerson 	CollisionPushOutDistance 	0x1b4 	
-UFortCameraMode_ThirdPerson 	HidePawnPenetrationPercent 	0x1b8 	
-UFortCameraMode_ThirdPerson 	LastAttachSocketName 	0x220 	
-UFortCameraMode_ThirdPerson 	LastBasePOV 	0x230 	
-UFortCameraMode_ThirdPerson 	DeltaBasePOV 	0x9a0 	
-UFortCameraMode_ThirdPerson 	BlendAlpha 	0x1110 	
-UFortCameraMode_ThirdPerson 	PenetrationAvoidanceFeelers 	0x1128 	
-UFortCameraMode_ThirdPerson 	SafeLocToAimLineBlockedPct 	0x1138 	
-UFortCameraMode_ThirdPerson 	AimLineToDesiredPosBlockedPct 	0x113c 	
-UFortCameraMode_ThirdPerson 	LastDrawDebugTime 	0x1140 	
-UFortCameraMode_ThirdPerson 	LastViewTargetSpaceViewOffset 	0x1148 	
-UFortCameraMode_ThirdPerson 	LastViewTargetAlignmentUp 	0x1160 	
-UFortCameraMode_ThirdPerson 	ViewTargetAlignmentFlipInterpTime 	0x1178 	
-UFortCameraMode_ThirdPerson 	LastCameraPivot 	0x1180 	
-UFortCameraMode_ThirdPerson 	CachedPitchLimitMin 	0x1198 	
-UFortCameraMode_ThirdPerson 	CachedPitchLimitMax 	0x119c 	
-UFortCameraMode_ThirdPerson 	CachedYawLimitMin 	0x11a0 	
-UFortCameraMode_ThirdPerson 	CachedYawLimitMax 	0x11a4 	
-UFortCameraMode_ThirdPerson 	bLastViewTargetValidGroupEmoteLookTarget 	0x11a8 	
-UFortCameraMode_ThirdPerson 	IgnoreActorForCameraPenetration 	0x11b0 	
-UFortCameraMode_ThirdPerson 	DebugActorsHitDuringCameraPenetration 	0x11b8 	
-UFortCameraMode_ThirdPerson 	bWasInVehicle 	0x11c8 	
-UFortCameraMode_ThirdPerson 	PreviousIgnoreActorForCameraPenetration 	0x11d0
+UFortCameraMode_ThirdPerson::FOV 	0x50 	
+UFortCameraMode_ThirdPerson::CameraSpaceForwardDistance 	0x54 	
+UFortCameraMode_ThirdPerson::bClampCameraPitch 	0x58 	
+UFortCameraMode_ThirdPerson::bClampCameraYaw 	0x59 	
+UFortCameraMode_ThirdPerson::CameraPitchMin 	0x5c 	
+UFortCameraMode_ThirdPerson::CameraPitchMax 	0x60 	
+UFortCameraMode_ThirdPerson::CameraYawMin 	0x64 	
+UFortCameraMode_ThirdPerson::CameraYawMax 	0x68 	
+UFortCameraMode_ThirdPerson::CameraOrigin 	0x6c 	
+UFortCameraMode_ThirdPerson::CameraOriginSocketName 	0x70 	
+UFortCameraMode_ThirdPerson::CameraOriginInterpSpeed 	0x78 	
+UFortCameraMode_ThirdPerson::CameraLocationErrorConstraintBox 	0x90 	
+UFortCameraMode_ThirdPerson::ViewTargetSpaceViewOffset 	0xc8 	
+UFortCameraMode_ThirdPerson::ViewTargetSpaceViewOffset_Crouch 	0xd8 	
+UFortCameraMode_ThirdPerson::ViewTargetSpaceViewOffseInterpSpeed 	0xe8 	
+UFortCameraMode_ThirdPerson::CameraSpaceViewOffset 	0x100 	
+UFortCameraMode_ThirdPerson::ViewTargetAlignmentFlipInterpDuration 	0x110 	
+UFortCameraMode_ThirdPerson::bScaleViewOffsetByViewTargetScale 	0x114 	
+UFortCameraMode_ThirdPerson::bSupportsShoulderSwap 	0x115 	
+UFortCameraMode_ThirdPerson::LastCameraOrigin 	0x178 	
+UFortCameraMode_ThirdPerson::CameraOriginLocalOffset 	0x190 	
+UFortCameraMode_ThirdPerson::PenetrationBlendInTime 	0x1a8 	
+UFortCameraMode_ThirdPerson::PenetrationBlendOutTime 	0x1ac 	
+UFortCameraMode_ThirdPerson::bPreventPenetration 	0x1b0 	
+UFortCameraMode_ThirdPerson::bDoPredictiveAvoidance 	0x1b1 	
+UFortCameraMode_ThirdPerson::CollisionPushOutDistance 	0x1b4 	
+UFortCameraMode_ThirdPerson::HidePawnPenetrationPercent 	0x1b8 	
+UFortCameraMode_ThirdPerson::LastAttachSocketName 	0x220 	
+UFortCameraMode_ThirdPerson::LastBasePOV 	0x230 	
+UFortCameraMode_ThirdPerson::DeltaBasePOV 	0x9a0 	
+UFortCameraMode_ThirdPerson::BlendAlpha 	0x1110 	
+UFortCameraMode_ThirdPerson::PenetrationAvoidanceFeelers 	0x1128 	
+UFortCameraMode_ThirdPerson::SafeLocToAimLineBlockedPct 	0x1138 	
+UFortCameraMode_ThirdPerson::AimLineToDesiredPosBlockedPct 	0x113c 	
+UFortCameraMode_ThirdPerson::LastDrawDebugTime 	0x1140 	
+UFortCameraMode_ThirdPerson::LastViewTargetSpaceViewOffset 	0x1148 	
+UFortCameraMode_ThirdPerson::LastViewTargetAlignmentUp 	0x1160 	
+UFortCameraMode_ThirdPerson::ViewTargetAlignmentFlipInterpTime 	0x1178 	
+UFortCameraMode_ThirdPerson::LastCameraPivot 	0x1180 	
+UFortCameraMode_ThirdPerson::CachedPitchLimitMin 	0x1198 	
+UFortCameraMode_ThirdPerson::CachedPitchLimitMax 	0x119c 	
+UFortCameraMode_ThirdPerson::CachedYawLimitMin 	0x11a0 	
+UFortCameraMode_ThirdPerson::CachedYawLimitMax 	0x11a4 	
+UFortCameraMode_ThirdPerson::bLastViewTargetValidGroupEmoteLookTarget 	0x11a8 	
+UFortCameraMode_ThirdPerson::IgnoreActorForCameraPenetration 	0x11b0 	
+UFortCameraMode_ThirdPerson::DebugActorsHitDuringCameraPenetration 	0x11b8 	
+UFortCameraMode_ThirdPerson::bWasInVehicle 	0x11c8 	
+UFortCameraMode_ThirdPerson::PreviousIgnoreActorForCameraPenetration 	0x11d0
 
 FortVehicleConfigs
-UFortVehicleConfigs 	NumWheelsTouchingGroundForWheelsOnGround 	0x28 	
-UFortVehicleConfigs 	TimeToIdleBrake 	0x2c 	
-UFortVehicleConfigs 	ChangeDirBrakeDelta 	0x30 	
-UFortVehicleConfigs 	VehicleSleepCounter 	0x34 	
-UFortVehicleConfigs 	GasPedalDownMinSpeed 	0x38 	
-UFortVehicleConfigs 	AcceleratingSpeedThresholdMin 	0x3c 	
-UFortVehicleConfigs 	AcceleratingSpeedThresholdMax 	0x40 	
-UFortVehicleConfigs 	VehicleMinFOV 	0x44 	
-UFortVehicleConfigs 	VehicleMaxFOV 	0x48 	
-UFortVehicleConfigs 	VehicleMinFOVSpeed 	0x4c 	
-UFortVehicleConfigs 	VehicleMaxFOVSpeed 	0x50 	
-UFortVehicleConfigs 	VehicleFOVInterpSpeed 	0x54 	
-UFortVehicleConfigs 	VehicleFOVPassengerInterpSpeed 	0x58 	
-UFortVehicleConfigs 	CameraSpaceForwardDistanceOverride 	0x5c 	
-UFortVehicleConfigs 	DriverCameraShakeClass 	0x60 	
-UFortVehicleConfigs 	OffroadCamShakeClass 	0x68 	
-UFortVehicleConfigs 	OffroadCameraShakeOscillationYAmplitude 	0x70 	
-UFortVehicleConfigs 	OffroadCameraShakeOscillationZAmplitude 	0x74 	
-UFortVehicleConfigs 	OffroadCameraShakeMaxVehicleSpeed 	0x78 	
-UFortVehicleConfigs 	OffroadCameraShakeOscillationRotationAmplitude 	0x7c 	
-UFortVehicleConfigs 	OffroadCameraShakeOscillationMinFrequency 	0x80 	
-UFortVehicleConfigs 	OffroadCameraShakeOscillationMaxFrequency 	0x84 	
-UFortVehicleConfigs 	AcceleratingCamShakeClass 	0x88 	
-UFortVehicleConfigs 	AcceleratingMaxSpeedForCameraShakeIntensity 	0x90 	
-UFortVehicleConfigs 	AcceleratingMaxCameraShakeIntensity 	0x94 	
-UFortVehicleConfigs 	AcceleratingCameraShakeIntensityFalloff 	0x98 	
-UFortVehicleConfigs 	AcceleratingForceFeedbackDuration 	0x9c 	
-UFortVehicleConfigs 	bAcceleratingAffectsLeftLarge 	0xa0 	
-UFortVehicleConfigs 	bAcceleratingAffectsLeftSmall 	0xa1 	
-UFortVehicleConfigs 	bAcceleratingAffectsRightLarge 	0xa2 	
-UFortVehicleConfigs 	bAcceleratingAffectsRightSmall 	0xa3 	
-UFortVehicleConfigs 	AcceleratingMaxSpeedForForceFeedbackIntensity 	0xa4 	
-UFortVehicleConfigs 	AcceleratingMaxForceFeedbackIntensity 	0xa8 	
-UFortVehicleConfigs 	AcceleratingForceFeedbackIntensityFalloff 	0xac 	
-UFortVehicleConfigs 	InteractDistanceScalar 	0xb0 	
-UFortVehicleConfigs 	MinFallDamageHeight 	0xb4 	
-UFortVehicleConfigs 	MaxFallDamageHeight 	0xb8 	
-UFortVehicleConfigs 	MinFallDamage 	0xbc 	
-UFortVehicleConfigs 	MaxFallDamage 	0xc0 	
-UFortVehicleConfigs 	PlayerFallDamageMultiplier 	0xc4 	
-UFortVehicleConfigs 	bDamageFriendlyVehicles 	0xc8 	
-UFortVehicleConfigs 	bDamageOtherVehicles 	0xc9 	
-UFortVehicleConfigs 	bDamageOwnVehicle 	0xca 	
-UFortVehicleConfigs 	bDamageAllowedFromOtherVehicle 	0xcb 	
-UFortVehicleConfigs 	VehicleEjectCooldown 	0xcc 	
-UFortVehicleConfigs 	PlayerToSocketSweepRadius 	0xd0 	
-UFortVehicleConfigs 	VehicleGravity 	0xd4 	
-UFortVehicleConfigs 	PlayerGravityMultiplier 	0xd8 	
-UFortVehicleConfigs 	PassengerDamageOnDestruction 	0xdc 	
-UFortVehicleConfigs 	MinFallDamageNormalScale 	0xe0 	
-UFortVehicleConfigs 	DriverExitLaunchScalar 	0xe4 	
-UFortVehicleConfigs 	DriverExitLaunchUpScalar 	0xe8 	
-UFortVehicleConfigs 	DriverExitInAirLaunchScalar 	0xec 	
-UFortVehicleConfigs 	DriverExitInAirLaunchUpScalar 	0xf0 	
-UFortVehicleConfigs 	PassengerExitLaunchScalar 	0xf4 	
-UFortVehicleConfigs 	PassengerExitLaunchUpScalar 	0xf8 	
-UFortVehicleConfigs 	PassengerExitInAirLaunchScalar 	0xfc 	
-UFortVehicleConfigs 	PassengerExitInAirLaunchUpScalar 	0x100 	
-UFortVehicleConfigs 	bCanDoTricks 	0x104 	
-UFortVehicleConfigs 	bShouldDriverHaveReticle 	0x105 	
-UFortVehicleConfigs 	bSupportsWraps 	0x106 	
-UFortVehicleConfigs 	ExitVehicleCoolDown 	0x108 	
-UFortVehicleConfigs 	bShouldProtectFromFireDamage 	0x10c 	
-UFortVehicleConfigs 	bInheritScale 	0x10d 	
-UFortVehicleConfigs 	HoldToExitTime 	0x110 	
-UFortVehicleConfigs 	ForceExitZOffset 	0x114 	
-UFortVehicleConfigs 	bBlockBuilding 	0x118 	
-UFortVehicleConfigs 	bPreferDriverSeatWhenEmpty 	0x119 	
-UFortVehicleConfigs 	bCanUseSkeletalMeshSimulationUpdatesChildTransforms 	0x11a 	
-UFortVehicleConfigs 	FireDamagePerSecond 	0x11c 	
-UFortVehicleConfigs 	FireDamageTickRate 	0x120 	
-UFortVehicleConfigs 	bCanBeOnFire 	0x124 	
-UFortVehicleConfigs 	DamageableParts 	0x128 	
-UFortVehicleConfigs 	ToggleablePartNames 	0x138 	
-UFortVehicleConfigs 	WeaponDynamicReticleData 	0x148 	
-UFortVehicleConfigs 	UnoccupiedAutoDestroyTime 	0x158 	
-UFortVehicleConfigs 	HUDTopSpeed 	0x180 	
-UFortVehicleConfigs 	PlayerFacingName 	0x188 	
-UFortVehicleConfigs 	WheelRotationRange 	0x198 	
-UFortVehicleConfigs 	VehicleFrontLowLateralFrictionMultiplier 	0x19c 	
-UFortVehicleConfigs 	VehicleRearLowLateralFrictionMultiplier 	0x1a0 	
-UFortVehicleConfigs 	VehicleFrontHighLateralFrictionMultiplier 	0x1a4 	
-UFortVehicleConfigs 	VehicleRearHighLateralFrictionMultiplier 	0x1a8 	
-UFortVehicleConfigs 	LowToHighFrictionDuration 	0x1ac 	
-UFortVehicleConfigs 	UphillIncline 	0x1b0 	
-UFortVehicleConfigs 	ReverseToForwardFrontFriction 	0x1b4 	
-UFortVehicleConfigs 	ReverseToForwardRearFriction 	0x1b8 	
-UFortVehicleConfigs 	ReverseToForwardMaxSpeed 	0x1bc 	
-UFortVehicleConfigs 	TireModDataMapping 	0x1c0 	
-UFortVehicleConfigs 	HonkTimeMax 	0x210 	
-UFortVehicleConfigs 	HonkCooldownMax 	0x214 	
-UFortVehicleConfigs 	HonkTimePerHonk 	0x218 	
-UFortVehicleConfigs 	ServerExtraHealth 	0x21c 	
-UFortVehicleConfigs 	MaxTimeZeroHealth 	0x220 	
-UFortVehicleConfigs 	MaxTimeExplosion 	0x224 	
-UFortVehicleConfigs 	SelfDestructTime 	0x228 	
-UFortVehicleConfigs 	MaxTimeSelfDestructCleanup 	0x22c 	
-UFortVehicleConfigs 	SquadRestrictionEnabled 	0x230 	
-UFortVehicleConfigs 	SquadRestrictionText 	0x258 	
-UFortVehicleConfigs 	TeamRestrictionEnabled 	0x270 	
-UFortVehicleConfigs 	TeamRestrictionText 	0x298
+UFortVehicleConfigs::NumWheelsTouchingGroundForWheelsOnGround 	0x28 	
+UFortVehicleConfigs::TimeToIdleBrake 	0x2c 	
+UFortVehicleConfigs::ChangeDirBrakeDelta 	0x30 	
+UFortVehicleConfigs::VehicleSleepCounter 	0x34 	
+UFortVehicleConfigs::GasPedalDownMinSpeed 	0x38 	
+UFortVehicleConfigs::AcceleratingSpeedThresholdMin 	0x3c 	
+UFortVehicleConfigs::AcceleratingSpeedThresholdMax 	0x40 	
+UFortVehicleConfigs::VehicleMinFOV 	0x44 	
+UFortVehicleConfigs::VehicleMaxFOV 	0x48 	
+UFortVehicleConfigs::VehicleMinFOVSpeed 	0x4c 	
+UFortVehicleConfigs::VehicleMaxFOVSpeed 	0x50 	
+UFortVehicleConfigs::VehicleFOVInterpSpeed 	0x54 	
+UFortVehicleConfigs::VehicleFOVPassengerInterpSpeed 	0x58 	
+UFortVehicleConfigs::CameraSpaceForwardDistanceOverride 	0x5c 	
+UFortVehicleConfigs::DriverCameraShakeClass 	0x60 	
+UFortVehicleConfigs::OffroadCamShakeClass 	0x68 	
+UFortVehicleConfigs::OffroadCameraShakeOscillationYAmplitude 	0x70 	
+UFortVehicleConfigs::OffroadCameraShakeOscillationZAmplitude 	0x74 	
+UFortVehicleConfigs::OffroadCameraShakeMaxVehicleSpeed 	0x78 	
+UFortVehicleConfigs::OffroadCameraShakeOscillationRotationAmplitude 	0x7c 	
+UFortVehicleConfigs::OffroadCameraShakeOscillationMinFrequency 	0x80 	
+UFortVehicleConfigs::OffroadCameraShakeOscillationMaxFrequency 	0x84 	
+UFortVehicleConfigs::AcceleratingCamShakeClass 	0x88 	
+UFortVehicleConfigs::AcceleratingMaxSpeedForCameraShakeIntensity 	0x90 	
+UFortVehicleConfigs::AcceleratingMaxCameraShakeIntensity 	0x94 	
+UFortVehicleConfigs::AcceleratingCameraShakeIntensityFalloff 	0x98 	
+UFortVehicleConfigs::AcceleratingForceFeedbackDuration 	0x9c 	
+UFortVehicleConfigs::bAcceleratingAffectsLeftLarge 	0xa0 	
+UFortVehicleConfigs::bAcceleratingAffectsLeftSmall 	0xa1 	
+UFortVehicleConfigs::bAcceleratingAffectsRightLarge 	0xa2 	
+UFortVehicleConfigs::bAcceleratingAffectsRightSmall 	0xa3 	
+UFortVehicleConfigs::AcceleratingMaxSpeedForForceFeedbackIntensity 	0xa4 	
+UFortVehicleConfigs::AcceleratingMaxForceFeedbackIntensity 	0xa8 	
+UFortVehicleConfigs::AcceleratingForceFeedbackIntensityFalloff 	0xac 	
+UFortVehicleConfigs::InteractDistanceScalar 	0xb0 	
+UFortVehicleConfigs::MinFallDamageHeight 	0xb4 	
+UFortVehicleConfigs::MaxFallDamageHeight 	0xb8 	
+UFortVehicleConfigs::MinFallDamage 	0xbc 	
+UFortVehicleConfigs::MaxFallDamage 	0xc0 	
+UFortVehicleConfigs::PlayerFallDamageMultiplier 	0xc4 	
+UFortVehicleConfigs::bDamageFriendlyVehicles 	0xc8 	
+UFortVehicleConfigs::bDamageOtherVehicles 	0xc9 	
+UFortVehicleConfigs::bDamageOwnVehicle 	0xca 	
+UFortVehicleConfigs::bDamageAllowedFromOtherVehicle 	0xcb 	
+UFortVehicleConfigs::VehicleEjectCooldown 	0xcc 	
+UFortVehicleConfigs::PlayerToSocketSweepRadius 	0xd0 	
+UFortVehicleConfigs::VehicleGravity 	0xd4 	
+UFortVehicleConfigs::PlayerGravityMultiplier 	0xd8 	
+UFortVehicleConfigs::PassengerDamageOnDestruction 	0xdc 	
+UFortVehicleConfigs::MinFallDamageNormalScale 	0xe0 	
+UFortVehicleConfigs::DriverExitLaunchScalar 	0xe4 	
+UFortVehicleConfigs::DriverExitLaunchUpScalar 	0xe8 	
+UFortVehicleConfigs::DriverExitInAirLaunchScalar 	0xec 	
+UFortVehicleConfigs::DriverExitInAirLaunchUpScalar 	0xf0 	
+UFortVehicleConfigs::PassengerExitLaunchScalar 	0xf4 	
+UFortVehicleConfigs::PassengerExitLaunchUpScalar 	0xf8 	
+UFortVehicleConfigs::PassengerExitInAirLaunchScalar 	0xfc 	
+UFortVehicleConfigs::PassengerExitInAirLaunchUpScalar 	0x100 	
+UFortVehicleConfigs::bCanDoTricks 	0x104 	
+UFortVehicleConfigs::bShouldDriverHaveReticle 	0x105 	
+UFortVehicleConfigs::bSupportsWraps 	0x106 	
+UFortVehicleConfigs::ExitVehicleCoolDown 	0x108 	
+UFortVehicleConfigs::bShouldProtectFromFireDamage 	0x10c 	
+UFortVehicleConfigs::bInheritScale 	0x10d 	
+UFortVehicleConfigs::HoldToExitTime 	0x110 	
+UFortVehicleConfigs::ForceExitZOffset 	0x114 	
+UFortVehicleConfigs::bBlockBuilding 	0x118 	
+UFortVehicleConfigs::bPreferDriverSeatWhenEmpty 	0x119 	
+UFortVehicleConfigs::bCanUseSkeletalMeshSimulationUpdatesChildTransforms 	0x11a 	
+UFortVehicleConfigs::FireDamagePerSecond 	0x11c 	
+UFortVehicleConfigs::FireDamageTickRate 	0x120 	
+UFortVehicleConfigs::bCanBeOnFire 	0x124 	
+UFortVehicleConfigs::DamageableParts 	0x128 	
+UFortVehicleConfigs::ToggleablePartNames 	0x138 	
+UFortVehicleConfigs::WeaponDynamicReticleData 	0x148 	
+UFortVehicleConfigs::UnoccupiedAutoDestroyTime 	0x158 	
+UFortVehicleConfigs::HUDTopSpeed 	0x180 	
+UFortVehicleConfigs::PlayerFacingName 	0x188 	
+UFortVehicleConfigs::WheelRotationRange 	0x198 	
+UFortVehicleConfigs::VehicleFrontLowLateralFrictionMultiplier 	0x19c 	
+UFortVehicleConfigs::VehicleRearLowLateralFrictionMultiplier 	0x1a0 	
+UFortVehicleConfigs::VehicleFrontHighLateralFrictionMultiplier 	0x1a4 	
+UFortVehicleConfigs::VehicleRearHighLateralFrictionMultiplier 	0x1a8 	
+UFortVehicleConfigs::LowToHighFrictionDuration 	0x1ac 	
+UFortVehicleConfigs::UphillIncline 	0x1b0 	
+UFortVehicleConfigs::ReverseToForwardFrontFriction 	0x1b4 	
+UFortVehicleConfigs::ReverseToForwardRearFriction 	0x1b8 	
+UFortVehicleConfigs::ReverseToForwardMaxSpeed 	0x1bc 	
+UFortVehicleConfigs::TireModDataMapping 	0x1c0 	
+UFortVehicleConfigs::HonkTimeMax 	0x210 	
+UFortVehicleConfigs::HonkCooldownMax 	0x214 	
+UFortVehicleConfigs::HonkTimePerHonk 	0x218 	
+UFortVehicleConfigs::ServerExtraHealth 	0x21c 	
+UFortVehicleConfigs::MaxTimeZeroHealth 	0x220 	
+UFortVehicleConfigs::MaxTimeExplosion 	0x224 	
+UFortVehicleConfigs::SelfDestructTime 	0x228 	
+UFortVehicleConfigs::MaxTimeSelfDestructCleanup 	0x22c 	
+UFortVehicleConfigs::SquadRestrictionEnabled 	0x230 	
+UFortVehicleConfigs::SquadRestrictionText 	0x258 	
+UFortVehicleConfigs::TeamRestrictionEnabled 	0x270 	
+UFortVehicleConfigs::TeamRestrictionText 	0x298
+
 
 FortWeapon
-AFortWeapon 	OnWeaponRateOfFireChanged 	0x298 	
-AFortWeapon 	OnPressTrigger 	0x2c0 	
-AFortWeapon 	OnReleaseTrigger 	0x2d0 	
-AFortWeapon 	TimeToEquip 	0x300 	
-AFortWeapon 	bIsEquippingWeapon 	0x310 	
-AFortWeapon 	bIsReloadingWeapon 	0x311 	
-AFortWeapon 	bIsgingWeapon 	0x312 	
-AFortWeapon 	bDisableEquipAnimation 	0x313 	
-AFortWeapon 	bIsAimingConsumable 	0x315 	
-AFortWeapon 	OnLocalAmmoChanged 	0x338 	
-AFortWeapon 	OnLocalReloadStarted 	0x348 	
-AFortWeapon 	OnLocalReloadCancelled 	0x358 	
-AFortWeapon 	OnLocalTargetingChanged 	0x368 	
-AFortWeapon 	OnSecondaryAbilityToggled 	0x378 	
-AFortWeapon 	OnWeaponFireAudioVisuals 	0x388 	
-AFortWeapon 	OnReticleColorChanged 	0x3b0 	
-AFortWeapon 	bUseAttributeCaching 	0x3d4 	
-AFortWeapon 	WeaponData 	0x3d8 	
-AFortWeapon 	CosmeticOverrideWeaponData 	0x3e0 	
-AFortWeapon 	bImpactFXAttachedToHitActor 	0x3e8 	
-AFortWeapon 	GameplayAbilityBehaviorDistanceData 	0x3f0 	
-AFortWeapon 	HitNotifyAudioBank 	0x400 	
-AFortWeapon 	bRemoveAbilitiesWhenRemovedFromInventory 	0x420 	
-AFortWeapon 	GrantedAbilityRemovalPolicy[0x3] 	0x421 	
-AFortWeapon 	EquippedWeaponDestroyWrapperRepCounter 	0x468 	
-AFortWeapon 	OnPlayImpactFXDelegate 	0x4a0 	
-AFortWeapon 	PersistentFXStartTime 	0x548 	
-AFortWeapon 	MinimumTimeForPersistentFX 	0x54c 	
-AFortWeapon 	OverrideItemWrapSoftPtr 	0x550 	
-AFortWeapon 	WeaponReduceMeshWorkSetting 	0x588 	
-AFortWeapon 	bWeaponSupportsQuartzGunfire 	0x589 	
-AFortWeapon 	QuartzGunfireComp 	0x590 	
-AFortWeapon 	bShouldDrawNativeReticle 	0x598 	
-AFortWeapon 	ReticleImage 	0x5a0 	
-AFortWeapon 	AutoFireReticleImage 	0x5a8 	
-AFortWeapon 	ReticleDefaultColor 	0x5b0 	
-AFortWeapon 	ReticleEnemyColor 	0x5b4 	
-AFortWeapon 	ReticleBuildingColor 	0x5b8 	
-AFortWeapon 	ReticleNoTargetColor 	0x5bc 	
-AFortWeapon 	HitNotifyReticleImage 	0x5c0 	
-AFortWeapon 	HitNotifyLocationReticleImage 	0x5c8 	
-AFortWeapon 	CriticalHitNotifyLocationReticleImage 	0x5d0 	
-AFortWeapon 	ReticleCenterImage 	0x5d8 	
-AFortWeapon 	ReticleCenterPerfectAimImage 	0x5e0 	
-AFortWeapon 	ReticleInvalidTargetImage 	0x5e8 	
-AFortWeapon 	MuzzleBlockedReticleImage 	0x5f0 	
-AFortWeapon 	ReticleAltCenterImage 	0x5f8 	
-AFortWeapon 	ReticleOuterImage 	0x600 	
-AFortWeapon 	ReticleAltOuterImage 	0x608 	
-AFortWeapon 	ReticleDefaultPrimaryStrikeAngle 	0x610 	
-AFortWeapon 	ReticleDefaultSecondaryStrikeAngle 	0x614 	
-AFortWeapon 	bSupportsAutofireAtReticleTarget 	0x618 	
-AFortWeapon 	CameraBase3PClass 	0x620 	
-AFortWeapon 	CameraTargeting3PClass 	0x628 	
-AFortWeapon 	CameraBase1PClass 	0x630 	
-AFortWeapon 	CameraTargeting1PClass 	0x638 	
-AFortWeapon 	DestroyedSound 	0x640 	
-AFortWeapon 	OutOfAmmoSound 	0x648 	
-AFortWeapon 	ReloadSounds[0x3] 	0x650 	
-AFortWeapon 	PrimaryFireSound1P 	0x668 	
-AFortWeapon 	PrimaryFireSound[0x3] 	0x670 	
-AFortWeapon 	PrimaryFireStopSound1P 	0x688 	
-AFortWeapon 	PrimaryFireStopSound[0x3] 	0x690 	
-AFortWeapon 	SecondaryFireSound[0x3] 	0x6a8 	
-AFortWeapon 	SecondaryFireStopSound[0x3] 	0x6c0 	
-AFortWeapon 	geFireSound1P[0x3] 	0x6d8 	
-AFortWeapon 	geFireSound[0x3] 	0x6f0 	
-AFortWeapon 	TargetingStartSound 	0x708 	
-AFortWeapon 	TargetingEndSound 	0x710 	
-AFortWeapon 	PrimaryFireSoundFadeOutTime 	0x718 	
-AFortWeapon 	ImpactPhysicalSurfaceSounds[0x1c] 	0x720 	
-AFortWeapon 	ImpactPhysicalSurfaceEffects[0x1c] 	0x808 	
-AFortWeapon 	ImpactNiagaraPhysicalSurfaceEffectAssets 	0x8e8 	
-AFortWeapon 	ImpactCameraShake 	0x8f8 	
-AFortWeapon 	PrimaryForceFeedbackEffect 	0x900 	
-AFortWeapon 	SecondaryForceFeedbackEffect 	0x908 	
-AFortWeapon 	PrimaryImpactForceFeedbackEffect 	0x910 	
-AFortWeapon 	SecondaryImpactForceFeedbackEffect 	0x918 	
-AFortWeapon 	ImpactNiagaraPhysicalSurfaceEffectInstances 	0x920 	
-AFortWeapon 	DataStoreManager 	0x930 	
-AFortWeapon 	FireAudioChannels[0x4] 	0x938 	
-AFortWeapon 	ReloadAudioChannels[0x3] 	0x958 	
-AFortWeapon 	TargetingAudioChannels[0x2] 	0x970 	
-AFortWeapon 	SoundIndicatorComponent 	0x980 	
-AFortWeapon 	CurrentGunFireIndex 	0x988 	
-AFortWeapon 	WeaponMesh 	0x990 	
-AFortWeapon 	AllWeaponMeshes 	0x998 	
-AFortWeapon 	DefaultWeaponMaterials 	0x9a8 	
-AFortWeapon 	OriginalMaterialMap 	0x9b8 	
-AFortWeapon 	FireAudioChannelWantsToPlay[0x4] 	0xa08 	
-AFortWeapon 	WrapSectionMask 	0xa18 	
-AFortWeapon 	bUsingSecondaryFireAudio 	0xa1c 	
-AFortWeapon 	bHasCachedAdditionalMeshes 	0xa1d 	
-AFortWeapon 	CurrentReticleColor 	0xa20 	
-AFortWeapon 	CurrentDamageStartLocation 	0xa28 	
-AFortWeapon 	CurrentAdjustedAimDirection 	0xa40 	
-AFortWeapon 	FireFXSignificance 	0xa58 	
-AFortWeapon 	LastFireTime 	0xa70 	
-AFortWeapon 	LastFireTimeVerified 	0xa74 	
-AFortWeapon 	bIsPlayingFireFX 	0xa78 	
-AFortWeapon 	bFireFXTriggered 	0xa79 	
-AFortWeapon 	TimerIntervalAdjustment 	0xa7c 	
-AFortWeapon 	InputQueueTimePercent 	0xa80 	
-AFortWeapon 	bAllowTargeting 	0xa84 	
-AFortWeapon 	bIsTargeting 	0xa85 	
-AFortWeapon 	LastTargetingTransitionTime 	0xa88 	
-AFortWeapon 	TargetSourceOffset 	0xa90 	
-AFortWeapon 	TargetSourceOffsetWhileCrouched 	0xaa8 	
-AFortWeapon 	TargetSourceOffsetWhileTargeting 	0xac0 	
-AFortWeapon 	bTraceThroughPawns 	0xad8 	
-AFortWeapon 	bTraceThroughWorld 	0xad9 	
-AFortWeapon 	TraceThroughPawnsLimit 	0xadc 	
-AFortWeapon 	TraceThroughBuildingsLimit 	0xae0 	
-AFortWeapon 	TraceThroughLandscapeLimit 	0xae4 	
-AFortWeapon 	bUseProjectileTrace 	0xae8 	
-AFortWeapon 	bUseVariableFocalDistanceTargeting 	0xae9 	
-AFortWeapon 	bUseWeaponTraceForReticle 	0xaea 	
-AFortWeapon 	ProjectilePitchOffset 	0xaec 	
-AFortWeapon 	LastReloadTime 	0xaf0 	
-AFortWeapon 	LastSuccessfulReloadTime 	0xaf4 	
-AFortWeapon 	CurrentReloadDuration 	0xaf8 	
-AFortWeapon 	ItemEntryGuid 	0xb00 	
-AFortWeapon 	TrackerGuid 	0xb10 	
-AFortWeapon 	WeaponLevel 	0xb20 	
-AFortWeapon 	AmmoCount 	0xb24 	
-AFortWeapon 	PhantomReserveAmmo 	0xb28 	
-AFortWeapon 	BurstFireCounter 	0xb34 	
-AFortWeapon 	geTime 	0xb38 	
-AFortWeapon 	AccumulatedgeTime 	0xb3c 	
-AFortWeapon 	LastgeTime 	0xb40 	
-AFortWeapon 	StartgeGameplayCue 	0xb44 	
-AFortWeapon 	MaxgeGameplayCue 	0xb48 	
-AFortWeapon 	OutOfAmmoTextOverrideFailTag 	0xb4c 	
-AFortWeapon 	NoSpareAmmoToReloadTextOverrideFailTag 	0xb50 	
-AFortWeapon 	CurrentShotLogIndex 	0xb54 	
-AFortWeapon 	ShotLogFlags 	0xb58 	TArray<u>
-AFortWeapon 	bInitializedWeaponItem 	0xb68 	
-AFortWeapon 	bPendingDestroyDueToDurabilityOrStackCount 	0xb68 	
-AFortWeapon 	bCompletedAppliedAlterationsLoad 	0xb69 	
-AFortWeapon 	bCompletedWeaponLoad 	0xb69 	
-AFortWeapon 	bIsCosmeticLimited 	0xb69 	
-AFortWeapon 	bReplicatedAppliedAlterationsWithNoInstigator 	0xb69 	
-AFortWeapon 	bShouldFullyApplyVariantsOnEquip 	0xb69 	
-AFortWeapon 	bSecondaryFireAlwaysCancelSwimSprint 	0xb69 	
-AFortWeapon 	geStatusPack 	0xb6c 	
-AFortWeapon 	AttachedTrajectoryIndicator 	0xb7c 	
-AFortWeapon 	ActiveAbility 	0xb88 	
-AFortWeapon 	PrimaryAbilitySpecHandle 	0xb90 	
-AFortWeapon 	SecondaryAbilitySpecHandle 	0xb94 	
-AFortWeapon 	ReloadAbilitySpecHandle 	0xb98 	
-AFortWeapon 	ImpactAbilitySpecHandle 	0xb9c 	
-AFortWeapon 	ReticleTraceOverrideSpecHandle 	0xba0 	
-AFortWeapon 	EquippedAbilityHandles 	0xba8 	
-AFortWeapon 	EquippedAbilitySetHandles 	0xbb8 	
-AFortWeapon 	AppliedAlterations 	0xbc8 	
-AFortWeapon 	WeaponModSlots 	0xbd8 	
-AFortWeapon 	EquippedWeaponModSlots 	0xbe8 	
-AFortWeapon 	PreviousWeaponVariants 	0xbf8 	
-AFortWeapon 	AppliedItemWrap 	0xc30 	
-AFortWeapon 	CachedFXManager 	0xc38 	
-AFortWeapon 	CachedSignificanceManager 	0xc40 	
-AFortWeapon 	MuzzleSocketName 	0xc48 	
-AFortWeapon 	MuzzleFalloffSocketName 	0xc4c 	
-AFortWeapon 	WeaponHandSocketNameOverride 	0xc50 	
-AFortWeapon 	LeftHandWeaponHandSocketNameOverride 	0xc54 	
-AFortWeapon 	WeaponHandSocketPartOverrides 	0xc58 	
-AFortWeapon 	bForceOverrideGenerateOverlapEvents 	0xc70 	
-AFortWeapon 	MaxWeaponSwitchNetworkWaitTime 	0xd5c 	
-AFortWeapon 	LastFireAbilityTime 	0xd60 	
-AFortWeapon 	EquipAnimation 	0xd98 	
-AFortWeapon 	ReloadAnimation 	0xda0 	
-AFortWeapon 	CustomReloadAnimationPerAmmoToFill 	0xda8 	
-AFortWeapon 	PrimaryAbilityAnimation 	0xdb8 	
-AFortWeapon 	SecondaryAbilityAnimation 	0xdc0 	
-AFortWeapon 	WeaponEquipMontage 	0xdc8 	
-AFortWeapon 	WeaponReloadMontage 	0xdd0 	
-AFortWeapon 	CustomWeaponReloadMontagePerAmmoToFill 	0xdd8 
-AFortWeapon 	WeaponPrimaryAbilityMontage 	0xde8 	
-AFortWeapon 	WeaponSecondaryAbilityMontage 	0xdf0 	
-AFortWeapon 	PoseOffsetAnimSequence 	0xdf8 	
-AFortWeapon 	PoseOffsetAnimSequenceFemaleOverride 	0xe00 	
-AFortWeapon 	WeaponCoreAnimation 	0xe08 	
-AFortWeapon 	WeaponPawnAnimSet 	0xe10 	
-AFortWeapon 	WeaponPawnAnimLayerOverlayClass 	0xe18 	
-AFortWeapon 	WeaponAdditiveAnimSet 	0xe20 	
-AFortWeapon 	WeaponPawnAnimsetOverride 	0xe28 
-AFortWeapon 	UnableToPerformActionMontageOverride 	0xe60 	
-AFortWeapon 	ActiveFireMode 	0xe68 	
-AFortWeapon 	FireModeData_HipFire 	0xe90 	
-AFortWeapon 	FireModeData_AimDownSight 	0xeb8 	
-AFortWeapon 	FireModeData_Override 	0xee0 	
-AFortWeapon 	ItemWrapModifier 	0xf18 	
-AFortWeapon 	LockOnTargetCandidate 	0xf38 	
-AFortWeapon 	bIgnoreTryToFireSlotCooldownRestriction 	0xf41 	
-AFortWeapon 	bFireConsumableAnalyticEvent 	0xf43 	
-AFortWeapon 	OnWeaponHudKeyActionUpdated 	0xf48 	
-AFortWeapon 	HudKeyActionData 	0xf58
+AFortWeapon::OnWeaponRateOfFireChanged 	0x298 	
+AFortWeapon::OnPressTrigger 	0x2c0 	
+AFortWeapon::OnReleaseTrigger 	0x2d0 	
+AFortWeapon::TimeToEquip 	0x300 	
+AFortWeapon::bIsEquippingWeapon 	0x310 	
+AFortWeapon::bIsReloadingWeapon 	0x311 	
+AFortWeapon::bIsgingWeapon 	0x312 	
+AFortWeapon::bDisableEquipAnimation 	0x313 	
+AFortWeapon::bIsAimingConsumable 	0x315 	
+AFortWeapon::OnLocalAmmoChanged 	0x338 	
+AFortWeapon::OnLocalReloadStarted 	0x348 	
+AFortWeapon::OnLocalReloadCancelled 	0x358 	
+AFortWeapon::OnLocalTargetingChanged 	0x368 	
+AFortWeapon::OnSecondaryAbilityToggled 	0x378 	
+AFortWeapon::OnWeaponFireAudioVisuals 	0x388 	
+AFortWeapon::OnReticleColorChanged 	0x3b0 	
+AFortWeapon::bUseAttributeCaching 	0x3d4 	
+AFortWeapon::WeaponData 	0x3d8 	
+AFortWeapon::CosmeticOverrideWeaponData 	0x3e0 	
+AFortWeapon::bImpactFXAttachedToHitActor 	0x3e8 	
+AFortWeapon::GameplayAbilityBehaviorDistanceData 	0x3f0 	
+AFortWeapon::HitNotifyAudioBank 	0x400 	
+AFortWeapon::bRemoveAbilitiesWhenRemovedFromInventory 	0x420 	
+AFortWeapon::GrantedAbilityRemovalPolicy[0x3] 	0x421 	
+AFortWeapon::EquippedWeaponDestroyWrapperRepCounter 	0x468 	
+AFortWeapon::OnPlayImpactFXDelegate 	0x4a0 	
+AFortWeapon::PersistentFXStartTime 	0x548 	
+AFortWeapon::MinimumTimeForPersistentFX 	0x54c 	
+AFortWeapon::OverrideItemWrapSoftPtr 	0x550 	
+AFortWeapon::WeaponReduceMeshWorkSetting 	0x588 	
+AFortWeapon::bWeaponSupportsQuartzGunfire 	0x589 	
+AFortWeapon::QuartzGunfireComp 	0x590 	
+AFortWeapon::bShouldDrawNativeReticle 	0x598 	
+AFortWeapon::ReticleImage 	0x5a0 	
+AFortWeapon::AutoFireReticleImage 	0x5a8 	
+AFortWeapon::ReticleDefaultColor 	0x5b0 	
+AFortWeapon::ReticleEnemyColor 	0x5b4 	
+AFortWeapon::ReticleBuildingColor 	0x5b8 	
+AFortWeapon::ReticleNoTargetColor 	0x5bc 	
+AFortWeapon::HitNotifyReticleImage 	0x5c0 	
+AFortWeapon::HitNotifyLocationReticleImage 	0x5c8 	
+AFortWeapon::CriticalHitNotifyLocationReticleImage 	0x5d0 	
+AFortWeapon::ReticleCenterImage 	0x5d8 	
+AFortWeapon::ReticleCenterPerfectAimImage 	0x5e0 	
+AFortWeapon::ReticleInvalidTargetImage 	0x5e8 	
+AFortWeapon::MuzzleBlockedReticleImage 	0x5f0 	
+AFortWeapon::ReticleAltCenterImage 	0x5f8 	
+AFortWeapon::ReticleOuterImage 	0x600 	
+AFortWeapon::ReticleAltOuterImage 	0x608 	
+AFortWeapon::ReticleDefaultPrimaryStrikeAngle 	0x610 	
+AFortWeapon::ReticleDefaultSecondaryStrikeAngle 	0x614 	
+AFortWeapon::bSupportsAutofireAtReticleTarget 	0x618 	
+AFortWeapon::CameraBase3PClass 	0x620 
 
 Character
-ACharacter 	Mesh 	0x2f0 	
-ACharacter 	acterMovement 	0x2f8 	
-ACharacter 	CapsuleComponent 	0x300 	
-ACharacter 	BasedMovement 	0x308 	
-ACharacter 	ReplicatedBasedMovement 	0x350 	
-ACharacter 	AnimRootMotionTranslationScale 	0x398 	
-ACharacter 	BaseTranslationOffset 	0x3a0 	
-ACharacter 	BaseRotationOffset 	0x3c0 	
-ACharacter 	ReplicatedServerLastTransformUpdateTimeStamp 	0x3e0 	
-ACharacter 	ReplayLastTransformUpdateTimeStamp 	0x3e4 	
-ACharacter 	ReplicatedMovementMode 	0x3e8 	
-ACharacter 	bInBaseReplication 	0x3e9 	
-ACharacter 	CrouchedEyeHeight 	0x3ec 	
-ACharacter 	bIsCrouched 	0x3f0 	
-ACharacter 	bProxyIsJumpForceApplied 	0x3f0 	
-ACharacter 	bPressedJump 	0x3f0 	
-ACharacter 	bClientUpdating 	0x3f0 	
-ACharacter 	bClientWasFalling 	0x3f0 	
-ACharacter 	bClientResimulateRootMotion 	0x3f0 	
-ACharacter 	bClientResimulateRootMotionSources 	0x3f0 	
-ACharacter 	bSimGravityDisabled 	0x3f0 	
-ACharacter 	bClientCheckEncroachmentOnNetUpdate 	0x3f1 	
-ACharacter 	bServerMoveIgnoreRootMotion 	0x3f1 	
-ACharacter 	bWasJumping 	0x3f1 	
-ACharacter 	JumpKeyHoldTime 	0x3f4 	
-ACharacter 	JumpForceTimeRemaining 	0x3f8 	
-ACharacter 	ProxyJumpForceStartedTime 	0x3fc 	
-ACharacter 	JumpMaxHoldTime 	0x400 	
-ACharacter 	JumpMaxCount 	0x404 	
-ACharacter 	JumpCurrentCount 	0x408 	
-ACharacter 	JumpCurrentCountPreJump 	0x40c 	
-ACharacter 	OnReachedJumpApex 	0x418 	
-ACharacter 	MovementModeChangedDelegate 	0x438 	
-ACharacter 	OnacterMovementUpdated 	0x448 	
-ACharacter 	SavedRootMotion 	0x458 
-ACharacter 	ClientRootMotionParams 	0x4a0 	
-ACharacter 	RootMotionRepMoves 	0x510
+ACharacter::Mesh 	0x2f0 	
+ACharacter::acterMovement 	0x2f8 	
+ACharacter::CapsuleComponent 	0x300 	
+ACharacter::BasedMovement 	0x308 	
+ACharacter::ReplicatedBasedMovement 	0x350 	
+ACharacter::AnimRootMotionTranslationScale 	0x398 	
+ACharacter::BaseTranslationOffset 	0x3a0 	
+ACharacter::BaseRotationOffset 	0x3c0 	
+ACharacter::ReplicatedServerLastTransformUpdateTimeStamp 	0x3e0 	
+ACharacter::ReplayLastTransformUpdateTimeStamp 	0x3e4 	
+ACharacter::ReplicatedMovementMode 	0x3e8 	
+ACharacter::bInBaseReplication 	0x3e9 	
+ACharacter::CrouchedEyeHeight 	0x3ec 	
+ACharacter::bIsCrouched 	0x3f0 	
+ACharacter::bProxyIsJumpForceApplied 	0x3f0 	
+ACharacter::bPressedJump 	0x3f0 	
+ACharacter::bClientUpdating 	0x3f0 	
+ACharacter::bClientWasFalling 	0x3f0 	
+ACharacter::bClientResimulateRootMotion 	0x3f0 	
+ACharacter::bClientResimulateRootMotionSources 	0x3f0 	
+ACharacter::bSimGravityDisabled 	0x3f0 	
+ACharacter::bClientCheckEncroachmentOnNetUpdate 	0x3f1 	
+ACharacter::bServerMoveIgnoreRootMotion 	0x3f1 	
+ACharacter::bWasJumping 	0x3f1 	
+ACharacter::JumpKeyHoldTime 	0x3f4 	
+ACharacter::JumpForceTimeRemaining 	0x3f8 	
+ACharacter::ProxyJumpForceStartedTime 	0x3fc 	
+ACharacter::JumpMaxHoldTime 	0x400 	
+ACharacter::JumpMaxCount 	0x404 	
+ACharacter::JumpCurrentCount 	0x408 	
+ACharacter::JumpCurrentCountPreJump 	0x40c 	
+ACharacter::OnReachedJumpApex 	0x418 	
+ACharacter::MovementModeChangedDelegate 	0x438 	
+ACharacter::OnacterMovementUpdated 	0x448 	
+ACharacter::SavedRootMotion 	0x458 
+ACharacter::ClientRootMotionParams 	0x4a0 	
+ACharacter::RootMotionRepMoves 	0x510
 
 FortPawn
-AFortPawn 	bUseBaseChanged 	0x680 	
-AFortPawn 	bIgnoreNextFallingDamage 	0x680 	
-AFortPawn 	bAllowDeathFromFallingDamage 	0x680 	
-AFortPawn 	bIsDying 	0x680 	
-AFortPawn 	bPlayedDying 	0x680 	
-AFortPawn 	bIsHiddenForDeath 	0x680 	
-AFortPawn 	bIsKnockedback 	0x680 	
-AFortPawn 	bIsStaggered 	0x681 	
-AFortPawn 	bCanCapsuleBeUsedForTargeting 	0x681 	
-AFortPawn 	bUseLineTestForDamageZoneBoneDetection 	0x681 	
-AFortPawn 	bMovingEmote 	0x681 	
-AFortPawn 	bMovingEmoteForwardOnly 	0x681 	
-AFortPawn 	bMovingEmoteFollowingOnly 	0x681 	
-AFortPawn 	bMovingEmoteSkipLandingFX 	0x682 	
-AFortPawn 	bIsInvulnerable 	0x682 	
-AFortPawn 	bSpotted 	0x682 	
-AFortPawn 	bRegisterWithAISight 	0x682 	
-AFortPawn 	bRegisterWithAimAssist 	0x682 	
-AFortPawn 	bPrimaryInputHeld 	0x682 	
-AFortPawn 	bSecondaryInputHeld 	0x682 	
-AFortPawn 	bPrimaryInputQueued 	0x682 	
-AFortPawn 	bWeaponActivated 	0x683 	
-AFortPawn 	bIsInGoop 	0x683 	
-AFortPawn 	bReplicatedIsInGoop 	0x683 	
-AFortPawn 	bIsSliding 	0x683 	
-AFortPawn 	bIsSwinging 	0x683 	
-AFortPawn 	bIsSynchedAction 	0x683 	
-AFortPawn 	bSwingingAttached 	0x683 	
-AFortPawn 	SwingAttachLocation 	0x688 	
-AFortPawn 	SwingAttachLocationUpdateDistanceThreshold 	0x6a0 	
-AFortPawn 	SynchedActionLocation 	0x6a8 	
-AFortPawn 	SynchedActionRotator 	0x6c0 	
-AFortPawn 	bSkipAnalogJump 	0x6d8 	
-AFortPawn 	FootstepTraceTypeQuery 	0x6d9 	
-AFortPawn 	FootstepSurfaceType 	0x6da 	
-AFortPawn 	SoundIndicatorComponent 	0x6e0 	
-AFortPawn 	UroShiftBucket 	0x6f0 	
-AFortPawn 	bUpdateMeshComponentUpdateFlagOnServer 	0x6f1 	
-AFortPawn 	bUROCanTieToLODs 	0x6f1 	
-AFortPawn 	bPostProcessNavLocation 	0x6f1 	
-AFortPawn 	bHealthSynced 	0x6f1 	
-AFortPawn 	bWeaponHolstered 	0x6f1 	
-AFortPawn 	bSkipReticleColorTrace 	0x6f1 	
-AFortPawn 	bPrioritizePawnCollisionsOnAbilityTargetSelectionVisibilityTest 	0x6f1 	
-AFortPawn 	bTreatAsPawnForHitMarkers 	0x6f2 	
-AFortPawn 	bDisplayPawnHitMarkersForChildActors 	0x6f2 	
-AFortPawn 	bUsesStats 	0x6f2 	
-AFortPawn 	bAllowBuildingActorTeleport 	0x6f2 	
-AFortPawn 	bIsDBNO 	0x6f2 	
-AFortPawn 	bWasDBNOOnDeath 	0x6f2 	
-AFortPawn 	bCachedIsInAthena 	0x6f2 	
-AFortPawn 	bShouldUseacterMovementIdleFastPath 	0x6f2 	
-AFortPawn 	CurrentMovementStyle 	0x6f3 	
-AFortPawn 	ControlRecoveryBehavior 	0x6f4 	
-AFortPawn 	TeleportCounter 	0x6f5 	
-AFortPawn 	PawnStatHandle 	0x6f8 	
-AFortPawn 	SlidingFriction 	0x708 	
-AFortPawn 	SlidingBrakingDeceleration 	0x70c 	
-AFortPawn 	StormShieldComponent 	0x710 	
-AFortPawn 	OnStormShieldComponentCreated 	0x718 	
-AFortPawn 	PushSize 	0x728 	
-AFortPawn 	LastSurfaceTraceTime 	0x734 	
-AFortPawn 	LastSurfaceTraceLocation 	0x738 	
-AFortPawn 	OnPawnJumped 	0x778 	
-AFortPawn 	bIsJumping 	0x788 	
-AFortPawn 	PawnUniqueID 	0x78c 	
-AFortPawn 	CurrentWeapon 	0x790 	
-AFortPawn 	PreviousWeapon 	0x798 	
-AFortPawn 	CurrentWeaponList 	0x7a0 	
-AFortPawn 	PreviousAbilityWeaponNameForTelemetry 	0x7b0 	
-AFortPawn 	WeaponHandSocketName 	0x7c0 	
-AFortPawn 	LeftHandWeaponHandSocketName 	0x7c4 	
-AFortPawn 	SpawnSpot 	0x7c8 	
-AFortPawn 	DeathTags 	0x7d0 	
-AFortPawn 	SpawnImmunityTime 	0x7f0 	
-AFortPawn 	CurrentWaterBody 	0x7f8 	
-AFortPawn 	bShouldSupportSurfaceSwimming 	0x800 	
-AFortPawn 	ReplicatedWaterBody 	0x808 	
-AFortPawn 	IncomingPickups 	0x810 	
-AFortPawn 	PickupDirectionData 	0x820 	
-AFortPawn 	bIsStunned 	0x830 	
-AFortPawn 	VortexParams 	0x840 	
-AFortPawn 	bIsInVortex 	0x8c0 	
-AFortPawn 	bReplicatedIsInVortex 	0x8c0 	
-AFortPawn 	CurrentSkyTube 	0x8c8 	
-AFortPawn 	ReplicatedSkyTube 	0x8d0 	
-AFortPawn 	OverlappedSkyTubes 	0x8d8 	
-AFortPawn 	bPrioritizeEarlierTubes 	0x8e8 	
-AFortPawn 	OnSkyTubeChanged 	0x910 	
-AFortPawn 	AdditiveCringeCount 	0x920 	
-AFortPawn 	AdditiveCringeDuration 	0x924 	
-AFortPawn 	bSupportsDamageNumbersAtHitLocation 	0x928 	
-AFortPawn 	PushMomentum 	0x930 	
-AFortPawn 	LocalSpin 	0x94c 	
-AFortPawn 	bTurnTransitionActiveAndControllingRotation 	0x951 	
-AFortPawn 	DeathCueTag 	0x9ac 	
-AFortPawn 	DeathStatTags 	0x9b0 	
-AFortPawn 	DeathHitSocket 	0x9c0 	
-AFortPawn 	OnPlayerStartDBNO 	0x9c8 	
-AFortPawn 	OnDBNOStateChanged 	0x9d8 	
-AFortPawn 	DefaultLifespanAfterDeath 	0x9e8 	
-AFortPawn 	TeamBeaconMaxDist 	0x9ec 	
-AFortPawn 	TeamBeaconTextColor 	0x9f0 	
-AFortPawn 	LastTakeHitTimeTimeout 	0x9f4 	
-AFortPawn 	LastDamagedTime 	0x9f8 	
-AFortPawn 	CurrentlyAttachedWeapon 	0xa00 	
-AFortPawn 	CachedNavFloor 	0xa08 	
-AFortPawn 	MaxFootstepDistance 	0xa10 	
-AFortPawn 	DBNOLandingSound 	0xa18 	
-AFortPawn 	DefaultFootstepSound 	0xa20 	
-AFortPawn 	DefaultFastFootstepSound 	0xa28 	
-AFortPawn 	DefaultLandingSound 	0xa30 	
-AFortPawn 	DefaultHardLandingSound 	0xa38 	
-AFortPawn 	DefaultJumpSound 	0xa40 	
-AFortPawn 	DefaultHitNotifyAudioBank 	0xa48 	
-AFortPawn 	DefaultSwimmingAudioBank 	0xa50 	
-AFortPawn 	LineTestForDamageZoneBoneDetectionRadius 	0xa58 	
-AFortPawn 	DamageZones[0x4] 	0xa60 	
-AFortPawn 	DamageZoneActiveBitMask 	0xac0 	
-AFortPawn 	TargettingZOffset 	0xac4 	
-AFortPawn 	JumpFlashCountPacked 	0xac8 	
-AFortPawn 	LandingFlashCountPacked 	0xac9 	
-AFortPawn 	EmoteAudioComps 	0xad0 	
-AFortPawn 	FrontEndEmoteAudioAttenuation 	0xb20 	
-AFortPawn 	InGameEmoteAudioAttenuation 	0xb28 
-AFortPawn 	InGameEmoteSoundEffectSoundPresetChain 	0xb30 	
-AFortPawn 	EmoteMeshComps 	0xb38 	
-AFortPawn 	EmotePropActors 	0xb88 	
-AFortPawn 	EmoteParticleSystemComps 	0xbd8 	
-AFortPawn 	EmoteCount 	0xc28 	
-AFortPawn 	LastEmoteTime 	0xc2c 	
-AFortPawn 	LastEmoteEndTime 	0xc30 	
-AFortPawn 	LastEmoteItemDef 	0xc38 	
-AFortPawn 	LastReplicatedEmoteExecuted 	0xc40 	
-AFortPawn 	bFireBlockedByEmoteCooldown 	0xc48 	
-AFortPawn 	EmoteToFireCooldownTime 	0xc4c 	
-AFortPawn 	EmoteWalkSpeed 	0xc50 	
-AFortPawn 	DynamicComponents 	0xc58 	
-AFortPawn 	AdditionalModifierDefinitions 	0xc68 	
-AFortPawn 	OnPawnTeleported 	0xc78 	
-AFortPawn 	OnPawnLanded 	0xc88 	
-AFortPawn 	OnPawnStartedEmote 	0xc98 	
-AFortPawn 	OnPawnStoppedEmote 	0xca8 	
-AFortPawn 	OnHitPawn 	0xcb8 	
-AFortPawn 	OnDied 	0xcc8 	
-AFortPawn 	OnDeathEffects 	0xcd8 	
-AFortPawn 	OnDamaged 	0xd18 	
-AFortPawn 	OnDidDamage 	0xd28 	
-AFortPawn 	FootstepBank 	0xd38 	
-AFortPawn 	CachedStepSurfaceNormal 	0xd50 	
-AFortPawn 	FoleyFootstepContext 	0xd68 	
-AFortPawn 	FoleyHitContext 	0xd70 	
-AFortPawn 	FortFootstepComponent 	0xd78 
-AFortPawn 	OnWeaponEquippedDelegate 	0xd80 	
-AFortPawn 	OnWeaponUnEquippedDelegate 	0xd90 	
-AFortPawn 	OnWeaponAttachmentChangedDelegate 	0xda0 	
-AFortPawn 	HealthRegenDelayGameplayEffect 	0xdb0 	
-AFortPawn 	HealthRegenGameplayEffect 	0xdb8 	
-AFortPawn 	ShieldRegenDelayGameplayEffect 	0xdc0 	
-AFortPawn 	ShieldRegenGameplayEffect 	0xdc8 	
-AFortPawn 	CurrentWeaponAnimLayerOverlayClass 	0xdd0 	
-AFortPawn 	OnHolsteredEvent 	0xdd8 	
-AFortPawn 	OnUnholsteredEvent 	0xde8 	
-AFortPawn 	WeaponHolsterCounter 	0xe10 	
-AFortPawn 	WeaponHolsterIds 	0xe18 	
-AFortPawn 	StaySpottedTime 	0xe28 	
-AFortPawn 	SpottedEvent 	0xe2c 	
-AFortPawn 	DefaultFeedback 	0xe30 	
-AFortPawn 	ActiveSoundIndicators 	0xe38 	
-AFortPawn 	DefaultSoundTrackingVisual 	0xe48 	
-AFortPawn 	SoundTrackingVisibilityTags 	0xe50 	
-AFortPawn 	PriorityModifiers 	0xe70 	
-AFortPawn 	VocalChords 	0xec0 	
-AFortPawn 	bIsDisconnectedPawn 	0xf28 	
-AFortPawn 	MaxHealthApplicationHandle 	0xf2c 	
-AFortPawn 	MaxHealthApplicationGameplayEffect 	0xf38 	
-AFortPawn 	HealthSet 	0xf40 	
-AFortPawn 	ControlResistanceSet 	0xf48 	
-AFortPawn 	DamageSet 	0xf50 	
-AFortPawn 	MovementSet 	0xf58 	
-AFortPawn 	AdvancedMovementSet 	0xf60 	
-AFortPawn 	OnAbilityDecisionWindowStackUpdated 	0xf70 	
-AFortPawn 	AbilitySystemComponent 	0xfb0 	
-AFortPawn 	DecisionWindowStack 	0xfb8 	
-AFortPawn 	GameplayTags 	0xfc8 	
-AFortPawn 	DisplayName 	0xfe8 	
-AFortPawn 	Damagers 	0x1000 
-AFortPawn 	DamageDone 	0x1010 	
-AFortPawn 	TotalDamageDoneTrackers 	0x1020 	
-AFortPawn 	TargetDamageDoneTrackers 	0x1030 	
-AFortPawn 	TotalDamageTakenTrackers 	0x1040 	
-AFortPawn 	TargetDamageTakenTrackers 	0x1050 	
-AFortPawn 	DamageDoneLastAtTime 	0x1060 	
-AFortPawn 	DamageTakenLastAtTime 	0x1064 	
-AFortPawn 	LastHitTime 	0x1068 	
-AFortPawn 	TotalPlayerDamageDealt 	0x106c 	
-AFortPawn 	HealthBarIndicator 	0x1070 	
-AFortPawn 	CurrentCalloutTag 	0x1078
-AFortPawn 	CalloutEntries 	0x1080 
-AFortPawn 	HealthBarWidth 	0x1090 	
-AFortPawn 	HealthBarHeightMultiplier 	0x1094 	
-AFortPawn 	SpottedBrush 	0x10a0 	
-AFortPawn 	SpottedIconOffset 	0x1160 	
-AFortPawn 	ClientNonRenderedAnimUpdateRate 	0x1178 	
-AFortPawn 	MaxEvalRateForInterpolation 	0x117c 	
-AFortPawn 	AnimUpdateRateVisibleMaxDistanceFactor 	0x1180 	
-AFortPawn 	LODToFrameSkipMap 	0x1190 	
-AFortPawn 	CurrentSentence 	0x11f0 	
-AFortPawn 	OnPawnHealthChanged 	0x12c8 	
-AFortPawn 	OnPawnMaxOvershieldChanged 	0x12d8 	
-AFortPawn 	AccumulatedBatchData_Shared 	0x12e8 	
-AFortPawn 	AccumulatedBatchData_NonShared 	0x1360 	
-AFortPawn 	BatchedGameplayCueParameters 	0x1378 	
-AFortPawn 	ReplayItemActions 	0x1448 	
-AFortPawn 	HidingVisibilityTags 	0x1488 	
-AFortPawn 	HidingTransitionVisibilityTags 	0x14a8 	
-AFortPawn 	PegasusTimelineCollector 	0x14c8 	
-AFortPawn 	AILODComponent 	0x14d0
-AFortPawn 	ClientAILODSettings 	0x14f8 	
-AFortPawn 	FallbackTag 	0x17e8 
-AFortPawn 	DebugType 	0x17f0 	
-AFortPawn 	RecordedGunshots 	0x1800 	
-AFortPawn 	OnPawnComponentAttachedEvent 	0x1890 	
-AFortPawn 	OverlappingBuildings 	0x18b8
+AFortPawn::bUseBaseChanged 	0x680 	
+AFortPawn::bIgnoreNextFallingDamage 	0x680 	
+AFortPawn::bAllowDeathFromFallingDamage 	0x680 	
+AFortPawn::bIsDying 	0x680 	
+AFortPawn::bPlayedDying 	0x680 	
+AFortPawn::bIsHiddenForDeath 	0x680 	
+AFortPawn::bIsKnockedback 	0x680 	
+AFortPawn::bIsStaggered 	0x681 	
+AFortPawn::bCanCapsuleBeUsedForTargeting 	0x681 	
+AFortPawn::bUseLineTestForDamageZoneBoneDetection 	0x681 	
+AFortPawn::bMovingEmote 	0x681 	
+AFortPawn::bMovingEmoteForwardOnly 	0x681 	
+AFortPawn::bMovingEmoteFollowingOnly 	0x681 	
+AFortPawn::bMovingEmoteSkipLandingFX 	0x682 	
+AFortPawn::bIsInvulnerable 	0x682 	
+AFortPawn::bSpotted 	0x682 	
+AFortPawn::bRegisterWithAISight 	0x682 	
+AFortPawn::bRegisterWithAimAssist 	0x682 	
+AFortPawn::bPrimaryInputHeld 	0x682 	
+AFortPawn::bSecondaryInputHeld 	0x682 	
+AFortPawn::bPrimaryInputQueued 	0x682 	
+AFortPawn::bWeaponActivated 	0x683 	
+AFortPawn::bIsInGoop 	0x683 	
+AFortPawn::bReplicatedIsInGoop 	0x683 	
+AFortPawn::bIsSliding 	0x683 	
+AFortPawn::bIsSwinging 	0x683 	
+AFortPawn::bIsSynchedAction 	0x683 	
+AFortPawn::bSwingingAttached 	0x683 	
+AFortPawn::SwingAttachLocation 	0x688 	
+AFortPawn::SwingAttachLocationUpdateDistanceThreshold 	0x6a0 	
+AFortPawn::SynchedActionLocation 	0x6a8 	
+AFortPawn::SynchedActionRotator 	0x6c0 	
+AFortPawn::bSkipAnalogJump 	0x6d8 	
+AFortPawn::FootstepTraceTypeQuery 	0x6d9 	
+AFortPawn::FootstepSurfaceType 	0x6da 	
+AFortPawn::SoundIndicatorComponent 	0x6e0 	
+AFortPawn::UroShiftBucket 	0x6f0 	
+AFortPawn::bUpdateMeshComponentUpdateFlagOnServer 	0x6f1 	
+AFortPawn::bUROCanTieToLODs 	0x6f1 	
+AFortPawn::bPostProcessNavLocation 	0x6f1 	
+AFortPawn::bHealthSynced 	0x6f1 	
+AFortPawn::bWeaponHolstered 	0x6f1 	
+AFortPawn::bSkipReticleColorTrace 	0x6f1 	
+AFortPawn::bPrioritizePawnCollisionsOnAbilityTargetSelectionVisibilityTest 	0x6f1 	
+AFortPawn::bTreatAsPawnForHitMarkers 	0x6f2 	
+AFortPawn::bDisplayPawnHitMarkersForChildActors 	0x6f2 	
+AFortPawn::bUsesStats 	0x6f2 	
+AFortPawn::bAllowBuildingActorTeleport 	0x6f2 	
+AFortPawn::bIsDBNO 	0x6f2 	
+AFortPawn::bWasDBNOOnDeath 	0x6f2 	
+AFortPawn::bCachedIsInAthena 	0x6f2 	
+AFortPawn::bShouldUseacterMovementIdleFastPath 	0x6f2 	
+AFortPawn::CurrentMovementStyle 	0x6f3 	
+AFortPawn::ControlRecoveryBehavior 	0x6f4 	
+AFortPawn::TeleportCounter 	0x6f5 	
+AFortPawn::PawnStatHandle 	0x6f8 	
+AFortPawn::SlidingFriction 	0x708 	
+AFortPawn::SlidingBrakingDeceleration 	0x70c 	
+AFortPawn::StormShieldComponent 	0x710 	
+AFortPawn::OnStormShieldComponentCreated 	0x718 	
+AFortPawn::PushSize 	0x728 	
+AFortPawn::LastSurfaceTraceTime 	0x734 	
+AFortPawn::LastSurfaceTraceLocation 	0x738 	
+AFortPawn::OnPawnJumped 	0x778 	
+AFortPawn::bIsJumping 	0x788 	
+AFortPawn::PawnUniqueID 	0x78c 	
+AFortPawn::CurrentWeapon 	0x790 	
+AFortPawn::PreviousWeapon 	0x798 	
+AFortPawn::CurrentWeaponList 	0x7a0 	
+AFortPawn::PreviousAbilityWeaponNameForTelemetry 	0x7b0 	
+AFortPawn::WeaponHandSocketName 	0x7c0 	
+AFortPawn::LeftHandWeaponHandSocketName 	0x7c4 	
+AFortPawn::SpawnSpot 	0x7c8 	
+AFortPawn::DeathTags 	0x7d0 	
+AFortPawn::SpawnImmunityTime 	0x7f0 	
+AFortPawn::CurrentWaterBody 	0x7f8 	
+AFortPawn::bShouldSupportSurfaceSwimming 	0x800 	
+AFortPawn::ReplicatedWaterBody 	0x808 	
+AFortPawn::IncomingPickups 	0x810 	
+AFortPawn::PickupDirectionData 	0x820 	
+AFortPawn::bIsStunned 	0x830 	
+AFortPawn::VortexParams 	0x840 	
+AFortPawn::bIsInVortex 	0x8c0 	
+AFortPawn::bReplicatedIsInVortex 	0x8c0 	
+AFortPawn::CurrentSkyTube 	0x8c8 	
+AFortPawn::ReplicatedSkyTube 	0x8d0 	
+AFortPawn::OverlappedSkyTubes 	0x8d8 	
+AFortPawn::bPrioritizeEarlierTubes 	0x8e8 	
+AFortPawn::OnSkyTubeChanged 	0x910 	
+AFortPawn::AdditiveCringeCount 	0x920 	
+AFortPawn::AdditiveCringeDuration 	0x924 	
+AFortPawn::bSupportsDamageNumbersAtHitLocation 	0x928 	
+AFortPawn::PushMomentum 	0x930 	
+AFortPawn::LocalSpin 	0x94c 	
+AFortPawn::bTurnTransitionActiveAndControllingRotation 	0x951 	
+AFortPawn::DeathCueTag 	0x9ac 	
+AFortPawn::DeathStatTags 	0x9b0 	
+AFortPawn::DeathHitSocket 	0x9c0 	
+AFortPawn::OnPlayerStartDBNO 	0x9c8 	
+AFortPawn::OnDBNOStateChanged 	0x9d8 	
+AFortPawn::DefaultLifespanAfterDeath 	0x9e8 	
+AFortPawn::TeamBeaconMaxDist 	0x9ec 	
+AFortPawn::TeamBeaconTextColor 	0x9f0 	
+AFortPawn::LastTakeHitTimeTimeout 	0x9f4 	
+AFortPawn::LastDamagedTime 	0x9f8 	
+AFortPawn::CurrentlyAttachedWeapon 	0xa00 	
+AFortPawn::CachedNavFloor 	0xa08 	
+AFortPawn::MaxFootstepDistance 	0xa10 	
+AFortPawn::DBNOLandingSound 	0xa18 	
+AFortPawn::DefaultFootstepSound 	0xa20 	
+AFortPawn::DefaultFastFootstepSound 	0xa28 	
+AFortPawn::DefaultLandingSound 	0xa30 	
+AFortPawn::DefaultHardLandingSound 	0xa38 	
+AFortPawn::DefaultJumpSound 	0xa40 	
+AFortPawn::DefaultHitNotifyAudioBank 	0xa48 	
+AFortPawn::DefaultSwimmingAudioBank 	0xa50 	
+AFortPawn::LineTestForDamageZoneBoneDetectionRadius 	0xa58 	
+AFortPawn::DamageZones[0x4] 	0xa60 	
+AFortPawn::DamageZoneActiveBitMask 	0xac0 	
+AFortPawn::TargettingZOffset 	0xac4 	
+AFortPawn::JumpFlashCountPacked 	0xac8 	
+AFortPawn::LandingFlashCountPacked 	0xac9 	
+AFortPawn::EmoteAudioComps 	0xad0 	
+AFortPawn::FrontEndEmoteAudioAttenuation 	0xb20 	
+AFortPawn::InGameEmoteAudioAttenuation 	0xb28 
+AFortPawn::InGameEmoteSoundEffectSoundPresetChain 	0xb30 	
+AFortPawn::EmoteMeshComps 	0xb38 	
+AFortPawn::EmotePropActors 	0xb88 	
+AFortPawn::EmoteParticleSystemComps 	0xbd8 	
+AFortPawn::EmoteCount 	0xc28 	
+AFortPawn::LastEmoteTime 	0xc2c 	
+AFortPawn::LastEmoteEndTime 	0xc30 	
+AFortPawn::LastEmoteItemDef 	0xc38 	
+AFortPawn::LastReplicatedEmoteExecuted 	0xc40 	
+AFortPawn::bFireBlockedByEmoteCooldown 	0xc48 	
+AFortPawn::EmoteToFireCooldownTime 	0xc4c 	
+AFortPawn::EmoteWalkSpeed 	0xc50 	
+AFortPawn::DynamicComponents 	0xc58 	
+AFortPawn::AdditionalModifierDefinitions 	0xc68 	
+AFortPawn::OnPawnTeleported 	0xc78 	
+AFortPawn::OnPawnLanded 	0xc88 	
+AFortPawn::OnPawnStartedEmote 	0xc98 	
+AFortPawn::OnPawnStoppedEmote 	0xca8 	
+AFortPawn::OnHitPawn 	0xcb8 	
+AFortPawn::OnDied 	0xcc8 	
+AFortPawn::OnDeathEffects 	0xcd8 	
+AFortPawn::OnDamaged 	0xd18 	
+AFortPawn::OnDidDamage 	0xd28 	
+AFortPawn::FootstepBank 	0xd38 	
+AFortPawn::CachedStepSurfaceNormal 	0xd50 	
+AFortPawn::FoleyFootstepContext 	0xd68 	
+AFortPawn::FoleyHitContext 	0xd70 	
+AFortPawn::FortFootstepComponent 	0xd78 
+AFortPawn::OnWeaponEquippedDelegate 	0xd80 	
+AFortPawn::OnWeaponUnEquippedDelegate 	0xd90 	
+AFortPawn::OnWeaponAttachmentChangedDelegate 	0xda0 	
+AFortPawn::HealthRegenDelayGameplayEffect 	0xdb0 	
+AFortPawn::HealthRegenGameplayEffect 	0xdb8 	
+AFortPawn::ShieldRegenDelayGameplayEffect 	0xdc0 	
+AFortPawn::ShieldRegenGameplayEffect 	0xdc8 	
+AFortPawn::CurrentWeaponAnimLayerOverlayClass 	0xdd0 	
+AFortPawn::OnHolsteredEvent 	0xdd8 	
+AFortPawn::OnUnholsteredEvent 	0xde8 	
+AFortPawn::WeaponHolsterCounter 	0xe10 	
+AFortPawn::WeaponHolsterIds 	0xe18 	
+AFortPawn::StaySpottedTime 	0xe28 	
+AFortPawn::SpottedEvent 	0xe2c 	
+AFortPawn::DefaultFeedback 	0xe30 	
+AFortPawn::ActiveSoundIndicators 	0xe38 	
+AFortPawn::DefaultSoundTrackingVisual 	0xe48 	
+AFortPawn::SoundTrackingVisibilityTags 	0xe50 	
+AFortPawn::PriorityModifiers 	0xe70 	
+AFortPawn::VocalChords 	0xec0 	
+AFortPawn::bIsDisconnectedPawn 	0xf28 	
+AFortPawn::MaxHealthApplicationHandle 	0xf2c 	
+AFortPawn::MaxHealthApplicationGameplayEffect 	0xf38 	
+AFortPawn::HealthSet 	0xf40 	
+AFortPawn::ControlResistanceSet 	0xf48 	
+AFortPawn::DamageSet 	0xf50 	
+AFortPawn::MovementSet 	0xf58 	
+AFortPawn::AdvancedMovementSet 	0xf60 	
+AFortPawn::OnAbilityDecisionWindowStackUpdated 	0xf70 	
+AFortPawn::AbilitySystemComponent 	0xfb0 	
+AFortPawn::DecisionWindowStack 	0xfb8 	
+AFortPawn::GameplayTags 	0xfc8 	
+AFortPawn::DisplayName 	0xfe8 	
+AFortPawn::Damagers 	0x1000 
+AFortPawn::DamageDone 	0x1010 	
+AFortPawn::TotalDamageDoneTrackers 	0x1020 	
+AFortPawn::TargetDamageDoneTrackers 	0x1030 	
+AFortPawn::TotalDamageTakenTrackers 	0x1040 	
+AFortPawn::TargetDamageTakenTrackers 	0x1050 	
+AFortPawn::DamageDoneLastAtTime 	0x1060 	
+AFortPawn::DamageTakenLastAtTime 	0x1064 	
+AFortPawn::LastHitTime 	0x1068 	
+AFortPawn::TotalPlayerDamageDealt 	0x106c 	
+AFortPawn::HealthBarIndicator 	0x1070 	
+AFortPawn::CurrentCalloutTag 	0x1078
+AFortPawn::CalloutEntries 	0x1080 
+AFortPawn::HealthBarWidth 	0x1090 	
+AFortPawn::HealthBarHeightMultiplier 	0x1094 	
+AFortPawn::SpottedBrush 	0x10a0 	
+AFortPawn::SpottedIconOffset 	0x1160 	
+AFortPawn::ClientNonRenderedAnimUpdateRate 	0x1178 	
+AFortPawn::MaxEvalRateForInterpolation 	0x117c 	
+AFortPawn::AnimUpdateRateVisibleMaxDistanceFactor 	0x1180 	
+AFortPawn::LODToFrameSkipMap 	0x1190 	
+AFortPawn::CurrentSentence 	0x11f0 	
+AFortPawn::OnPawnHealthChanged 	0x12c8 	
+AFortPawn::OnPawnMaxOvershieldChanged 	0x12d8 	
+AFortPawn::AccumulatedBatchData_Shared 	0x12e8 	
+AFortPawn::AccumulatedBatchData_NonShared 	0x1360 	
+AFortPawn::BatchedGameplayCueParameters 	0x1378 	
+AFortPawn::ReplayItemActions 	0x1448 	
+AFortPawn::HidingVisibilityTags 	0x1488 	
+AFortPawn::HidingTransitionVisibilityTags 	0x14a8 	
+AFortPawn::PegasusTimelineCollector 	0x14c8 	
+AFortPawn::AILODComponent 	0x14d0
+AFortPawn::ClientAILODSettings 	0x14f8 	
+AFortPawn::FallbackTag 	0x17e8 
+AFortPawn::DebugType 	0x17f0 	
+AFortPawn::RecordedGunshots 	0x1800 	
+AFortPawn::OnPawnComponentAttachedEvent 	0x1890 	
+AFortPawn::OverlappingBuildings 	0x18b8
 
 FortPlayerPawn
-AFortPlayerPawn 	VehicleInputStateReliable 	0x1908 
-AFortPlayerPawn 	bIsNearSafeZoneEdge 	0x190a 	
-AFortPlayerPawn 	bPlayingSafeZoneEffects 	0x190a 	
-AFortPlayerPawn 	bDoSafeZoneCleanup 	0x190a 	
-AFortPlayerPawn 	bIsSwimmingAnimLayerLinked 	0x190a 	
-AFortPlayerPawn 	bIsSprintJump 	0x190a 	
-AFortPlayerPawn 	bHasDisableSprintTag 	0x190a 	
-AFortPlayerPawn 	bDisableSwimSprintCancel 	0x190a 	
-AFortPlayerPawn 	bIsWaterJump 	0x190a 	
-AFortPlayerPawn 	bIsWaterSprintBoost 	0x190b 	
-AFortPlayerPawn 	bIsWaterSprintBoostPending 	0x190b 	
-AFortPlayerPawn 	bPlayingPassengerToPassengerAnimation 	0x190b 	
-AFortPlayerPawn 	bPlayingDriverToPassengerAnimation 	0x190b 	
-AFortPlayerPawn 	bIsTargeting 	0x190b 	
-AFortPlayerPawn 	bIsTargetingConsumableThrow 	0x190b 	
-AFortPlayerPawn 	bIsSwappingacterParts 	0x190c 	
-AFortPlayerPawn 	bBalloonMovementActivated 	0x190c 	
-AFortPlayerPawn 	bIsScriptedBot 	0x190c 	
-AFortPlayerPawn 	bBuildHotfix 	0x190c 	
-AFortPlayerPawn 	FortPlayerPawnLightingChannels 	0x190d 	
-AFortPlayerPawn 	StasisMode 	0x190f 	
-AFortPlayerPawn 	BuildingState 	0x1911 	
-AFortPlayerPawn 	AccelerationZPack 	0x1912 	
-AFortPlayerPawn 	ParachuteDirectionalSpeedMultiplierCurve 	0x1930 	
-AFortPlayerPawn 	SkydivingDirectionalSpeedMultiplierCurve 	0x1938 	
-AFortPlayerPawn 	BallooningDirectionalSpeedMultiplierCurve 	0x1940 	
-AFortPlayerPawn 	DirectionalSpeedMultiplierCurve 	0x1948 	
-AFortPlayerPawn 	LastCustomizationTimestamp 	0x1950 	
-AFortPlayerPawn 	MinimumTimeBetweenSteps 	0x1954 	
-AFortPlayerPawn 	LastStepTime 	0x1958 	
-AFortPlayerPawn 	OnFootstepEvent 	0x1960 	
-AFortPlayerPawn 	OnPawnEnterWater 	0x1970 	
-AFortPlayerPawn 	OnPawnExitWater 	0x1980 	
-AFortPlayerPawn 	OnPawnExitSwinging 	0x19a8 	
-AFortPlayerPawn 	bIsInWaterVolume 	0x19b8 	
-AFortPlayerPawn 	bNotifyBlueprintWhenLandscapeTeleporting 	0x19b9 	
-AFortPlayerPawn 	CachedTeamControllingRC 	0x19ba 	
-AFortPlayerPawn 	BalloonActiveCount 	0x19bb 	
-AFortPlayerPawn 	bParachuteDeployFixedVerticalDistance 	0x19bc 	
-AFortPlayerPawn 	bIsSkydiving 	0x19bd 	
-AFortPlayerPawn 	bIsParachuteOpen 	0x19be 	
-AFortPlayerPawn 	bLocalIsSkydiving 	0x19bf 	
-AFortPlayerPawn 	bLocalIsParachuteForcedOpen 	0x19bf 	
-AFortPlayerPawn 	bIsParachuteForcedOpen 	0x19bf 	
-AFortPlayerPawn 	bIsSkydivingFromBus 	0x19bf 	
-AFortPlayerPawn 	bIsSkydivingFromLaunchPad 	0x19bf 	
-AFortPlayerPawn 	bPendingSkydiveLaunch 	0x19bf 	
-AFortPlayerPawn 	bIsInSlipperyMovement 	0x19bf 	
-AFortPlayerPawn 	bReplicatedIsInSlipperyMovement 	0x19c0 	
-AFortPlayerPawn 	bIsBelowAutoDeployTestHeight 	0x19c0 	
-AFortPlayerPawn 	bIsSlopeSliding 	0x19c0 	
-AFortPlayerPawn 	bIsProxySimulationTimedOut 	0x19c0 	
-AFortPlayerPawn 	bIsPedestalHero 	0x19c0 	
-AFortPlayerPawn 	bInGliderRedeploy 	0x19c0 	
-AFortPlayerPawn 	bLocalInGliderRedeploy 	0x19c0 	
-AFortPlayerPawn 	bBeingRepossessed 	0x19c1 	
-AFortPlayerPawn 	bInitAbilitySystemComponentFromPlayerState 	0x19c1 	
-AFortPlayerPawn 	bStartedInteractSearch 	0x19c1 	
-AFortPlayerPawn 	bPawnLODDirty 	0x19c1 	
-AFortPlayerPawn 	bIsUsingJetpack 	0x19c1 	
-AFortPlayerPawn 	bIsPlayingEmote 	0x19c1 	
-AFortPlayerPawn 	bShowingOverdriveEffect 	0x19c1 	
-AFortPlayerPawn 	bIsRespawning 	0x19c1 	
-AFortPlayerPawn 	bIsRespawningInAir 	0x19c2 	
-AFortPlayerPawn 	bInitializedPostRepPlayerState 	0x19c2 	
-AFortPlayerPawn 	bHasWaterParticleSystem 	0x19c2 	
-AFortPlayerPawn 	bCanShowDefaultSkin 	0x19c2 	
-AFortPlayerPawn 	bDisabledTetheringSupport 	0x19c2 	
-AFortPlayerPawn 	bIsInFrontEndHologram 	0x19c2 	
-AFortPlayerPawn 	HeldObject 	0x1a14 	
-AFortPlayerPawn 	bForceMoveRelativeToCameraRotation 	0x1a30 	
-AFortPlayerPawn 	bIsWaitingForEmoteInteraction 	0x1a30 	
-AFortPlayerPawn 	bIsEmoteLeader 	0x1a30 	
-AFortPlayerPawn 	bShouldSyncAnimationWithEmoteLeader 	0x1a30 	
-AFortPlayerPawn 	bShouldJitterAnimationSyncWithEmoteLeader 	0x1a30 	
-AFortPlayerPawn 	bDoubleFileEmoteSecondLine 	0x1a30 	
-AFortPlayerPawn 	bEmoteUsesSecondaryFire 	0x1a30 	
-AFortPlayerPawn 	bLockGroupEmoteLeaderRotation 	0x1a30 	
-AFortPlayerPawn 	GroupEmoteLookTarget 	0x1a38
-AFortPlayerPawn 	GroupEmoteTailTarget 	0x1a40 	
-AFortPlayerPawn 	GroupEmoteFollowers 	0x1a48 
-AFortPlayerPawn 	GroupEmoteAnimOffset 	0x1ab4 	
-AFortPlayerPawn 	GroupEmoteLeaderRotationYawOffset 	0x1ab8 	
-AFortPlayerPawn 	GroupEmoteLookTargetRotationLeader 	0x1ac0 	
-AFortPlayerPawn 	GroupEmoteMaximumZDifference 	0x1af0 	
-AFortPlayerPawn 	OnGroupEmoteSyncValueChanged 	0x1af8 	
-AFortPlayerPawn 	OnGroupEmoteFollowerJoined 	0x1b08 	
-AFortPlayerPawn 	OnGroupEmoteFollowerLeft 	0x1b18 	
-AFortPlayerPawn 	OnGroupEmoteSecondaryFirePressed 	0x1b28 	
-AFortPlayerPawn 	GroupEmoteSyncValue 	0x1b38 	
-AFortPlayerPawn 	GroupEmoteSoundValue 	0x1b39 	
-AFortPlayerPawn 	GroupEmoteParticleValue 	0x1b3a 	
-AFortPlayerPawn 	TransformationMontage 	0x1b40 	
-AFortPlayerPawn 	TransformationMontageStartTime 	0x1b48 	
-AFortPlayerPawn 	CurrentMontagerLeader 	0x1ba8 	
-AFortPlayerPawn 	CurrentSyncedMontage 	0x1bb0 	
-AFortPlayerPawn 	bacterPartsCastIndirectShadows 	0x1bb8 	
-AFortPlayerPawn 	acterGender 	0x1bba 	
-AFortPlayerPawn 	acterBodyType 	0x1bbb 	
-AFortPlayerPawn 	JumpLastActivatedTime 	0x1bcc 	
-AFortPlayerPawn 	PreviousPosition 	0x1bd0 	
-AFortPlayerPawn 	PreviousVelocity 	0x1be8 	
-AFortPlayerPawn 	ReplicatedCustomMeshHeightAdjustTarget 	0x1c48 	
-AFortPlayerPawn 	UnburrowLaunchXYSpeed 	0x1c4c 	
-AFortPlayerPawn 	UnburrowLaunchZSpeed 	0x1c50 	
-AFortPlayerPawn 	VehicleInputStateUnreliable 	0x1c98 	
-AFortPlayerPawn 	bIsInAnyStorm 	0x1d18 	
-AFortPlayerPawn 	bIsInsideSafeZone 	0x1d18 	
-AFortPlayerPawn 	SafeZoneAppliedGE 	0x1d28 	
-AFortPlayerPawn 	DisableSlideGameplayEffectClass 	0x1d58 
-AFortPlayerPawn 	SelfReviveGameplayEffect 	0x1d60 	
-AFortPlayerPawn 	TeammateReviveGameplayEffect 	0x1d68 	
-AFortPlayerPawn 	SetByCallerReviveHealth 	0x1d70 	
-AFortPlayerPawn 	DBNOInteractionCollisionProfile 	0x1d98 	
-AFortPlayerPawn 	DBNOInteractionBoxExtent 	0x1da0 	
-AFortPlayerPawn 	DBNODeferTime 	0x1db8 	
-AFortPlayerPawn 	DBNOInteractCollisionComponent 	0x1dc0 	
-AFortPlayerPawn 	EventReviveTag 	0x1dc8 	
-AFortPlayerPawn 	AggroRangeOverride 	0x1dcc 	
-AFortPlayerPawn 	SetByCallerReviveSignalInStorm 	0x1dd0 	
-AFortPlayerPawn 	ArmoredInterface 	0x1dd8 	
-AFortPlayerPawn 	LastBuildingMetadata 	0x1de8 	
-AFortPlayerPawn 	SprintCancelTime 	0x1e08 	
-AFortPlayerPawn 	WaterSprintBoostAllowedTimer 	0x1e10 	
-AFortPlayerPawn 	bHasStarteding 	0x1e9c 	
-AFortPlayerPawn 	ZiplineState 	0x1ea0 	
-AFortPlayerPawn 	ZiplineJumpDampening 	0x1ee0 	
-AFortPlayerPawn 	ZiplineJumpStrength 	0x1ef0 	
-AFortPlayerPawn 	ZiplineJumpActivateDelay 	0x1f00 	
-AFortPlayerPawn 	ZiplineRentryProtectionDelay 	0x1f28 	
-AFortPlayerPawn 	ZiplineSocketZOffset 	0x1f50 	
-AFortPlayerPawn 	ZiplineStateChanged 	0x1f58 	
-AFortPlayerPawn 	ZiplineSpeedFactorTarget 	0x1f68 	
-AFortPlayerPawn 	ZiplineSpeedFactor 	0x1f6c 	
-AFortPlayerPawn 	EnableSwimSprintDiveCooldown 	0x1f78 	
-AFortPlayerPawn 	SwimSprintDiveCooldown 	0x1fa0 	
-AFortPlayerPawn 	SwimDiveBoostTimeThreshold 	0x1fc8 	
-AFortPlayerPawn 	ClientSwimDiveInputTime 	0x1ff0 	
-AFortPlayerPawn 	bCanPredictJumpApex 	0x1ff4 	
-AFortPlayerPawn 	AbilityAITargets 	0x2000 	
-AFortPlayerPawn 	UnableToPerformActionMontage 	0x2028 
-AFortPlayerPawn 	UnableToPerformActionSound 	0x2030 	
-AFortPlayerPawn 	MoveSoundStimulusBroadcastInterval 	0x2038 	
-AFortPlayerPawn 	EmoteStartTime 	0x211c 	
-AFortPlayerPawn 	EmoteRandomNum 	0x2120 	
-AFortPlayerPawn 	bPlayingPassengerToDriverAnimation 	0x2138 	
-AFortPlayerPawn 	VehicleSpeedAtTimeOfJump 	0x2150 	
-AFortPlayerPawn 	CurrentVehicle 	0x2158 	AActor*
-AFortPlayerPawn 	InteractingPCRep 	0x2160 	
-AFortPlayerPawn 	VehicleLastTick 	0x2168 	
-AFortPlayerPawn 	OnVehicleStateChangedEvent 	0x2188 	
-AFortPlayerPawn 	TetherComponent 	0x2198 	
-AFortPlayerPawn 	PendingTetherLaunch 	0x21a0 	
-AFortPlayerPawn 	TetherJumpLastTime 	0x21f0 	
-AFortPlayerPawn 	bSupportsTetheredMovement 	0x21f4 	
-AFortPlayerPawn 	BalloonRope 	0x21f8 	
-AFortPlayerPawn 	OnPossessedProp 	0x2200 	
-AFortPlayerPawn 	PossessedProp 	0x2210 	
-AFortPlayerPawn 	SlopeCameraOffsetFrameCounter 	0x2248 	
-AFortPlayerPawn 	SlopeCameraOffsetInterpolator 	0x2250 	
-AFortPlayerPawn 	LargeBodyTypeTargetingOffset 	0x22b0 	
-AFortPlayerPawn 	VehicleInputComponent 	0x23b0 	
-AFortPlayerPawn 	BluePrintPlaceAnimation 	0x23c0 	
-AFortPlayerPawn 	BluePrintEditAnimation 	0x23c8 	
-AFortPlayerPawn 	OnStartedInteractSearch 	0x23d8 	
-AFortPlayerPawn 	OnEndedInteractSearch 	0x23e8 	
-AFortPlayerPawn 	OnAttemptedInstantInteractSearch 	0x23f8 	
-AFortPlayerPawn 	EmoteInteractionCollisionProfile 	0x2408 	
-AFortPlayerPawn 	EmoteInteractionBoxExtent 	0x2410 	
-AFortPlayerPawn 	EmoteInteractCollisionComponent 	0x2428 	
-AFortPlayerPawn 	OnPartChanged 	0x2430 	
-AFortPlayerPawn 	BlueprintPaperMID 	0x2470 
-AFortPlayerPawn 	BlueprintPaperPulseTimeline 	0x2478 
-AFortPlayerPawn 	AccessoryColorSwatchHandler[0x7] 	0x2508 	
-AFortPlayerPawn 	Hero 	0x2540 	
-AFortPlayerPawn 	OvrHeroType 	0x2548 	
-AFortPlayerPawn 	DisplayContext 	0x2550 	
-AFortPlayerPawn 	HACK_CustomPRIComponent 	0x2570 
-AFortPlayerPawn 	acterParts[0x7] 	0x2578 	
-AFortPlayerPawn 	acterColorSwatches[0x2] 	0x25b0 	
-AFortPlayerPawn 	acterPartColorSwatches[0x7] 	0x25c0 
-AFortPlayerPawn 	acterms[0x4] 	0x25f8 	
-AFortPlayerPawn 	RequiredVariantParts 	0x2618 
-AFortPlayerPawn 	acterPartSkeletalMeshComponents[0x7] 	0x2630 	
-AFortPlayerPawn 	actermActors 	0x2668 	
-AFortPlayerPawn 	acterPartSMHiddenRefCount[0x7] 	0x2678 	
-AFortPlayerPawn 	BaseCosmeticLoadout 	0x2680 	
-AFortPlayerPawn 	AppliedCosmeticLoadout 	0x27e0 	
-AFortPlayerPawn 	AppliedSwaps 	0x2940 	
-AFortPlayerPawn 	CosmeticLoadout 	0x29a0 	
-AFortPlayerPawn 	ServerLoadoutChangeSync 	0x2b00 	
-AFortPlayerPawn 	bAllowClientLoadoutChangeSync 	0x2b08 	
-AFortPlayerPawn 	OnMaterialOverrideApplied 	0x2b30 	
-AFortPlayerPawn 	OnMaterialOverrideCleared 	0x2b40 	
-AFortPlayerPawn 	MaterialOverrides 	0x2b50 	
-AFortPlayerPawn 	LocalMaterialOverrides 	0x2b60 	
-AFortPlayerPawn 	MaterialOverrideStateMap 	0x2b70 	
-AFortPlayerPawn 	PreviousacterParts[0x7] 	0x2bc0 	
-AFortPlayerPawn 	acterPartModifiers[0x7] 	0x2bf8 	
-AFortPlayerPawn 	RepPartAnimMontageInfo 	0x2c30 	
-AFortPlayerPawn 	ClientObservedStats 	0x2c50 	
-AFortPlayerPawn 	AnimBPOverride 	0x2da0 	
-AFortPlayerPawn 	OriginalAnimBP 	0x2da8 	
-AFortPlayerPawn 	OnCrouchStartSound 	0x2db0 	
-AFortPlayerPawn 	OnCrouchEndSound 	0x2db8 	
-AFortPlayerPawn 	FootstepBankOverride 	0x2dc0 	
-AFortPlayerPawn 	OriginalFootstepBank 	0x2dc8 	
-AFortPlayerPawn 	CachedFootStepIndex 	0x2dd0 	
-AFortPlayerPawn 	AnimSetOverride 	0x2dd8 	
-AFortPlayerPawn 	AnimLayersOverride 	0x2de0 	
-AFortPlayerPawn 	PreviousAnimLayersOverride 	0x2df0 	
-AFortPlayerPawn 	QueuedAutoPickups 	0x2e00 	
-AFortPlayerPawn 	IgnoreActors 	0x2e10 	
-AFortPlayerPawn 	AutoPickupDropRepickupDelay 	0x2e28 	
-AFortPlayerPawn 	CarriedObjectAttachmentSocket 	0x2e60 	
-AFortPlayerPawn 	PickupSpeedMultiplier 	0x2e64 	
-AFortPlayerPawn 	MiniMapIconBrush 	0x2e70 	
-AFortPlayerPawn 	AboveBelowMiniMapIconBrush 	0x2f30 	
-AFortPlayerPawn 	FarOffMiniMapIconBrush 	0x2ff0 	
-AFortPlayerPawn 	DBNOMiniMapIconBrush 	0x30b0 	
-AFortPlayerPawn 	MinimapIconColorSelf 	0x3170 
-AFortPlayerPawn 	MinimapIconColorTeammate 	0x3180 	
-AFortPlayerPawn 	MinimapIconColorEnemy 	0x3190 	
-AFortPlayerPawn 	MaxIndicatorVisibilityDistForEnemies 	0x31a0 	
-AFortPlayerPawn 	MaxIndicatorVisibilityDistForAllies 	0x31a4 	
-AFortPlayerPawn 	DBNOHoisterData 	0x3228 	
-AFortPlayerPawn 	DBNOHoistee 	0x3238 	
-AFortPlayerPawn 	DBNOHoisterAnimSet 	0x3240 	
-AFortPlayerPawn 	ThrowCarriedPlayerStrengthXY 	0x3248 	
-AFortPlayerPawn 	ThrowCarriedPlayerStrengthZ 	0x324c 	
-AFortPlayerPawn 	DropCarriedPlayerForwardOffset 	0x3250 	
-AFortPlayerPawn 	DropCarriedPlayerHeightOffset 	0x3254 	
-AFortPlayerPawn 	DropCarriedPlayerTraceHeight 	0x3258 	
-AFortPlayerPawn 	bAllowDBNOCarry 	0x325c 	
-AFortPlayerPawn 	bAllowDBNOCarryEnemies 	0x325d 	
-AFortPlayerPawn 	bIsBeingDBNOCarried 	0x325e 	
-AFortPlayerPawn 	bIsDBNOCarrying 	0x325f 	
-AFortPlayerPawn 	bRequestedThrowCarriedPlayer 	0x3260 	
-AFortPlayerPawn 	PackedReplicatedSlopeAngles 	0x3270 	
-AFortPlayerPawn 	OnDBNOHoisterChangedDelegate 	0x3278 	
-AFortPlayerPawn 	OnRevivedFromDBNODelegate 	0x3288 	
-AFortPlayerPawn 	OnNewPlayerState 	0x3298 	
-AFortPlayerPawn 	OnAbilitySystemComponentInitialized 	0x32a8 	
-AFortPlayerPawn 	OnPreInvalidateAbilitySystemComponent 	0x32b8 	
-AFortPlayerPawn 	OnFinishedacterCustomization 	0x32e8 	
-AFortPlayerPawn 	OnCrouchInputJustPressed 	0x32f8 	
-AFortPlayerPawn 	CustomizationAssetLoader 	0x3308 
-AFortPlayerPawn 	bEnableUpdateacterCustomizationPostLoad 	0x33d8 	
-AFortPlayerPawn 	bHasacterCustomizationPostLoadedOnce 	0x33d9 	
-AFortPlayerPawn 	bHiddenAtStartup 	0x33da 	
-AFortPlayerPawn 	SpawnParticles 	0x33e8 	
-AFortPlayerPawn 	SpawnSound 	0x33f0 	
-AFortPlayerPawn 	bIsLocalPlayer 	0x33fc 	
-AFortPlayerPawn 	bDamagedEnemy 	0x3404 	
-AFortPlayerPawn 	OnDamageComboIncrement 	0x3420 	
-AFortPlayerPawn 	OnDamageComboReset 	0x3430 	
-AFortPlayerPawn 	PlayerStatus 	0x3448 	
-AFortPlayerPawn 	AccelerationPack 	0x344c 	
-AFortPlayerPawn 	RepAnimMontageInfo 	0x3450 	
-AFortPlayerPawn 	RepAnimMontageStartSection 	0x3488 
-AFortPlayerPawn 	bNetMovementPrioritized 	0x348c 	
-AFortPlayerPawn 	LandingMontagePair 	0x3490 	
-AFortPlayerPawn 	PriorVariantData 	0x34b0 	
-AFortPlayerPawn 	TempWeaponsStack 	0x3538 
-AFortPlayerPawn 	RootMotionInterruptNotifyStack 	0x3548 	
-AFortPlayerPawn 	RootMotionInterruptMontageStack 	0x3558 	
-AFortPlayerPawn 	VisibilityComponent 	0x35a0 	
-AFortPlayerPawn 	BlendablesPostProcessComp 	0x35a8 
-AFortPlayerPawn 	bUseControllerRotationYawToRestore 	0x35b4 	
-AFortPlayerPawn 	OnBeginSkydivingEvent 	0x35b8 	
-AFortPlayerPawn 	OnEndSkydivingEvent 	0x35c8 	
-AFortPlayerPawn 	OnBeginParachuteMovementEvent 	0x35d8 	
-AFortPlayerPawn 	OnParachuteSpawned 	0x35e8 	
-AFortPlayerPawn 	OnEndParachuteMovementEvent 	0x35f8 	
-AFortPlayerPawn 	OnBallooningGravityCeilingChanged 	0x3608 	
-AFortPlayerPawn 	OnEnteredAircraft 	0x3618 	
-AFortPlayerPawn 	OnPawnPossessed 	0x3628 	
-AFortPlayerPawn 	OnPawnUnpossessed 	0x3638 	
-AFortPlayerPawn 	OnEmoteInteracted 	0x3648 	
-AFortPlayerPawn 	OnSafeZoneOccupancyChangedEvent 	0x3658 	
-AFortPlayerPawn 	OnHeldObjectPickedUp 	0x3668 	
-AFortPlayerPawn 	OnHeldObjectDropped 	0x3678 	
-AFortPlayerPawn 	CustomMovementIndicators 	0x3688 	
-AFortPlayerPawn 	CurrentGliderOpenSound 	0x36e8 	
-AFortPlayerPawn 	CurrentGliderOpenAudioComponent 	0x36f0 	
-AFortPlayerPawn 	CurrentGliderCloseSound 	0x36f8 	
-AFortPlayerPawn 	CurrentGliderCloseAudioComponent 	0x3700 	
-AFortPlayerPawn 	bParachuteLockedOpen 	0x3714 	
-AFortPlayerPawn 	bLocalParachuteLockedOpen 	0x3715 	
-AFortPlayerPawn 	AttachmentMesh 	0x3718 	
-AFortPlayerPawn 	AttachmentMeshComponent 	0x3728 	
-AFortPlayerPawn 	BotScriptedBehavior 	0x3730 	
-AFortPlayerPawn 	IgnoredWaterBodies 	0x3750 
-AFortPlayerPawn 	UnderwaterDamageComponent 	0x3760 	
-AFortPlayerPawn 	SlipperySlopeParams 	0x3768 	
-AFortPlayerPawn 	GliderClass 	0x3920 	
-AFortPlayerPawn 	PetState 	0x3938 	
-AFortPlayerPawn 	CosmeticPetInstance 	0x3940 	
-AFortPlayerPawn 	GliderSpawnComponent 	0x3958 	
-AFortPlayerPawn 	ParachuteAttachment 	0x3960 	
-AFortPlayerPawn 	GliderOverrideStack 	0x3970 	
-AFortPlayerPawn 	bResetGliderOverrideOnLanding 	0x3990 	
-AFortPlayerPawn 	ParachuteDeployTraceForGroundDistance 	0x3998 	
-AFortPlayerPawn 	LaunchPadParachuteDeployTraceForGroundDistance 	0x39c0 	
-AFortPlayerPawn 	LaunchPadParachuteDeployTraceForDownwardSpeed 	0x39e8 	
-AFortPlayerPawn 	ParachuteDeployVelocityBlend 	0x3a10 	
-AFortPlayerPawn 	ParachuteCooldownToOpen 	0x3a38 	
-AFortPlayerPawn 	ParachuteCooldownToClose 	0x3a3c 	
-AFortPlayerPawn 	GliderRedeployAllowedRow 	0x3a40 	
-AFortPlayerPawn 	GliderRedeployLateralVelocityMultiplierRow 	0x3a68 	
-AFortPlayerPawn 	GliderRedeployHeighLimitRow 	0x3a90 	
-AFortPlayerPawn 	BalloonFallDamageThresholdVelocityZ 	0x3ab8 	
-AFortPlayerPawn 	PreDrivingAnimBP 	0x3ae0 	
-AFortPlayerPawn 	CurrentVehicleAnimLayerOverlayClass 	0x3ae8 	
-AFortPlayerPawn 	CurrentSwimmingAnimLayerOverlayClass 	0x3af0 	
-AFortPlayerPawn 	DefaultSwimmingAnimLayerOverlayClass 	0x3af8 	
-AFortPlayerPawn 	TimeBeforeSwimmingLayerDeactivated 	0x3b08 	
-AFortPlayerPawn 	LinkedAnimGraphComponent 	0x3b10 	
-AFortPlayerPawn 	ParachuteAudioLoop 	0x3b18 	
-AFortPlayerPawn 	ParachuteAndSkydiveAudioFadeInTime 	0x3b20 	
-AFortPlayerPawn 	ParachuteAndSkydiveAudioFadeOutTime 	0x3b24 	
-AFortPlayerPawn 	SkydiveAudioLoop 	0x3b28 	
-AFortPlayerPawn 	SoundOnParachuteForcedOpen 	0x3b30 	
-AFortPlayerPawn 	SkydivingLoop1P 	0x3b38 	
-AFortPlayerPawn 	SkydivingLoop3P 	0x3b40 	
-AFortPlayerPawn 	ParachuteOpenLoop1P 	0x3b48 	
-AFortPlayerPawn 	ParachuteOpenLoop3P 	0x3b50 	
-AFortPlayerPawn 	SwimmingAudioLoop 	0x3b58 	
-AFortPlayerPawn 	SwimmingAudioFadeOutTime 	0x3b60 	
-AFortPlayerPawn 	SwimmingAudioInterpSpeed 	0x3b64 	
-AFortPlayerPawn 	SoundOnSwimmingLoop 	0x3b68 	
-AFortPlayerPawn 	RemoteViewData32 	0x3bc0 	
-AFortPlayerPawn 	LastQuickBarSwitchRequestTime 	0x3bd8 	
-AFortPlayerPawn 	CrouchStartTime 	0x3bdc 	
-AFortPlayerPawn 	CrouchEndTime 	0x3be0 	
-AFortPlayerPawn 	CrouchLerpTime 	0x3be4 	
-AFortPlayerPawn 	MeleeAbilityCooldown 	0x3be8 	
-AFortPlayerPawn 	bDisallowInterrogation 	0x3bec 	
-AFortPlayerPawn 	bDisallowInterrogationOnNPC 	0x3bed 	
-AFortPlayerPawn 	bDisallowInterrogationCreative 	0x3bee 	
-AFortPlayerPawn 	bHideBodyOnDeathRequested 	0x3bef 	
-AFortPlayerPawn 	ControlledRCPawn 	0x3bf0 	
-AFortPlayerPawn 	StoredControlRotation 	0x3bf8 
-AFortPlayerPawn 	FacialTypeOverride 	0x3c14 	
-AFortPlayerPawn 	GhostModeExitStartTime 	0x3c18 	
-AFortPlayerPawn 	GhostModeExitDuration 	0x3c1c 	
-AFortPlayerPawn 	CachedReferencesByName 	0x3d58 	
-AFortPlayerPawn 	PSC_PlayerInWater 	0x3da8 	
-AFortPlayerPawn 	PSC_PlayerInWaterSurfaceSwimming 	0x3db0 	
-AFortPlayerPawn 	NiagaraPlayerInWaterBasicAsset 	0x3db8 	
-AFortPlayerPawn 	NiagaraPlayerInWaterSwimmingAsset 	0x3dc0 	
-AFortPlayerPawn 	NiagaraPlayerWaterHandSplashAsset 	0x3dc8 	
-AFortPlayerPawn 	NiagaraPlayerWaterFootSplashAsset 	0x3dd0 	
-AFortPlayerPawn 	NiagaraPlayerWaterLargePlayerSplashAsset 	0x3dd8 	
-AFortPlayerPawn 	NiagaraPlayerWaterBoostAsset 	0x3de0 	
-AFortPlayerPawn 	FootSplashLeftSocketName 	0x3de8 	
-AFortPlayerPawn 	FootSplashRightSocketName 	0x3dec 	
-AFortPlayerPawn 	NiagaraPlayerStandingInWater 	0x3df0 	
-AFortPlayerPawn 	NiagaraPlayerSwimmingInWater 	0x3df8 	
-AFortPlayerPawn 	NiagaraPlayerHandSplashInWater 	0x3e00 	
-AFortPlayerPawn 	NiagaraPlayerFootSplashInWaterLeft 	0x3e08 	
-AFortPlayerPawn 	NiagaraPlayerFootSplashInWaterRight 	0x3e10 	
-AFortPlayerPawn 	NiagaraPlayerJumpSplashInWater 	0x3e18 	
-AFortPlayerPawn 	NiagaraPlayerWaterBoost 	0x3e20 	
-AFortPlayerPawn 	bWaterFootSplashActive 	0x3e28 	
-AFortPlayerPawn 	bEnableWaterInteractionEffects 	0x3e28 	
-AFortPlayerPawn 	OnActivateAbility 	0x3e30 	
-AFortPlayerPawn 	OnFiringRangedWeapon 	0x3e40 	
-AFortPlayerPawn 	ConsecutiveWeakSpotResourceBonus 	0x3e50 	
-AFortPlayerPawn 	LastHitWeakSpotResourceBonus 	0x3e78 	
-AFortPlayerPawn 	CustomInteractionWidget 	0x3ea8 	
-AFortPlayerPawn 	ConvertComponent 	0x3ec8 	
-AFortPlayerPawn 	AffiliationComponent 	0x3ed0 	
-AFortPlayerPawn 	bUseViewRotationForCameraOrigin 	0x3ed9
+AFortPlayerPawn::VehicleInputStateReliable 	0x1908 
+AFortPlayerPawn::bIsNearSafeZoneEdge 	0x190a 	
+AFortPlayerPawn::bPlayingSafeZoneEffects 	0x190a 	
+AFortPlayerPawn::bDoSafeZoneCleanup 	0x190a 	
+AFortPlayerPawn::bIsSwimmingAnimLayerLinked 	0x190a 	
+AFortPlayerPawn::bIsSprintJump 	0x190a 	
+AFortPlayerPawn::bHasDisableSprintTag 	0x190a 	
+AFortPlayerPawn::bDisableSwimSprintCancel 	0x190a 	
+AFortPlayerPawn::bIsWaterJump 	0x190a 	
+AFortPlayerPawn::bIsWaterSprintBoost 	0x190b 	
+AFortPlayerPawn::bIsWaterSprintBoostPending 	0x190b 	
+AFortPlayerPawn::bPlayingPassengerToPassengerAnimation 	0x190b 	
+AFortPlayerPawn::bPlayingDriverToPassengerAnimation 	0x190b 	
+AFortPlayerPawn::bIsTargeting 	0x190b 	
+AFortPlayerPawn::bIsTargetingConsumableThrow 	0x190b 	
+AFortPlayerPawn::bIsSwappingacterParts 	0x190c 	
+AFortPlayerPawn::bBalloonMovementActivated 	0x190c 	
+AFortPlayerPawn::bIsScriptedBot 	0x190c 	
+AFortPlayerPawn::bBuildHotfix 	0x190c 	
+AFortPlayerPawn::FortPlayerPawnLightingChannels 	0x190d 	
+AFortPlayerPawn::StasisMode 	0x190f 	
+AFortPlayerPawn::BuildingState 	0x1911 	
+AFortPlayerPawn::AccelerationZPack 	0x1912 	
+AFortPlayerPawn::ParachuteDirectionalSpeedMultiplierCurve 	0x1930 	
+AFortPlayerPawn::SkydivingDirectionalSpeedMultiplierCurve 	0x1938 	
+AFortPlayerPawn::BallooningDirectionalSpeedMultiplierCurve 	0x1940 	
+AFortPlayerPawn::DirectionalSpeedMultiplierCurve 	0x1948 	
+AFortPlayerPawn::LastCustomizationTimestamp 	0x1950 	
+AFortPlayerPawn::MinimumTimeBetweenSteps 	0x1954 	
+AFortPlayerPawn::LastStepTime 	0x1958 	
+AFortPlayerPawn::OnFootstepEvent 	0x1960 	
+AFortPlayerPawn::OnPawnEnterWater 	0x1970 	
+AFortPlayerPawn::OnPawnExitWater 	0x1980 	
+AFortPlayerPawn::OnPawnExitSwinging 	0x19a8 	
+AFortPlayerPawn::bIsInWaterVolume 	0x19b8 	
+AFortPlayerPawn::bNotifyBlueprintWhenLandscapeTeleporting 	0x19b9 	
+AFortPlayerPawn::CachedTeamControllingRC 	0x19ba 	
+AFortPlayerPawn::BalloonActiveCount 	0x19bb 	
+AFortPlayerPawn::bParachuteDeployFixedVerticalDistance 	0x19bc 	
+AFortPlayerPawn::bIsSkydiving 	0x19bd 	
+AFortPlayerPawn::bIsParachuteOpen 	0x19be 	
+AFortPlayerPawn::bLocalIsSkydiving 	0x19bf 	
+AFortPlayerPawn::bLocalIsParachuteForcedOpen 	0x19bf 	
+AFortPlayerPawn::bIsParachuteForcedOpen 	0x19bf 	
+AFortPlayerPawn::bIsSkydivingFromBus 	0x19bf 	
+AFortPlayerPawn::bIsSkydivingFromLaunchPad 	0x19bf 	
+AFortPlayerPawn::bPendingSkydiveLaunch 	0x19bf 	
+AFortPlayerPawn::bIsInSlipperyMovement 	0x19bf 	
+AFortPlayerPawn::bReplicatedIsInSlipperyMovement 	0x19c0 	
+AFortPlayerPawn::bIsBelowAutoDeployTestHeight 	0x19c0 	
+AFortPlayerPawn::bIsSlopeSliding 	0x19c0 	
+AFortPlayerPawn::bIsProxySimulationTimedOut 	0x19c0 	
+AFortPlayerPawn::bIsPedestalHero 	0x19c0 	
+AFortPlayerPawn::bInGliderRedeploy 	0x19c0 	
+AFortPlayerPawn::bLocalInGliderRedeploy 	0x19c0 	
+AFortPlayerPawn::bBeingRepossessed 	0x19c1 	
+AFortPlayerPawn::bInitAbilitySystemComponentFromPlayerState 	0x19c1 	
+AFortPlayerPawn::bStartedInteractSearch 	0x19c1 	
+AFortPlayerPawn::bPawnLODDirty 	0x19c1 	
+AFortPlayerPawn::bIsUsingJetpack 	0x19c1 	
+AFortPlayerPawn::bIsPlayingEmote 	0x19c1 	
+AFortPlayerPawn::bShowingOverdriveEffect 	0x19c1 	
+AFortPlayerPawn::bIsRespawning 	0x19c1 	
+AFortPlayerPawn::bIsRespawningInAir 	0x19c2 	
+AFortPlayerPawn::bInitializedPostRepPlayerState 	0x19c2 	
+AFortPlayerPawn::bHasWaterParticleSystem 	0x19c2 	
+AFortPlayerPawn::bCanShowDefaultSkin 	0x19c2 	
+AFortPlayerPawn::bDisabledTetheringSupport 	0x19c2 	
+AFortPlayerPawn::bIsInFrontEndHologram 	0x19c2 	
+AFortPlayerPawn::HeldObject 	0x1a14 	
+AFortPlayerPawn::bForceMoveRelativeToCameraRotation 	0x1a30 	
+AFortPlayerPawn::bIsWaitingForEmoteInteraction 	0x1a30 	
+AFortPlayerPawn::bIsEmoteLeader 	0x1a30 	
+AFortPlayerPawn::bShouldSyncAnimationWithEmoteLeader 	0x1a30 	
+AFortPlayerPawn::bShouldJitterAnimationSyncWithEmoteLeader 	0x1a30 	
+AFortPlayerPawn::bDoubleFileEmoteSecondLine 	0x1a30 	
+AFortPlayerPawn::bEmoteUsesSecondaryFire 	0x1a30 	
+AFortPlayerPawn::bLockGroupEmoteLeaderRotation 	0x1a30 	
+AFortPlayerPawn::GroupEmoteLookTarget 	0x1a38
+AFortPlayerPawn::GroupEmoteTailTarget 	0x1a40 	
+AFortPlayerPawn::GroupEmoteFollowers 	0x1a48 
+AFortPlayerPawn::GroupEmoteAnimOffset 	0x1ab4 	
+AFortPlayerPawn::GroupEmoteLeaderRotationYawOffset 	0x1ab8 	
+AFortPlayerPawn::GroupEmoteLookTargetRotationLeader 	0x1ac0 	
+AFortPlayerPawn::GroupEmoteMaximumZDifference 	0x1af0 	
+AFortPlayerPawn::OnGroupEmoteSyncValueChanged 	0x1af8 	
+AFortPlayerPawn::OnGroupEmoteFollowerJoined 	0x1b08 	
+AFortPlayerPawn::OnGroupEmoteFollowerLeft 	0x1b18 	
+AFortPlayerPawn::OnGroupEmoteSecondaryFirePressed 	0x1b28 	
+AFortPlayerPawn::GroupEmoteSyncValue 	0x1b38 	
+AFortPlayerPawn::GroupEmoteSoundValue 	0x1b39 	
+AFortPlayerPawn::GroupEmoteParticleValue 	0x1b3a 	
+AFortPlayerPawn::TransformationMontage 	0x1b40 	
+AFortPlayerPawn::TransformationMontageStartTime 	0x1b48 	
+AFortPlayerPawn::CurrentMontagerLeader 	0x1ba8 	
+AFortPlayerPawn::CurrentSyncedMontage 	0x1bb0 	
+AFortPlayerPawn::bacterPartsCastIndirectShadows 	0x1bb8 	
+AFortPlayerPawn::acterGender 	0x1bba 	
+AFortPlayerPawn::acterBodyType 	0x1bbb 	
+AFortPlayerPawn::JumpLastActivatedTime 	0x1bcc 	
+AFortPlayerPawn::PreviousPosition 	0x1bd0 	
+AFortPlayerPawn::PreviousVelocity 	0x1be8 	
+AFortPlayerPawn::ReplicatedCustomMeshHeightAdjustTarget 	0x1c48 	
+AFortPlayerPawn::UnburrowLaunchXYSpeed 	0x1c4c 	
+AFortPlayerPawn::UnburrowLaunchZSpeed 	0x1c50 	
+AFortPlayerPawn::VehicleInputStateUnreliable 	0x1c98 	
+AFortPlayerPawn::bIsInAnyStorm 	0x1d18 	
+AFortPlayerPawn::bIsInsideSafeZone 	0x1d18 	
+AFortPlayerPawn::SafeZoneAppliedGE 	0x1d28 	
+AFortPlayerPawn::DisableSlideGameplayEffectClass 	0x1d58 
+AFortPlayerPawn::SelfReviveGameplayEffect 	0x1d60 	
+AFortPlayerPawn::TeammateReviveGameplayEffect 	0x1d68 	
+AFortPlayerPawn::SetByCallerReviveHealth 	0x1d70 	
+AFortPlayerPawn::DBNOInteractionCollisionProfile 	0x1d98 	
+AFortPlayerPawn::DBNOInteractionBoxExtent 	0x1da0 	
+AFortPlayerPawn::DBNODeferTime 	0x1db8 	
+AFortPlayerPawn::DBNOInteractCollisionComponent 	0x1dc0 	
+AFortPlayerPawn::EventReviveTag 	0x1dc8 	
+AFortPlayerPawn::AggroRangeOverride 	0x1dcc 	
+AFortPlayerPawn::SetByCallerReviveSignalInStorm 	0x1dd0 	
+AFortPlayerPawn::ArmoredInterface 	0x1dd8 	
+AFortPlayerPawn::LastBuildingMetadata 	0x1de8 	
+AFortPlayerPawn::SprintCancelTime 	0x1e08 	
+AFortPlayerPawn::WaterSprintBoostAllowedTimer 	0x1e10 	
+AFortPlayerPawn::bHasStarteding 	0x1e9c 	
+AFortPlayerPawn::ZiplineState 	0x1ea0 	
+AFortPlayerPawn::ZiplineJumpDampening 	0x1ee0 	
+AFortPlayerPawn::ZiplineJumpStrength 	0x1ef0 	
+AFortPlayerPawn::ZiplineJumpActivateDelay 	0x1f00 	
+AFortPlayerPawn::ZiplineRentryProtectionDelay 	0x1f28 	
+AFortPlayerPawn::ZiplineSocketZOffset 	0x1f50 	
+AFortPlayerPawn::ZiplineStateChanged 	0x1f58 	
+AFortPlayerPawn::ZiplineSpeedFactorTarget 	0x1f68 	
+AFortPlayerPawn::ZiplineSpeedFactor 	0x1f6c 	
+AFortPlayerPawn::EnableSwimSprintDiveCooldown 	0x1f78 	
+AFortPlayerPawn::SwimSprintDiveCooldown 	0x1fa0 	
+AFortPlayerPawn::SwimDiveBoostTimeThreshold 	0x1fc8 	
+AFortPlayerPawn::ClientSwimDiveInputTime 	0x1ff0 	
+AFortPlayerPawn::bCanPredictJumpApex 	0x1ff4 	
+AFortPlayerPawn::AbilityAITargets 	0x2000 	
+AFortPlayerPawn::UnableToPerformActionMontage 	0x2028 
+AFortPlayerPawn::UnableToPerformActionSound 	0x2030 	
+AFortPlayerPawn::MoveSoundStimulusBroadcastInterval 	0x2038 	
+AFortPlayerPawn::EmoteStartTime 	0x211c 	
+AFortPlayerPawn::EmoteRandomNum 	0x2120 	
+AFortPlayerPawn::bPlayingPassengerToDriverAnimation 	0x2138 	
+AFortPlayerPawn::VehicleSpeedAtTimeOfJump 	0x2150 	
+AFortPlayerPawn::CurrentVehicle 	0x2158 	AActor*
+AFortPlayerPawn::InteractingPCRep 	0x2160 	
+AFortPlayerPawn::VehicleLastTick 	0x2168 	
+AFortPlayerPawn::OnVehicleStateChangedEvent 	0x2188 	
+AFortPlayerPawn::TetherComponent 	0x2198 	
+AFortPlayerPawn::PendingTetherLaunch 	0x21a0 	
+AFortPlayerPawn::TetherJumpLastTime 	0x21f0 	
+AFortPlayerPawn::bSupportsTetheredMovement 	0x21f4 	
+AFortPlayerPawn::BalloonRope 	0x21f8 	
+AFortPlayerPawn::OnPossessedProp 	0x2200 	
+AFortPlayerPawn::PossessedProp 	0x2210 	
+AFortPlayerPawn::SlopeCameraOffsetFrameCounter 	0x2248 	
+AFortPlayerPawn::SlopeCameraOffsetInterpolator 	0x2250 	
+AFortPlayerPawn::LargeBodyTypeTargetingOffset 	0x22b0 	
+AFortPlayerPawn::VehicleInputComponent 	0x23b0 	
+AFortPlayerPawn::BluePrintPlaceAnimation 	0x23c0 	
+AFortPlayerPawn::BluePrintEditAnimation 	0x23c8 	
+AFortPlayerPawn::OnStartedInteractSearch 	0x23d8 	
+AFortPlayerPawn::OnEndedInteractSearch 	0x23e8 	
+AFortPlayerPawn::OnAttemptedInstantInteractSearch 	0x23f8 	
+AFortPlayerPawn::EmoteInteractionCollisionProfile 	0x2408 	
+AFortPlayerPawn::EmoteInteractionBoxExtent 	0x2410 	
+AFortPlayerPawn::EmoteInteractCollisionComponent 	0x2428 	
+AFortPlayerPawn::OnPartChanged 	0x2430 	
+AFortPlayerPawn::BlueprintPaperMID 	0x2470 
+AFortPlayerPawn::BlueprintPaperPulseTimeline 	0x2478 
+AFortPlayerPawn::AccessoryColorSwatchHandler[0x7] 	0x2508 	
+AFortPlayerPawn::Hero 	0x2540 	
+AFortPlayerPawn::OvrHeroType 	0x2548 	
+AFortPlayerPawn::DisplayContext 	0x2550 	
+AFortPlayerPawn::HACK_CustomPRIComponent 	0x2570 
+AFortPlayerPawn::acterParts[0x7] 	0x2578 	
+AFortPlayerPawn::acterColorSwatches[0x2] 	0x25b0 	
+AFortPlayerPawn::acterPartColorSwatches[0x7] 	0x25c0 
+AFortPlayerPawn::acterms[0x4] 	0x25f8 	
+AFortPlayerPawn::RequiredVariantParts 	0x2618 
+AFortPlayerPawn::acterPartSkeletalMeshComponents[0x7] 	0x2630 	
+AFortPlayerPawn::actermActors 	0x2668 	
+AFortPlayerPawn::acterPartSMHiddenRefCount[0x7] 	0x2678 	
+AFortPlayerPawn::BaseCosmeticLoadout 	0x2680 	
+AFortPlayerPawn::AppliedCosmeticLoadout 	0x27e0 	
+AFortPlayerPawn::AppliedSwaps 	0x2940 	
+AFortPlayerPawn::CosmeticLoadout 	0x29a0 	
+AFortPlayerPawn::ServerLoadoutChangeSync 	0x2b00 	
+AFortPlayerPawn::bAllowClientLoadoutChangeSync 	0x2b08 	
+AFortPlayerPawn::OnMaterialOverrideApplied 	0x2b30 	
+AFortPlayerPawn::OnMaterialOverrideCleared 	0x2b40 	
+AFortPlayerPawn::MaterialOverrides 	0x2b50 	
+AFortPlayerPawn::LocalMaterialOverrides 	0x2b60 	
+AFortPlayerPawn::MaterialOverrideStateMap 	0x2b70 	
+AFortPlayerPawn::PreviousacterParts[0x7] 	0x2bc0 	
+AFortPlayerPawn::acterPartModifiers[0x7] 	0x2bf8 	
+AFortPlayerPawn::RepPartAnimMontageInfo 	0x2c30 	
+AFortPlayerPawn::ClientObservedStats 	0x2c50 	
+AFortPlayerPawn::AnimBPOverride 	0x2da0 	
+AFortPlayerPawn::OriginalAnimBP 	0x2da8 	
+AFortPlayerPawn::OnCrouchStartSound 	0x2db0 	
+AFortPlayerPawn::OnCrouchEndSound 	0x2db8 	
+AFortPlayerPawn::FootstepBankOverride 	0x2dc0 	
+AFortPlayerPawn::OriginalFootstepBank 	0x2dc8 	
+AFortPlayerPawn::CachedFootStepIndex 	0x2dd0 	
+AFortPlayerPawn::AnimSetOverride 	0x2dd8 	
+AFortPlayerPawn::AnimLayersOverride 	0x2de0 	
+AFortPlayerPawn::PreviousAnimLayersOverride 	0x2df0 	
+AFortPlayerPawn::QueuedAutoPickups 	0x2e00 	
+AFortPlayerPawn::IgnoreActors 	0x2e10 	
+AFortPlayerPawn::AutoPickupDropRepickupDelay 	0x2e28 	
+AFortPlayerPawn::CarriedObjectAttachmentSocket 	0x2e60 	
+AFortPlayerPawn::PickupSpeedMultiplier 	0x2e64 	
+AFortPlayerPawn::MiniMapIconBrush 	0x2e70 	
+AFortPlayerPawn::AboveBelowMiniMapIconBrush 	0x2f30 	
+AFortPlayerPawn::FarOffMiniMapIconBrush 	0x2ff0 	
+AFortPlayerPawn::DBNOMiniMapIconBrush 	0x30b0 	
+AFortPlayerPawn::MinimapIconColorSelf 	0x3170 
+AFortPlayerPawn::MinimapIconColorTeammate 	0x3180 	
+AFortPlayerPawn::MinimapIconColorEnemy 	0x3190 	
+AFortPlayerPawn::MaxIndicatorVisibilityDistForEnemies 	0x31a0 	
+AFortPlayerPawn::MaxIndicatorVisibilityDistForAllies 	0x31a4 	
+AFortPlayerPawn::DBNOHoisterData 	0x3228 	
+AFortPlayerPawn::DBNOHoistee 	0x3238 	
+AFortPlayerPawn::DBNOHoisterAnimSet 	0x3240 	
+AFortPlayerPawn::ThrowCarriedPlayerStrengthXY 	0x3248 	
+AFortPlayerPawn::ThrowCarriedPlayerStrengthZ 	0x324c 	
+AFortPlayerPawn::DropCarriedPlayerForwardOffset 	0x3250 	
+AFortPlayerPawn::DropCarriedPlayerHeightOffset 	0x3254 	
+AFortPlayerPawn::DropCarriedPlayerTraceHeight 	0x3258 	
+AFortPlayerPawn::bAllowDBNOCarry 	0x325c 	
+AFortPlayerPawn::bAllowDBNOCarryEnemies 	0x325d 	
+AFortPlayerPawn::bIsBeingDBNOCarried 	0x325e 	
+AFortPlayerPawn::bIsDBNOCarrying 	0x325f 	
+AFortPlayerPawn::bRequestedThrowCarriedPlayer 	0x3260 	
+AFortPlayerPawn::PackedReplicatedSlopeAngles 	0x3270 	
+AFortPlayerPawn::OnDBNOHoisterChangedDelegate 	0x3278 	
+AFortPlayerPawn::OnRevivedFromDBNODelegate 	0x3288 	
+AFortPlayerPawn::OnNewPlayerState 	0x3298 	
+AFortPlayerPawn::OnAbilitySystemComponentInitialized 	0x32a8 	
+AFortPlayerPawn::OnPreInvalidateAbilitySystemComponent 	0x32b8 	
+AFortPlayerPawn::OnFinishedacterCustomization 	0x32e8 	
+AFortPlayerPawn::OnCrouchInputJustPressed 	0x32f8 	
+AFortPlayerPawn::CustomizationAssetLoader 	0x3308 
+AFortPlayerPawn::bEnableUpdateacterCustomizationPostLoad 	0x33d8 	
+AFortPlayerPawn::bHasacterCustomizationPostLoadedOnce 	0x33d9 	
+AFortPlayerPawn::bHiddenAtStartup 	0x33da 	
+AFortPlayerPawn::SpawnParticles 	0x33e8 	
+AFortPlayerPawn::SpawnSound 	0x33f0 	
+AFortPlayerPawn::bIsLocalPlayer 	0x33fc 	
+AFortPlayerPawn::bDamagedEnemy 	0x3404 	
+AFortPlayerPawn::OnDamageComboIncrement 	0x3420 	
+AFortPlayerPawn::OnDamageComboReset 	0x3430 	
+AFortPlayerPawn::PlayerStatus 	0x3448 	
+AFortPlayerPawn::AccelerationPack 	0x344c 	
+AFortPlayerPawn::RepAnimMontageInfo 	0x3450 	
+AFortPlayerPawn::RepAnimMontageStartSection 	0x3488 
+AFortPlayerPawn::bNetMovementPrioritized 	0x348c 	
+AFortPlayerPawn::LandingMontagePair 	0x3490 	
+AFortPlayerPawn::PriorVariantData 	0x34b0 	
+AFortPlayerPawn::TempWeaponsStack 	0x3538 
+AFortPlayerPawn::RootMotionInterruptNotifyStack 	0x3548 	
+AFortPlayerPawn::RootMotionInterruptMontageStack 	0x3558 	
+AFortPlayerPawn::VisibilityComponent 	0x35a0 	
+AFortPlayerPawn::BlendablesPostProcessComp 	0x35a8 
+AFortPlayerPawn::bUseControllerRotationYawToRestore 	0x35b4 	
+AFortPlayerPawn::OnBeginSkydivingEvent 	0x35b8 	
+AFortPlayerPawn::OnEndSkydivingEvent 	0x35c8 	
+AFortPlayerPawn::OnBeginParachuteMovementEvent 	0x35d8 	
+AFortPlayerPawn::OnParachuteSpawned 	0x35e8 	
+AFortPlayerPawn::OnEndParachuteMovementEvent 	0x35f8 	
+AFortPlayerPawn::OnBallooningGravityCeilingChanged 	0x3608 	
+AFortPlayerPawn::OnEnteredAircraft 	0x3618 	
+AFortPlayerPawn::OnPawnPossessed 	0x3628 	
+AFortPlayerPawn::OnPawnUnpossessed 	0x3638 	
+AFortPlayerPawn::OnEmoteInteracted 	0x3648 	
+AFortPlayerPawn::OnSafeZoneOccupancyChangedEvent 	0x3658 	
+AFortPlayerPawn::OnHeldObjectPickedUp 	0x3668 	
+AFortPlayerPawn::OnHeldObjectDropped 	0x3678 	
+AFortPlayerPawn::CustomMovementIndicators 	0x3688 	
+AFortPlayerPawn::CurrentGliderOpenSound 	0x36e8 	
+AFortPlayerPawn::CurrentGliderOpenAudioComponent 	0x36f0 	
+AFortPlayerPawn::CurrentGliderCloseSound 	0x36f8 	
+AFortPlayerPawn::CurrentGliderCloseAudioComponent 	0x3700 	
+AFortPlayerPawn::bParachuteLockedOpen 	0x3714 	
+AFortPlayerPawn::bLocalParachuteLockedOpen 	0x3715 	
+AFortPlayerPawn::AttachmentMesh 	0x3718 	
+AFortPlayerPawn::AttachmentMeshComponent 	0x3728 	
+AFortPlayerPawn::BotScriptedBehavior 	0x3730 	
+AFortPlayerPawn::IgnoredWaterBodies 	0x3750 
+AFortPlayerPawn::UnderwaterDamageComponent 	0x3760 	
+AFortPlayerPawn::SlipperySlopeParams 	0x3768 	
+AFortPlayerPawn::GliderClass 	0x3920 	
+AFortPlayerPawn::PetState 	0x3938 	
+AFortPlayerPawn::CosmeticPetInstance 	0x3940 	
+AFortPlayerPawn::GliderSpawnComponent 	0x3958 	
+AFortPlayerPawn::ParachuteAttachment 	0x3960 	
+AFortPlayerPawn::GliderOverrideStack 	0x3970 	
+AFortPlayerPawn::bResetGliderOverrideOnLanding 	0x3990 	
+AFortPlayerPawn::ParachuteDeployTraceForGroundDistance 	0x3998 	
+AFortPlayerPawn::LaunchPadParachuteDeployTraceForGroundDistance 	0x39c0 	
+AFortPlayerPawn::LaunchPadParachuteDeployTraceForDownwardSpeed 	0x39e8 	
+AFortPlayerPawn::ParachuteDeployVelocityBlend 	0x3a10 	
+AFortPlayerPawn::ParachuteCooldownToOpen 	0x3a38 	
+AFortPlayerPawn::ParachuteCooldownToClose 	0x3a3c 	
+AFortPlayerPawn::GliderRedeployAllowedRow 	0x3a40 	
+AFortPlayerPawn::GliderRedeployLateralVelocityMultiplierRow 	0x3a68 	
+AFortPlayerPawn::GliderRedeployHeighLimitRow 	0x3a90 	
+AFortPlayerPawn::BalloonFallDamageThresholdVelocityZ 	0x3ab8 	
+AFortPlayerPawn::PreDrivingAnimBP 	0x3ae0 	
+AFortPlayerPawn::CurrentVehicleAnimLayerOverlayClass 	0x3ae8 	
+AFortPlayerPawn::CurrentSwimmingAnimLayerOverlayClass 	0x3af0 	
+AFortPlayerPawn::DefaultSwimmingAnimLayerOverlayClass 	0x3af8 	
+AFortPlayerPawn::TimeBeforeSwimmingLayerDeactivated 	0x3b08 	
+AFortPlayerPawn::LinkedAnimGraphComponent 	0x3b10 	
+AFortPlayerPawn::ParachuteAudioLoop 	0x3b18 	
+AFortPlayerPawn::ParachuteAndSkydiveAudioFadeInTime 	0x3b20 	
+AFortPlayerPawn::ParachuteAndSkydiveAudioFadeOutTime 	0x3b24 	
+AFortPlayerPawn::SkydiveAudioLoop 	0x3b28 	
+AFortPlayerPawn::SoundOnParachuteForcedOpen 	0x3b30 	
+AFortPlayerPawn::SkydivingLoop1P 	0x3b38 	
+AFortPlayerPawn::SkydivingLoop3P 	0x3b40 	
+AFortPlayerPawn::ParachuteOpenLoop1P 	0x3b48 	
+AFortPlayerPawn::ParachuteOpenLoop3P 	0x3b50 	
+AFortPlayerPawn::SwimmingAudioLoop 	0x3b58 	
+AFortPlayerPawn::SwimmingAudioFadeOutTime 	0x3b60 	
+AFortPlayerPawn::SwimmingAudioInterpSpeed 	0x3b64 	
+AFortPlayerPawn::SoundOnSwimmingLoop 	0x3b68 	
+AFortPlayerPawn::RemoteViewData32 	0x3bc0 	
+AFortPlayerPawn::LastQuickBarSwitchRequestTime 	0x3bd8 	
+AFortPlayerPawn::CrouchStartTime 	0x3bdc 	
+AFortPlayerPawn::CrouchEndTime 	0x3be0 	
+AFortPlayerPawn::CrouchLerpTime 	0x3be4 	
+AFortPlayerPawn::MeleeAbilityCooldown 	0x3be8 	
+AFortPlayerPawn::bDisallowInterrogation 	0x3bec 	
+AFortPlayerPawn::bDisallowInterrogationOnNPC 	0x3bed 	
+AFortPlayerPawn::bDisallowInterrogationCreative 	0x3bee 	
+AFortPlayerPawn::bHideBodyOnDeathRequested 	0x3bef 	
+AFortPlayerPawn::ControlledRCPawn 	0x3bf0 	
+AFortPlayerPawn::StoredControlRotation 	0x3bf8 
+AFortPlayerPawn::FacialTypeOverride 	0x3c14 	
+AFortPlayerPawn::GhostModeExitStartTime 	0x3c18 	
+AFortPlayerPawn::GhostModeExitDuration 	0x3c1c 	
+AFortPlayerPawn::CachedReferencesByName 	0x3d58 	
+AFortPlayerPawn::PSC_PlayerInWater 	0x3da8 	
+AFortPlayerPawn::PSC_PlayerInWaterSurfaceSwimming 	0x3db0 	
+AFortPlayerPawn::NiagaraPlayerInWaterBasicAsset 	0x3db8 	
+AFortPlayerPawn::NiagaraPlayerInWaterSwimmingAsset 	0x3dc0 	
+AFortPlayerPawn::NiagaraPlayerWaterHandSplashAsset 	0x3dc8 	
+AFortPlayerPawn::NiagaraPlayerWaterFootSplashAsset 	0x3dd0 	
+AFortPlayerPawn::NiagaraPlayerWaterLargePlayerSplashAsset 	0x3dd8 	
+AFortPlayerPawn::NiagaraPlayerWaterBoostAsset 	0x3de0 	
+AFortPlayerPawn::FootSplashLeftSocketName 	0x3de8 	
+AFortPlayerPawn::FootSplashRightSocketName 	0x3dec 	
+AFortPlayerPawn::NiagaraPlayerStandingInWater 	0x3df0 	
+AFortPlayerPawn::NiagaraPlayerSwimmingInWater 	0x3df8 	
+AFortPlayerPawn::NiagaraPlayerHandSplashInWater 	0x3e00 	
+AFortPlayerPawn::NiagaraPlayerFootSplashInWaterLeft 	0x3e08 	
+AFortPlayerPawn::NiagaraPlayerFootSplashInWaterRight 	0x3e10 	
+AFortPlayerPawn::NiagaraPlayerJumpSplashInWater 	0x3e18 	
+AFortPlayerPawn::NiagaraPlayerWaterBoost 	0x3e20 	
+AFortPlayerPawn::bWaterFootSplashActive 	0x3e28 	
+AFortPlayerPawn::bEnableWaterInteractionEffects 	0x3e28 	
+AFortPlayerPawn::OnActivateAbility 	0x3e30 	
+AFortPlayerPawn::OnFiringRangedWeapon 	0x3e40 	
+AFortPlayerPawn::ConsecutiveWeakSpotResourceBonus 	0x3e50 	
+AFortPlayerPawn::LastHitWeakSpotResourceBonus 	0x3e78 	
+AFortPlayerPawn::CustomInteractionWidget 	0x3ea8 	
+AFortPlayerPawn::ConvertComponent 	0x3ec8 	
+AFortPlayerPawn::AffiliationComponent 	0x3ed0 	
+AFortPlayerPawn::bUseViewRotationForCameraOrigin 	0x3ed9
