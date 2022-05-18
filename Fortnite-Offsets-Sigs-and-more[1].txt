@@ -1,3 +1,7 @@
+GWorld 	0xc6b3d48
+GObjects 	0xc4ff7f8
+GNames 	0xc6f1c40 
+
 UGameInstance
 UGameInstance::LocalPlayers 	0x38 	
 UGameInstance::OnlineSession 	  0x48
