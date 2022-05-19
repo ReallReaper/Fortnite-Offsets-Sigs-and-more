@@ -26,3 +26,27 @@ BoneMatrix: \xE8\x00\x00\x00\x00\x0F\x10\x40\x68
 GetWeaponStats: \x48\x8B\xC4\x48\x89\x38\x20\x12\x56\x57\x41\x54\x67\x55\x41\x56\x41\x57\x48\x8D\xA8\x00\x00\x00\x00\x32
 CalculateProjectionMatrixGivenView: \x48\x89\x5C\x24\x00\x48\x89\x7C\x24\x00\x55\x48\x8D\xAC\x24\x00\x00\x00\x00\x48\x81\xEC\x00\x00\x00\x00\x48\x8B\x05\x00\x00\x00\x00\x48\x33\xC4\x48\x89\x85\x00\x00\x00\x00\x48\x8D\x4D\xA0
 GetObjectName: \x48\x89\x83\x00\x00\x00\x00\xE8\x00\x00\x00\x00\xE9\x00\x00\x00\x00\xCC\xCC\xCC\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x68\x10\x48\x89\x70\x18\x48\x89\x78\x20\x41\x56\x48\x83\xEC\x30
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+UWorld = PatternScan_Module(ModuleBaseW, skCrypt("48 89 05 ? ? ? ? 48 8B 4B 78")); //UWorld 
+	UWorld = RelativeAddress(UWorld, 7);
+
+	auto UObjectPtr = PatternScan_Module(ModuleBaseW, skCrypt("48 8B 05 ? ? ? ? 48 8B 0C C8 48 8B 04 D1")); //Gobject
+	FN::objects = decltype(FN::objects)(RelativeAddress(UObjectPtr, 7));
+	
+	FreeFn = PatternScan_Module(ModuleBaseW, skCrypt("48 85 C9 0F 84 ? ? ? ? 53 48 83 EC 20 48 89 7C 24 30 48 8B D9 48 8B 3D ? ? ? ? 48 85 FF 0F 84 ? ? ? ? 48 8B 07 4C 8B 40 30 48 8D 05 ? ? ? ? 4C 3B C0")); //FreeFn
+	
+	ProjectWorldToScreen = PatternScan_Module(ModuleBaseW, skCrypt("48 8B C4 48 89 58 20 55 56 57 41 54 41 55 41 56 41 57 48 8D A8 ? ? ? ? 48 81 EC ? ? ? ? 0F 29 70 B8 0F 29 78 A8 44 0F 29 40 ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 85 ? ? ? ? 45 8A E9")); //ProjectWorldToScreen0xB562EC8
+	ProjectWorldToScreen = RelativeAddress(ProjectWorldToScreen, 5);
+	//
+	LineOfSight = PatternScan_Module(ModuleBaseW, skCrypt("48 8B F9 E8 ? ? ? ? 83 7E 08 00")); ////LineOfSight
+	LineOfSight = RelativeAddress(LineOfSight, 5);
+
+	GetNameByIndex = PatternScan_Module(ModuleBaseW, skCrypt("48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 84 24 ? ? ? ? 8B")); //GetNameByIndex
+
+	BoneMatrix = PatternScan_Module(ModuleBaseW, skCrypt("E8 ? ? ? ? 0F 10 40 68")); //BoneMatrix
+	BoneMatrix = RelativeAddress(BoneMatrix, 5);
+
+	//auto GetWeaponStatsAddr = PatternScan_Module(ModuleBaseW, skCrypt("48 8B C4 48 89 38 20 12 56 57 41 54 67 55 41 56 41 57 48 8D A8 ? ? ? ? 32")); //GetWeaponStats
+	//GetWeaponStatsAddr = RelativeAddress(GetWeaponStatsAddr, 7);SIGS:
