@@ -1826,3 +1826,42 @@ AFortPlayerPawn::CustomInteractionWidget 	0x3ea8
 AFortPlayerPawn::ConvertComponent 	0x3ec8 	
 AFortPlayerPawn::AffiliationComponent 	0x3ed0 	
 AFortPlayerPawn::bUseViewRotationForCameraOrigin 	0x3ed9
+
+World
+World::PersistentLevel 	0x30 	
+World::NetDriver 	0x38 	
+World::LineBatcher 	0x40 	
+World::PersistentLineBatcher 	0x48 	
+World::ForegroundLineBatcher 	0x50 	
+World::NetworkManager 	0x58 	
+World::PhysicsCollisionHandler 	0x60 	
+World::ExtraReferencedObjects 	0x68 	
+World::PerModuleDataObjects 	0x78 	
+World::StreamingLevels 	0x88 	
+World::StreamingLevelsToConsider 	0x98 	
+World::StreamingLevelsPrefix 	0xc0 	
+World::CurrentLevelPendingVisibility 	0xd0 	
+World::CurrentLevelPendingInvisibility 	0xd8 	
+World::DemoNetDriver 	0xe0 	
+World::MyParticleEventManager 	0xe8 	
+World::DefaultPhysicsVolume 	0xf0 	
+World::bAreConstraintsDirty 	0x12a 	
+World::NavigationSystem 	0x138 	
+World::AuthorityGameMode 	0x140 	
+World::GameState 	0x148 	
+World::AISystem 	0x150 	
+World::AvoidanceManager 	0x158 	
+World::Levels 	0x160 
+World::LevelCollections 	0x170 	
+World::OwningGameInstance 	0x1a8 	
+World::ParameterCollectionInstances 	0x1b0 	
+World::CanvasForRenderingToTarget 	0x1c0 	
+World::CanvasForDrawMaterialToRenderTarget 	0x1c8 	
+World::PhysicsField 	0x240 	
+World::LWILastAssignedUID 	0x248 	
+World::ComponentsThatNeedPreEndOfFrameSync 	0x250 	
+World::ComponentsThatNeedEndOfFrameUpdate 	0x2a0 	
+World::ComponentsThatNeedEndOfFrameUpdate_OnGameThread 	0x2b0 	
+World::WorldComposition 	0x670 	
+World::PSCPool 	0x720
+
