@@ -83,7 +83,7 @@ AActor::MinNetUpdateFrequency 	0x164
 AActor::NetPriority 	0x168 	
 AActor::Instigator 	0x170 	
 AActor::Children 	0x178 	
-AActor::RootComponent 	0x188 	
+AActor::RootComponent 	0x188 // CurrentActor	
 AActor::Layers 	0x198 	
 AActor::ParentComponent 	0x1a8 	
 AActor::Tags 	0x1b0 	
