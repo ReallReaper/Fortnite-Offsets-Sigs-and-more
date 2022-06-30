@@ -6,3 +6,5 @@ ProcessEvent -> 0x4D
 GetViewPoint -> 0x2D8
 GetFOVAngle -> 0x770
 LineOfSightTo -> 0x728
+VirtualProtect -> 0x2B8
+Post Render = 110
