@@ -1,4 +1,3 @@
-By my dtzdev
 Vector3 vHeadBoneOut = ProjectWorldToScreen(GetBoneWithRotation(entity.mesh, 68));
 Vector3 vHipOut = ProjectWorldToScreen(GetBoneWithRotation(entity.mesh, 2));
 Vector3 vNeckOut = ProjectWorldToScreen(GetBoneWithRotation(entity.mesh, 67));
